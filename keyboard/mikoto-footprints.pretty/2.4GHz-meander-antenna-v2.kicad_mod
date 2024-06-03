@@ -155,27 +155,7 @@
 		(uuid "2f9be216-3cc8-46de-a73b-c7cb4fb9fba8")
 	)
 	(fp_line
-		(start 5.217801 0.5)
-		(end 5.217801 0.5)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "5a6be514-d714-431b-a9a9-bdbc75e502b4")
-	)
-	(fp_line
-		(start 5.217801 0.5)
-		(end 5.217801 1.471803)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "8caf5ddd-83e8-4293-a6d4-8bea555479cf")
-	)
-	(fp_line
-		(start 5.217801 1.471803)
+		(start 6.5 1.471803)
 		(end 3 1.471803)
 		(stroke
 			(width 0.254)
@@ -184,8 +164,18 @@
 		(layer "F.Cu")
 		(uuid "840bc911-cf87-4f18-8b0f-f23762f83525")
 	)
+	(fp_line
+		(start 6.5 1.5)
+		(end 6.5 1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "5a6be514-d714-431b-a9a9-bdbc75e502b4")
+	)
 	(pad "1" smd circle
-		(at 5.217801 0.5)
+		(at 6.5 1.5)
 		(size 0.2 0.2)
 		(layers "F.Cu")
 		(thermal_bridge_angle 90)
