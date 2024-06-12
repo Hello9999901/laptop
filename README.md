@@ -15,7 +15,7 @@ Mission: to disprove the idea that technology is either repairable and open or i
   - USB-C USB3.1 Gen 1 with DisplayPort and Power Delivery
   - HDMI Input
   - RP2040 embedded controller
-- World's thinnest mechanical keyboard
+- World's thinnest wireless mechanical keyboard
   - nRF52840 SoC
   - Cherry ULP switches
 - 4K AMOLED 13.3" display
