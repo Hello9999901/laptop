@@ -1,4 +1,6 @@
-# PXM0057_CAD
+# PXM0057-401-S
+
+[Purchase Link (discontinued)](https://www.mouser.com/ProductDetail/Azoteq/PXM0057-401-S)
 
 EOL'ed series of trackpads/touchpads from Azoteq. All documents are archived from Azoteq.
 
