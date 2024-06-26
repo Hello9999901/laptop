@@ -425,6 +425,14 @@
     [
       "d2371120-9201-4f7f-a684-821b8780a78d",
       "Buttons"
+    ],
+    [
+      "4296e3bb-d60d-4db1-b6b7-692bdef698b7",
+      "PCIE2.0-EKEY"
+    ],
+    [
+      "c30b22a0-12ad-404f-9813-7e2a25c78594",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

@@ -4093,15 +4093,6 @@
 		(at 166.37 101.6)
 		(uuid "f503827b-7d23-41e2-a01b-36bdf91a0889")
 	)
-	(bus_entry
-		(at 295.91 142.24)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d0ec8d-63cd-49b7-9137-3f1146a35d7e")
-	)
 	(wire
 		(pts
 			(xy 241.3 246.38) (xy 254 246.38)
@@ -20725,7 +20716,7 @@
 		)
 		(uuid "d0cf534d-6c23-4f4f-a55d-21fe64decf4c")
 	)
-	(hierarchical_label "GPIO2_B)"
+	(hierarchical_label "GPIO2_B0"
 		(shape output)
 		(at 49.53 245.11 180)
 		(fields_autoplaced yes)
@@ -23161,6 +23152,44 @@
 		)
 	)
 	(sheet
+		(at 251.46 115.57)
+		(size 30.48 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4296e3bb-d60d-4db1-b6b7-692bdef698b7")
+		(property "Sheetname" "PCIE2.0-EKEY"
+			(at 251.46 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie20-ekey.kicad_sch"
+			(at 251.46 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 247.65 33.02)
 		(size 38.1 34.29)
 		(fields_autoplaced yes)
@@ -23270,6 +23299,44 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 173.99)
+		(size 26.67 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c30b22a0-12ad-404f-9813-7e2a25c78594")
+		(property "Sheetname" "Ethernet"
+			(at 137.16 173.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 137.16 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "8")
 				)
 			)
 		)
