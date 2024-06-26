@@ -4,6 +4,13 @@
 	(generator_version "8.99")
 	(uuid "025fe4d1-0305-4b34-be04-f8d9818125a4")
 	(paper "A3")
+	(title_block
+		(title "anyon e")
+		(date "2024-06-12")
+		(rev "V0.1")
+		(company "Byran Huang")
+		(comment 4 "Proof of concept board for feature verification")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic_MountingPin:Conn_02x50_Row_Letter_Last_MountingPin"
 			(pin_names
@@ -3250,6 +3257,16 @@
 			)
 		)
 	)
+	(text "ALL >= 10uF caps must be Murata ZR* (low acoustic noise)"
+		(exclude_from_sim no)
+		(at 246.888 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "274434b2-3cdb-435c-84fa-7ffe05028401")
+	)
 	(junction
 		(at 80.01 189.23)
 		(diameter 0)
@@ -3915,6 +3932,175 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffbb36f0-b5e0-4e38-941f-4b1c97affa52")
+	)
+	(no_connect
+		(at 166.37 60.96)
+		(uuid "0d82e704-f2d4-4e50-b049-43c7483d8a2b")
+	)
+	(no_connect
+		(at 166.37 124.46)
+		(uuid "0dcf59aa-47be-41c9-bb06-622e0ee3a126")
+	)
+	(no_connect
+		(at 166.37 83.82)
+		(uuid "0e6b8b24-095c-4b7d-b100-914cb06ec4a1")
+	)
+	(no_connect
+		(at 166.37 99.06)
+		(uuid "1888fe04-3562-4d3e-8b74-9fd952ae46f0")
+	)
+	(no_connect
+		(at 128.27 86.36)
+		(uuid "19442753-0c95-4b58-8495-a83b8013899d")
+	)
+	(no_connect
+		(at 128.27 38.1)
+		(uuid "1f194f97-4d94-4823-91e9-dd27cd14eb22")
+	)
+	(no_connect
+		(at 166.37 38.1)
+		(uuid "21277290-1662-4bb7-88ec-40205a99c33f")
+	)
+	(no_connect
+		(at 166.37 71.12)
+		(uuid "27ed9ccb-568a-4a98-9687-17c1d08ebb64")
+	)
+	(no_connect
+		(at 166.37 40.64)
+		(uuid "2a0ca236-0a2c-4be7-98a8-7f5eaa6440a3")
+	)
+	(no_connect
+		(at 166.338 48.26)
+		(uuid "2b5e1769-a201-4a77-a294-049ab499b0c2")
+	)
+	(no_connect
+		(at 128.27 55.88)
+		(uuid "2d7bcc0c-4033-46f8-bfd2-71f6a134409a")
+	)
+	(no_connect
+		(at 166.338 63.5)
+		(uuid "33e95cc5-7736-46fd-b6d8-7de360dca4cb")
+	)
+	(no_connect
+		(at 166.2732 78.74)
+		(uuid "36c01dff-759b-419f-ac99-83985bcce828")
+	)
+	(no_connect
+		(at 128.27 48.26)
+		(uuid "376bbe15-1a82-4894-8dfd-71e058586766")
+	)
+	(no_connect
+		(at 128.27 68.58)
+		(uuid "49bebf4f-d3a9-4e1f-8533-880402f4fa92")
+	)
+	(no_connect
+		(at 166.37 121.92)
+		(uuid "57053e9e-1b24-4e24-9081-32fd4b55130b")
+	)
+	(no_connect
+		(at 166.37 68.58)
+		(uuid "5be8894f-875f-4d97-8e3e-205d05b4f3c0")
+	)
+	(no_connect
+		(at 128.27 76.2)
+		(uuid "6a1926b6-809f-42bf-ad5d-b5b2783923e4")
+	)
+	(no_connect
+		(at 128.27 45.72)
+		(uuid "70c736e0-e0f8-4835-ad06-0d2d02856ad9")
+	)
+	(no_connect
+		(at 166.37 109.22)
+		(uuid "722dfe55-1ec4-43d7-8f95-bdaf419324c5")
+	)
+	(no_connect
+		(at 128.27 71.12)
+		(uuid "88536b60-3846-479e-9acc-98c208781cec")
+	)
+	(no_connect
+		(at 166.37 76.2)
+		(uuid "8f4edb28-f40c-4056-a667-dfe309a870aa")
+	)
+	(no_connect
+		(at 166.37 53.34)
+		(uuid "91a5c845-08fa-42a6-841d-c376cc01925b")
+	)
+	(no_connect
+		(at 128.27 78.74)
+		(uuid "93ae8c2b-541b-4619-9f59-bca42514f469")
+	)
+	(no_connect
+		(at 166.37 114.3)
+		(uuid "a646966e-2a50-4b8b-b2ac-66bcf723a322")
+	)
+	(no_connect
+		(at 166.37 93.98)
+		(uuid "a80e96f0-a517-4c98-b56c-fb5328336c15")
+	)
+	(no_connect
+		(at 128.27 60.96)
+		(uuid "ae1ca9f0-7caa-4040-bfcb-c4769c6fa794")
+	)
+	(no_connect
+		(at 128.27 83.82)
+		(uuid "b3be62c3-a95f-4aa2-ada4-14ef9454c612")
+	)
+	(no_connect
+		(at 128.27 40.64)
+		(uuid "be5e88dd-b0f5-4c68-911e-1ef0a9101873")
+	)
+	(no_connect
+		(at 128.27 53.34)
+		(uuid "c3c3c985-1372-46c7-9a3a-4001d35bf769")
+	)
+	(no_connect
+		(at 166.37 86.36)
+		(uuid "c4335e36-7494-4a4e-a142-872fb63439ef")
+	)
+	(no_connect
+		(at 166.37 129.54)
+		(uuid "c571b23a-170c-4f36-8394-2165b8446888")
+	)
+	(no_connect
+		(at 166.37 55.88)
+		(uuid "c991f2b4-5db8-420e-9986-4e525fe96d53")
+	)
+	(no_connect
+		(at 166.37 106.68)
+		(uuid "e1841d7c-1cf4-4ae4-9719-314e1e9f207f")
+	)
+	(no_connect
+		(at 166.2806 45.72)
+		(uuid "e288ebdd-06e7-4f7a-a6d6-5c6eb186102a")
+	)
+	(no_connect
+		(at 166.37 116.84)
+		(uuid "ebdbe067-3e70-4c68-8f72-4d7261efc98d")
+	)
+	(no_connect
+		(at 128.27 63.5)
+		(uuid "ed61c218-7af9-4321-b98d-25e8f656b95a")
+	)
+	(no_connect
+		(at 166.37 132.08)
+		(uuid "ee639cdd-62b8-48bd-b4d1-2fcbb0769cba")
+	)
+	(no_connect
+		(at 166.37 91.44)
+		(uuid "efa9952c-fc58-4406-a429-f5af59019caa")
+	)
+	(no_connect
+		(at 166.37 101.6)
+		(uuid "f503827b-7d23-41e2-a01b-36bdf91a0889")
+	)
+	(bus_entry
+		(at 295.91 142.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d0ec8d-63cd-49b7-9137-3f1146a35d7e")
 	)
 	(wire
 		(pts
@@ -17385,7 +17571,7 @@
 		(cells
 			(table_cell "VDD_DCIN"
 				(exclude_from_sim no)
-				(at 20.955 38.735 0)
+				(at 38.1 51.435 0)
 				(size 24.13 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17402,7 +17588,7 @@
 			)
 			(table_cell "5~20VDC Power input, 15W max"
 				(exclude_from_sim no)
-				(at 45.085 38.735 0)
+				(at 62.23 51.435 0)
 				(size 40.64 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17419,7 +17605,7 @@
 			)
 			(table_cell "BOOT_SARADC_IN0"
 				(exclude_from_sim no)
-				(at 20.955 41.91 0)
+				(at 38.1 54.61 0)
 				(size 24.13 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17436,7 +17622,7 @@
 			)
 			(table_cell "Pull low to enter USB Maskrom Mode"
 				(exclude_from_sim no)
-				(at 45.085 41.91 0)
+				(at 62.23 54.61 0)
 				(size 40.64 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17453,7 +17639,7 @@
 			)
 			(table_cell "SARADC_VIN6_HW_ID2"
 				(exclude_from_sim no)
-				(at 20.955 45.085 0)
+				(at 38.1 57.785 0)
 				(size 24.13 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17470,7 +17656,7 @@
 			)
 			(table_cell "for Carrier Board ID"
 				(exclude_from_sim no)
-				(at 45.085 45.085 0)
+				(at 62.23 57.785 0)
 				(size 40.64 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17487,7 +17673,7 @@
 			)
 			(table_cell "PWRON_L"
 				(exclude_from_sim no)
-				(at 20.955 48.26 0)
+				(at 38.1 60.96 0)
 				(size 24.13 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17504,7 +17690,7 @@
 			)
 			(table_cell "Connect to PowerKey"
 				(exclude_from_sim no)
-				(at 45.085 48.26 0)
+				(at 62.23 60.96 0)
 				(size 40.64 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17521,7 +17707,7 @@
 			)
 			(table_cell "RESET_L"
 				(exclude_from_sim no)
-				(at 20.955 51.435 0)
+				(at 38.1 64.135 0)
 				(size 24.13 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17538,7 +17724,7 @@
 			)
 			(table_cell "RESET input to RK3588 and PMIC"
 				(exclude_from_sim no)
-				(at 45.085 51.435 0)
+				(at 62.23 64.135 0)
 				(size 40.64 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17555,7 +17741,7 @@
 			)
 			(table_cell "PMIC_EXT_EN_OUT"
 				(exclude_from_sim no)
-				(at 20.955 54.61 0)
+				(at 38.1 67.31 0)
 				(size 24.13 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17572,7 +17758,7 @@
 			)
 			(table_cell "Control the power of carrier board"
 				(exclude_from_sim no)
-				(at 45.085 54.61 0)
+				(at 62.23 67.31 0)
 				(size 40.64 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17589,7 +17775,7 @@
 			)
 			(table_cell "VDC_MODE"
 				(exclude_from_sim no)
-				(at 20.955 57.785 0)
+				(at 38.1 70.485 0)
 				(size 24.13 8.255)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17606,7 +17792,7 @@
 			)
 			(table_cell "Keep float: power up immediately after VDD_DCIN is powered OR Short to GND: power up afer PowerKey is pressed"
 				(exclude_from_sim no)
-				(at 45.085 57.785 0)
+				(at 62.23 70.485 0)
 				(size 40.64 8.255)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -17637,11 +17823,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D3P"
 		(shape output)
-		(at 128.27 53.34 180)
+		(at 125.73 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -17649,11 +17835,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D0N"
 		(shape output)
-		(at 166.37 93.98 0)
+		(at 168.91 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -17781,11 +17967,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D3P"
 		(shape output)
-		(at 166.37 38.1 0)
+		(at 168.91 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18045,11 +18231,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D1P"
 		(shape output)
-		(at 128.27 45.72 180)
+		(at 125.73 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18129,11 +18315,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D1P"
 		(shape output)
-		(at 166.37 83.82 0)
+		(at 168.91 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18153,11 +18339,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D3N"
 		(shape output)
-		(at 166.37 101.6 0)
+		(at 168.91 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18213,11 +18399,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D1N"
 		(shape output)
-		(at 128.27 78.74 180)
+		(at 125.73 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18249,11 +18435,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D1N"
 		(shape output)
-		(at 128.27 48.26 180)
+		(at 125.73 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18285,11 +18471,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D0P"
 		(shape output)
-		(at 166.37 91.44 0)
+		(at 168.91 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18357,11 +18543,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D0P"
 		(shape output)
-		(at 166.37 129.54 0)
+		(at 168.91 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18573,11 +18759,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D3N"
 		(shape output)
-		(at 166.37 40.64 0)
+		(at 168.91 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18597,11 +18783,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D0N"
 		(shape output)
-		(at 128.27 86.36 180)
+		(at 125.73 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18729,11 +18915,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D3P"
 		(shape output)
-		(at 166.37 99.06 0)
+		(at 168.91 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18825,11 +19011,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_CLKP"
 		(shape output)
-		(at 166.37 114.3 0)
+		(at 168.91 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18849,11 +19035,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D3N"
 		(shape output)
-		(at 166.37 63.5 0)
+		(at 168.91 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18957,11 +19143,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D2N"
 		(shape output)
-		(at 128.27 40.64 180)
+		(at 125.73 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18969,11 +19155,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D0N"
 		(shape output)
-		(at 166.37 132.08 0)
+		(at 168.91 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19053,11 +19239,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D1P"
 		(shape output)
-		(at 128.27 76.2 180)
+		(at 125.73 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -19065,11 +19251,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_CLKP"
 		(shape output)
-		(at 166.37 45.72 0)
+		(at 168.91 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19281,11 +19467,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D2N"
 		(shape output)
-		(at 166.37 71.12 0)
+		(at 168.91 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19401,11 +19587,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D2P"
 		(shape output)
-		(at 166.37 106.68 0)
+		(at 168.91 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19437,11 +19623,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D0N"
 		(shape output)
-		(at 166.37 55.88 0)
+		(at 168.91 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19581,11 +19767,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D1N"
 		(shape output)
-		(at 166.37 86.36 0)
+		(at 168.91 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19641,11 +19827,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_CLKN"
 		(shape output)
-		(at 128.27 71.12 180)
+		(at 125.73 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -19665,11 +19851,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_CLKN"
 		(shape output)
-		(at 166.37 78.74 0)
+		(at 168.91 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19689,11 +19875,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D1P"
 		(shape output)
-		(at 166.37 121.92 0)
+		(at 168.91 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19773,11 +19959,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D2N"
 		(shape output)
-		(at 166.37 109.22 0)
+		(at 168.91 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19833,11 +20019,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D2P"
 		(shape output)
-		(at 128.27 38.1 180)
+		(at 125.73 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -19881,11 +20067,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D1N"
 		(shape output)
-		(at 166.37 124.46 0)
+		(at 168.91 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19953,11 +20139,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_CLKP"
 		(shape output)
-		(at 128.27 68.58 180)
+		(at 125.73 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -20001,11 +20187,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_CLKN"
 		(shape output)
-		(at 166.37 116.84 0)
+		(at 168.91 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20229,11 +20415,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_D0P"
 		(shape output)
-		(at 166.37 53.34 0)
+		(at 168.91 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20289,11 +20475,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D2P"
 		(shape output)
-		(at 166.37 68.58 0)
+		(at 168.91 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20505,11 +20691,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_RX_CLKN"
 		(shape output)
-		(at 166.37 48.26 0)
+		(at 168.91 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20517,11 +20703,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_CLKP"
 		(shape output)
-		(at 166.37 76.2 0)
+		(at 168.91 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20673,11 +20859,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D3N"
 		(shape output)
-		(at 128.27 55.88 180)
+		(at 125.73 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -20781,11 +20967,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY1_RX_D3P"
 		(shape output)
-		(at 166.37 60.96 0)
+		(at 168.91 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20817,11 +21003,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D2P"
 		(shape output)
-		(at 128.27 60.96 180)
+		(at 125.73 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -20889,11 +21075,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D0P"
 		(shape output)
-		(at 128.27 83.82 180)
+		(at 125.73 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -20949,11 +21135,11 @@
 	)
 	(hierarchical_label "MIPI_DPHY0_TX_D2N"
 		(shape output)
-		(at 128.27 63.5 180)
+		(at 125.73 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -22937,7 +23123,83 @@
 		)
 	)
 	(sheet
-		(at 224.155 77.47)
+		(at 250.19 80.01)
+		(size 29.21 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41516588-89d4-4c4a-8d7d-a4354a401e31")
+		(property "Sheetname" "eDP"
+			(at 250.19 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eDP.kicad_sch"
+			(at 250.19 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 33.02)
+		(size 38.1 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a05a5d5-9903-4299-8afc-3adba5a323ad")
+		(property "Sheetname" "USBC1"
+			(at 247.65 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC1.kicad_sch"
+			(at 247.65 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 33.02)
 		(size 38.1 34.29)
 		(fields_autoplaced yes)
 		(stroke
@@ -22949,7 +23211,7 @@
 		)
 		(uuid "732379c4-9163-4848-a88d-bc8edf569b02")
 		(property "Sheetname" "USBC0"
-			(at 224.155 76.7584 0)
+			(at 204.47 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22958,7 +23220,7 @@
 			)
 		)
 		(property "Sheetfile" "USBC0.kicad_sch"
-			(at 224.155 112.3446 0)
+			(at 204.47 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22970,6 +23232,82 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 80.01)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4c36dcb-2f42-4340-9e43-bb38c102df4f")
+		(property "Sheetname" "HDMI_TX"
+			(at 207.01 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi_tx.kicad_sch"
+			(at 207.01 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 115.57)
+		(size 30.48 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2371120-9201-4f7f-a684-821b8780a78d")
+		(property "Sheetname" "Buttons"
+			(at 208.28 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 208.28 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "6")
 				)
 			)
 		)

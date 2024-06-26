@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ACM2012")(type "KiCad")(uri "${KIPRJMOD}/library/ACM2012.pretty")(options "")(descr ""))
+)
