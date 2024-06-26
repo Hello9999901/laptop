@@ -433,6 +433,10 @@
     [
       "c30b22a0-12ad-404f-9813-7e2a25c78594",
       "Ethernet"
+    ],
+    [
+      "8b9107a7-7899-4235-bab8-96db30f71454",
+      "PCIE3.0-MKEY"
     ]
   ],
   "text_variables": {}

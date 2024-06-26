@@ -23266,6 +23266,44 @@
 		)
 	)
 	(sheet
+		(at 134.62 203.2)
+		(size 29.21 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b9107a7-7899-4235-bab8-96db30f71454")
+		(property "Sheetname" "PCIE3.0-MKEY"
+			(at 134.62 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie30-mkey.kicad_sch"
+			(at 134.62 226.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 207.01 80.01)
 		(size 33.02 24.13)
 		(fields_autoplaced yes)

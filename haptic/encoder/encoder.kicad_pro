@@ -244,7 +244,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "haptic.kicad_pro",
+    "filename": "encoder.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -403,7 +403,7 @@
   },
   "sheets": [
     [
-      "3083e3d3-f42e-44c0-bbd3-11c591dc3528",
+      "0953411a-2c0c-41f4-9774-1a4c3cac9079",
       "Root"
     ]
   ],
