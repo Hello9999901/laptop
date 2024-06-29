@@ -3946,6 +3946,10 @@
 		(uuid "0e6b8b24-095c-4b7d-b100-914cb06ec4a1")
 	)
 	(no_connect
+		(at 49.53 191.77)
+		(uuid "160613e3-5578-49d4-b23e-16c695f34105")
+	)
+	(no_connect
 		(at 166.37 99.06)
 		(uuid "1888fe04-3562-4d3e-8b74-9fd952ae46f0")
 	)
@@ -3960,6 +3964,14 @@
 	(no_connect
 		(at 166.37 38.1)
 		(uuid "21277290-1662-4bb7-88ec-40205a99c33f")
+	)
+	(no_connect
+		(at 49.53 194.31)
+		(uuid "236c4ff9-2dd5-4df9-b998-4f759dcd1ba2")
+	)
+	(no_connect
+		(at 87.63 209.55)
+		(uuid "239e29c4-3963-406d-9b13-a2e657e62363")
 	)
 	(no_connect
 		(at 166.37 71.12)
@@ -3978,6 +3990,10 @@
 		(uuid "2d7bcc0c-4033-46f8-bfd2-71f6a134409a")
 	)
 	(no_connect
+		(at 87.63 222.25)
+		(uuid "2e44e8e0-301b-4f31-aee7-479f8e38056d")
+	)
+	(no_connect
 		(at 166.338 63.5)
 		(uuid "33e95cc5-7736-46fd-b6d8-7de360dca4cb")
 	)
@@ -3990,20 +4006,52 @@
 		(uuid "376bbe15-1a82-4894-8dfd-71e058586766")
 	)
 	(no_connect
+		(at 49.53 224.79)
+		(uuid "446619a6-3224-42b6-8991-ada4702b7b15")
+	)
+	(no_connect
 		(at 128.27 68.58)
 		(uuid "49bebf4f-d3a9-4e1f-8533-880402f4fa92")
+	)
+	(no_connect
+		(at 49.53 184.15)
+		(uuid "4d027ce3-cb49-4982-9e76-e86ccd140031")
+	)
+	(no_connect
+		(at 87.63 207.01)
+		(uuid "50852319-01dc-41a4-b54c-6aca9ce0e373")
+	)
+	(no_connect
+		(at 49.53 217.17)
+		(uuid "5092fea8-7f15-40bb-b696-b5f890e7f32c")
 	)
 	(no_connect
 		(at 166.37 121.92)
 		(uuid "57053e9e-1b24-4e24-9081-32fd4b55130b")
 	)
 	(no_connect
+		(at 49.53 209.55)
+		(uuid "58ecc166-6a16-4f8f-960b-41e9faa74e81")
+	)
+	(no_connect
 		(at 166.37 68.58)
 		(uuid "5be8894f-875f-4d97-8e3e-205d05b4f3c0")
 	)
 	(no_connect
+		(at 87.63 191.77)
+		(uuid "5d55f1c0-5e7f-47ca-b8ec-e1cd4f399b16")
+	)
+	(no_connect
+		(at 49.53 199.39)
+		(uuid "63be16b2-c9e9-45cd-bcdd-c3d467b29c27")
+	)
+	(no_connect
 		(at 128.27 76.2)
 		(uuid "6a1926b6-809f-42bf-ad5d-b5b2783923e4")
+	)
+	(no_connect
+		(at 49.53 186.69)
+		(uuid "7051cd81-05a5-4ff1-8ba3-c29dbfa057be")
 	)
 	(no_connect
 		(at 128.27 45.72)
@@ -4012,6 +4060,18 @@
 	(no_connect
 		(at 166.37 109.22)
 		(uuid "722dfe55-1ec4-43d7-8f95-bdaf419324c5")
+	)
+	(no_connect
+		(at 87.63 224.79)
+		(uuid "73794f4c-1b91-4d49-8b6a-d05bdf2a0166")
+	)
+	(no_connect
+		(at 49.53 207.01)
+		(uuid "7f981e13-fc4d-4d91-af41-a1b098594f98")
+	)
+	(no_connect
+		(at 87.63 194.31)
+		(uuid "88159a94-7fb1-48ba-a42b-0554a45bb8db")
 	)
 	(no_connect
 		(at 128.27 71.12)
@@ -4026,12 +4086,24 @@
 		(uuid "91a5c845-08fa-42a6-841d-c376cc01925b")
 	)
 	(no_connect
+		(at 49.53 214.63)
+		(uuid "93a48280-941c-42fe-ab5c-23a515fddd7e")
+	)
+	(no_connect
 		(at 128.27 78.74)
 		(uuid "93ae8c2b-541b-4619-9f59-bca42514f469")
 	)
 	(no_connect
+		(at 87.63 186.69)
+		(uuid "9dee83e7-684c-49d9-9fc3-2aefe7b155e1")
+	)
+	(no_connect
 		(at 166.37 114.3)
 		(uuid "a646966e-2a50-4b8b-b2ac-66bcf723a322")
+	)
+	(no_connect
+		(at 49.53 222.25)
+		(uuid "a7ac2c1e-e5da-41de-9e6c-d55473bcf34d")
 	)
 	(no_connect
 		(at 166.37 93.98)
@@ -4044,6 +4116,10 @@
 	(no_connect
 		(at 128.27 83.82)
 		(uuid "b3be62c3-a95f-4aa2-ada4-14ef9454c612")
+	)
+	(no_connect
+		(at 87.63 199.39)
+		(uuid "b9a06adf-f2f4-42a9-8f21-15697d5304db")
 	)
 	(no_connect
 		(at 128.27 40.64)
@@ -4066,12 +4142,28 @@
 		(uuid "c991f2b4-5db8-420e-9986-4e525fe96d53")
 	)
 	(no_connect
+		(at 87.63 201.93)
+		(uuid "cf065b2f-91f5-493b-8b48-5e5e5a487638")
+	)
+	(no_connect
+		(at 87.63 217.17)
+		(uuid "d8895bcc-db2f-4b42-8a44-36e29d1346b5")
+	)
+	(no_connect
+		(at 49.53 201.93)
+		(uuid "dedfcdc9-ae32-4fd7-8ab3-854108c0aa71")
+	)
+	(no_connect
 		(at 166.37 106.68)
 		(uuid "e1841d7c-1cf4-4ae4-9719-314e1e9f207f")
 	)
 	(no_connect
 		(at 166.2806 45.72)
 		(uuid "e288ebdd-06e7-4f7a-a6d6-5c6eb186102a")
+	)
+	(no_connect
+		(at 87.63 184.15)
+		(uuid "e5559b78-a571-4f60-a6a6-202d1926a9a2")
 	)
 	(no_connect
 		(at 166.37 116.84)
@@ -4092,6 +4184,10 @@
 	(no_connect
 		(at 166.37 101.6)
 		(uuid "f503827b-7d23-41e2-a01b-36bdf91a0889")
+	)
+	(no_connect
+		(at 87.63 214.63)
+		(uuid "fd8385b9-78df-4a05-b4ba-4c3ade5d228f")
 	)
 	(wire
 		(pts
@@ -17886,11 +17982,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_CLK1P"
 		(shape output)
-		(at 49.53 184.15 180)
+		(at 46.99 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18090,11 +18186,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D0P"
 		(shape output)
-		(at 49.53 222.25 180)
+		(at 46.99 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18102,11 +18198,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_CLK1P"
 		(shape output)
-		(at 87.63 184.15 0)
+		(at 90.17 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18114,11 +18210,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_CLK0N"
 		(shape output)
-		(at 87.63 209.55 0)
+		(at 90.17 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -18246,11 +18342,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D2N"
 		(shape output)
-		(at 49.53 201.93 180)
+		(at 46.99 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18402,11 +18498,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_CLK0P"
 		(shape output)
-		(at 49.53 207.01 180)
+		(at 46.99 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18606,11 +18702,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D3P"
 		(shape output)
-		(at 49.53 191.77 180)
+		(at 46.99 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18762,11 +18858,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D3N"
 		(shape output)
-		(at 49.53 194.31 180)
+		(at 46.99 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18822,11 +18918,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D0N"
 		(shape output)
-		(at 49.53 224.79 180)
+		(at 46.99 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -18930,11 +19026,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_CLK0N"
 		(shape output)
-		(at 49.53 209.55 180)
+		(at 46.99 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -19074,11 +19170,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_CLK1N"
 		(shape output)
-		(at 49.53 186.69 180)
+		(at 46.99 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -19362,11 +19458,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D2P"
 		(shape output)
-		(at 49.53 199.39 180)
+		(at 46.99 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -19434,11 +19530,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D2P"
 		(shape output)
-		(at 87.63 199.39 0)
+		(at 90.17 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19602,11 +19698,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D0P"
 		(shape output)
-		(at 87.63 222.25 0)
+		(at 90.17 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19734,11 +19830,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_CLK1N"
 		(shape output)
-		(at 87.63 186.69 0)
+		(at 90.17 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19806,11 +19902,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D0N"
 		(shape output)
-		(at 87.63 224.79 0)
+		(at 90.17 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -19926,11 +20022,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D1P"
 		(shape output)
-		(at 49.53 214.63 180)
+		(at 46.99 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -20046,11 +20142,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D3P"
 		(shape output)
-		(at 87.63 191.77 0)
+		(at 90.17 191.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20154,11 +20250,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D2N"
 		(shape output)
-		(at 87.63 201.93 0)
+		(at 90.17 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20250,11 +20346,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D1P"
 		(shape output)
-		(at 87.63 214.63 0)
+		(at 90.17 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20346,11 +20442,11 @@
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D1N"
 		(shape output)
-		(at 49.53 217.17 180)
+		(at 46.99 217.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify right)
 		)
@@ -20704,8 +20800,8 @@
 		)
 		(uuid "cd7c1c56-abd0-4082-9c99-bd2a3ee125c2")
 	)
-	(hierarchical_label "GPIO4_B5"
-		(shape input)
+	(hierarchical_label "GPIO4_B5{slash}PCIE30X4_WAKEn_M1_L"
+		(shape output)
 		(at 215.9 223.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -20802,11 +20898,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_CLK0P"
 		(shape output)
-		(at 87.63 207.01 0)
+		(at 90.17 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -20922,11 +21018,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D3N"
 		(shape output)
-		(at 87.63 194.31 0)
+		(at 90.17 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -21102,11 +21198,11 @@
 	)
 	(hierarchical_label "MIPI_CSI0_RX_D1N"
 		(shape output)
-		(at 87.63 217.17 0)
+		(at 90.17 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.001 0.001)
 			)
 			(justify left)
 		)
@@ -23109,6 +23205,82 @@
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(reference "#PWR05")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 90.17)
+		(size 57.15 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13f827ac-a41e-48f0-a27a-ac5d9cb10cf1")
+		(property "Sheetname" "USB2.0"
+			(at 34.29 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb20.kicad_sch"
+			(at 34.29 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 237.49)
+		(size 31.75 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b07758b-0d60-456c-9b9b-614b30378eb3")
+		(property "Sheetname" "SD Card"
+			(at 132.08 236.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcard.kicad_sch"
+			(at 132.08 255.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "10")
 				)
 			)
 		)

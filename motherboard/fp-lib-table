@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "ACM2012")(type "KiCad")(uri "${KIPRJMOD}/library/ACM2012.pretty")(options "")(descr ""))
+  (lib (name "TPS54331DR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54331DR/TPS54331DR.pretty")(options "")(descr ""))
+  (lib (name "SOP65P640X120-20N")(type "KiCad")(uri "${KIPRJMOD}/library/PI6C557-05BLE/SOP65P640X120-20N.pretty")(options "")(descr ""))
 )

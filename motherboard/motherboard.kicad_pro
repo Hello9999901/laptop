@@ -437,6 +437,14 @@
     [
       "8b9107a7-7899-4235-bab8-96db30f71454",
       "PCIE3.0-MKEY"
+    ],
+    [
+      "2b07758b-0d60-456c-9b9b-614b30378eb3",
+      "SD Card"
+    ],
+    [
+      "13f827ac-a41e-48f0-a27a-ac5d9cb10cf1",
+      "USB2.0"
     ]
   ],
   "text_variables": {}
