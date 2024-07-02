@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS55289RYQR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-10-21-12:18:23)
+    (mountForm default
+        (footprintRef "TPS55289RYQR")
+        (spec "System")
+    )
+)

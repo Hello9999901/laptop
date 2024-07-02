@@ -1430,6 +1430,16 @@
 			)
 		)
 	)
+	(text "spare"
+		(exclude_from_sim no)
+		(at 102.616 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ee71116-6f06-4ddc-9faf-4603ffd44b3c")
+	)
 	(text "trackpad"
 		(exclude_from_sim no)
 		(at 154.178 122.936 0)
@@ -1555,6 +1565,10 @@
 		(uuid "3ac28c19-a827-487a-bd71-fa887147e6c7")
 	)
 	(no_connect
+		(at 97.79 135.89)
+		(uuid "40f99536-150d-4188-88b1-1712e21e4e9b")
+	)
+	(no_connect
 		(at 158.1059 111.0285)
 		(uuid "453ef36b-def1-413d-8f02-aea7191f5118")
 	)
@@ -1601,6 +1615,10 @@
 	(no_connect
 		(at 100.33 81.28)
 		(uuid "ee3a3c5b-6dc5-4db7-9456-403ced7537cf")
+	)
+	(no_connect
+		(at 97.79 138.43)
+		(uuid "f9d9156a-3dad-4df9-be34-d37d82ea10c0")
 	)
 	(wire
 		(pts

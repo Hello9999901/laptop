@@ -401,6 +401,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f6ef1cf7-e202-4cf7-a9a2-de51d726791c",
+      "Root"
+    ],
+    [
+      "6ed969e8-907a-4a2b-8b57-149ed8a8b9f4",
+      "TPS55289"
+    ],
+    [
+      "7b745c9f-4e5d-4eaa-8972-dd9630f56114",
+      "BQ25798"
+    ],
+    [
+      "35bb2952-d144-4797-8cfc-9c49f00821c7",
+      "TPS54531"
+    ],
+    [
+      "06c81010-bf4f-423a-a6d1-a164b112fa7c",
+      "LTC2943"
+    ]
+  ],
   "text_variables": {}
 }

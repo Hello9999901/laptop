@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS55289RYQR
+D 30-V, 8-A buck-boost converter with IC interface
+K
+F https://www.ti.com/lit/ds/symlink/tps55289.pdf?ts=1664818706180&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS55289%252Fpart-details%252FTPS55289RYQR%253FkeyMatch%253DTPS55289RYQR
+$ENDCMP
+#
+#End Doc Library

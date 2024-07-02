@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS25750D")(type "KiCad")(uri "${KIPRJMOD}/library/TPS25750DRJKR/IC_TPS25750DRJKR.pretty")(options "")(descr ""))
+  (lib (name "CONV_TPS54531DDAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54531DDAR/CONV_TPS54531DDAR.pretty")(options "")(descr ""))
+)
