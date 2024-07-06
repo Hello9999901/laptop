@@ -1294,7 +1294,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -1306,7 +1306,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -2713,6 +2713,12 @@
 		(uuid "1cbc91e1-abae-4d0b-8d83-3b13d0cd8511")
 	)
 	(junction
+		(at 66.04 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c9645f-0e6b-4520-a038-93339fc80c05")
+	)
+	(junction
 		(at 52.07 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2856,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 107.95) (xy 269.24 107.95)
+			(xy 181.61 107.95) (xy 269.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 118.11) (xy 231.14 118.11)
+			(xy 181.61 118.11) (xy 231.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2946,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 144.78) (xy 40.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4a2953-4bb8-49e6-b129-8ed9d99d3932")
+	)
+	(wire
+		(pts
 			(xy 209.55 134.62) (xy 209.55 132.08)
 		)
 		(stroke
@@ -2966,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 110.49) (xy 266.7 110.49)
+			(xy 181.61 110.49) (xy 266.7 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3206,6 +3222,26 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 91.44) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c8c311-10c1-4723-86db-d76ea14ebf1e")
+	)
+	(wire
+		(pts
+			(xy 19.05 149.86) (xy 40.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6da60b-519f-43ee-b078-de5cb4fac5b7")
+	)
+	(wire
+		(pts
 			(xy 99.06 81.28) (xy 106.68 81.28)
 		)
 		(stroke
@@ -3246,13 +3282,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 228.6 120.65)
+			(xy 181.61 120.65) (xy 228.6 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51bc9f47-ea83-4d1e-904c-ef064e21fe2f")
+	)
+	(wire
+		(pts
+			(xy 90.17 149.86) (xy 109.22 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b637e2-8cf8-466f-a1b1-ab968b352c90")
 	)
 	(wire
 		(pts
@@ -3283,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "55c4f424-7f9f-4dce-85da-418cef408c1a")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b872598-61d3-45cb-91ac-ce66c3d47898")
 	)
 	(wire
 		(pts
@@ -3356,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd16b18-59ee-484a-95ef-6d54ca324086")
+	)
+	(wire
+		(pts
 			(xy 207.01 50.8) (xy 207.01 52.07)
 		)
 		(stroke
@@ -3363,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "6eef943a-84ae-4190-8ff8-ca0dfb367cd4")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d8b8ea-cce6-4172-94ea-af82145b931b")
 	)
 	(wire
 		(pts
@@ -3393,6 +3469,16 @@
 			(type default)
 		)
 		(uuid "768ceb9e-f782-4bb7-bf8e-7196b85a66e7")
+	)
+	(wire
+		(pts
+			(xy 85.09 91.44) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f07614-75e4-47c8-a0bf-f5e54cfea992")
 	)
 	(wire
 		(pts
@@ -3496,6 +3582,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 96.52) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8910c193-838b-4125-9c13-8b27e7276497")
+	)
+	(wire
+		(pts
 			(xy 54.61 40.64) (xy 54.61 50.8)
 		)
 		(stroke
@@ -3526,13 +3622,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 78.74 96.52)
+			(xy 90.17 144.78) (xy 109.22 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "913ae91d-9beb-42c6-a9e8-63c06bbaea85")
+		(uuid "8fa0b7f7-e278-4f94-88a3-00ac84a60da9")
 	)
 	(wire
 		(pts
@@ -3543,6 +3639,16 @@
 			(type default)
 		)
 		(uuid "9144ad50-b09c-4592-bfac-2b0f3c86742a")
+	)
+	(wire
+		(pts
+			(xy 156.21 144.78) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927e7094-d116-48a3-bd18-d6faa91144d3")
 	)
 	(wire
 		(pts
@@ -3576,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 125.73) (xy 208.28 125.73)
+			(xy 181.61 125.73) (xy 208.28 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 210.82 123.19)
+			(xy 181.61 123.19) (xy 210.82 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3796,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 93.98) (xy 76.2 93.98)
+			(xy 64.77 93.98) (xy 77.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3813,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "d7dc8038-0984-46e0-baa5-ea8ac8cbec24")
+	)
+	(wire
+		(pts
+			(xy 156.21 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fa7917-5bc1-441a-891b-98c8fa431776")
 	)
 	(wire
 		(pts
@@ -3926,6 +4042,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 144.78) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e761aaa8-a421-478e-ba8a-b18ed2b9ebb5")
+	)
+	(wire
+		(pts
 			(xy 198.12 90.17) (xy 207.01 90.17)
 		)
 		(stroke
@@ -3946,7 +4072,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 250.19 113.03)
+			(xy 181.61 113.03) (xy 250.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3956,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 115.57) (xy 247.65 115.57)
+			(xy 181.61 115.57) (xy 247.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4097,6 +4223,50 @@
 		)
 		(uuid "10855434-4385-42a1-966c-d72481a41cb0")
 	)
+	(label "HDMI0_TX3N_PORT"
+		(at 156.21 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2af7080c-40bb-4648-a719-8e3713021d9a")
+	)
+	(label "HDMI0_TX2N_PORT"
+		(at 19.05 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36b610f4-938c-4ae7-b6e6-e8d14201a3ae")
+	)
+	(label "HDMI0_TX2P_PORT"
+		(at 19.05 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f8aab14-bbbd-4af6-bb1f-255df08d923c")
+	)
+	(label "HDMI0_TX2P_PORT"
+		(at 181.61 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4390028a-1e56-4398-9112-356089e2d97b")
+	)
 	(label "SBDP"
 		(at 110.49 168.91 180)
 		(fields_autoplaced yes)
@@ -4119,6 +4289,28 @@
 		)
 		(uuid "53dfbeaf-d7d7-43f3-b146-c9c17fcc5f83")
 	)
+	(label "HDMI0_TX3P_PORT"
+		(at 181.61 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "599faf59-092f-4da2-b1f0-ca4f0e9633bd")
+	)
+	(label "HDMI0_TX1N_PORT"
+		(at 181.61 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ee5ee12-2199-46eb-b4a6-cfb5444e53f9")
+	)
 	(label "SDA"
 		(at 76.2 88.9 180)
 		(fields_autoplaced yes)
@@ -4130,6 +4322,28 @@
 		)
 		(uuid "624be24b-c045-4ade-9719-a881c0b7be09")
 	)
+	(label "HDMI0_TX1N_PORT"
+		(at 88.9 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6744df4b-ea42-42fe-be6b-133dce3f4fc8")
+	)
+	(label "HDMI0_TX0N_PORT"
+		(at 181.61 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73956de2-fb60-46de-af2a-6521127ed607")
+	)
 	(label "SDA"
 		(at 198.12 90.17 0)
 		(fields_autoplaced yes)
@@ -4140,6 +4354,28 @@
 			(justify left bottom)
 		)
 		(uuid "81d606fc-22e2-40c7-9e54-a23e7f639861")
+	)
+	(label "HDMI0_TX1P_PORT"
+		(at 181.61 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98e37203-2522-42c2-aa08-a4cc6845a5d3")
+	)
+	(label "HDMI0_TX2N_PORT"
+		(at 181.61 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98f5784c-e58e-4b6c-ac68-270900301ba4")
 	)
 	(label "SCL"
 		(at 198.12 60.96 0)
@@ -4163,6 +4399,39 @@
 		)
 		(uuid "9b459e47-495b-4360-8a29-78b825033348")
 	)
+	(label "HDMI0_TX0N_PORT"
+		(at 90.17 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3971cd5-35ce-4a4a-82dc-69aa8673cca9")
+	)
+	(label "HDMI0_TX0P_PORT"
+		(at 181.61 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab7f045b-3635-4bc7-9dc0-4b7d5764f4a2")
+	)
+	(label "HDMI0_TX3N_PORT"
+		(at 181.61 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2c1e65c-58d9-4017-9d79-fe1869a331ff")
+	)
 	(label "HDMI0_5V"
 		(at 48.26 40.64 0)
 		(fields_autoplaced yes)
@@ -4185,6 +4454,28 @@
 		)
 		(uuid "d0e23b22-ebb7-4bf3-b2f8-9908c88901d6")
 	)
+	(label "HDMI0_TX1P_PORT"
+		(at 88.9 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d396cb8e-a808-47b9-89e7-ffb8771bbe8e")
+	)
+	(label "HDMI0_TX3P_PORT"
+		(at 156.21 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6e0e8b1-147a-447e-9641-e93d57a101cb")
+	)
 	(label "CEC"
 		(at 76.2 81.28 180)
 		(fields_autoplaced yes)
@@ -4196,29 +4487,16 @@
 		)
 		(uuid "d89897fc-5340-4b99-9af2-7bfc20598998")
 	)
-	(hierarchical_label "HDMI0_TX2P_PORT"
-		(shape bidirectional)
-		(at 198.12 107.95 180)
+	(label "HDMI0_TX0P_PORT"
+		(at 90.17 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "014d80c5-1386-4a47-b35c-1dd43efc8ee3")
-	)
-	(hierarchical_label "HDMI0_TX0P_PORT"
-		(shape bidirectional)
-		(at 109.22 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "06b6ddba-8609-491e-b83e-d48dc14556eb")
+		(uuid "da769b72-382c-43fb-b0cd-cee9198b4dec")
 	)
 	(hierarchical_label "HDMI0_TX1P_PORT"
 		(shape bidirectional)
@@ -4232,7 +4510,7 @@
 		)
 		(uuid "16c7af7b-668f-4a5a-99b6-aacfdd350467")
 	)
-	(hierarchical_label "HDMITX0_SCL_M1"
+	(hierarchical_label "HDMITX0_SCL_M0"
 		(shape output)
 		(at 232.41 60.96 0)
 		(fields_autoplaced yes)
@@ -4243,42 +4521,6 @@
 			(justify left)
 		)
 		(uuid "1d2bea5f-ecb4-45bc-a88c-39af6d4d170a")
-	)
-	(hierarchical_label "HDMI0_TX0N_PORT"
-		(shape bidirectional)
-		(at 198.12 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1fde3f3f-4afc-4bbc-93d3-96219a014f2b")
-	)
-	(hierarchical_label "HDMI0_TX3N_PORT"
-		(shape bidirectional)
-		(at 134.62 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "289d46ab-c656-4d77-93ce-2fe8b37b9fc1")
-	)
-	(hierarchical_label "HDMI0_TX1N_PORT"
-		(shape bidirectional)
-		(at 66.04 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b909d0b-b384-4151-b969-7242c7114fc9")
 	)
 	(hierarchical_label "HDMITX0_CECM0"
 		(shape bidirectional)
@@ -4292,17 +4534,29 @@
 		)
 		(uuid "48a64f6d-7a9b-471e-951a-9c5d84217435")
 	)
-	(hierarchical_label "HDMI0_TX2P_PORT"
+	(hierarchical_label "HDMI0_TX_SBDP"
 		(shape bidirectional)
-		(at 40.64 144.78 180)
+		(at 85.09 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "48e221ca-91ee-4b33-95ed-4daa60306244")
+		(uuid "4cb5c89e-30eb-480d-b568-decea9305822")
+	)
+	(hierarchical_label "HDMI0_TX_SBDN"
+		(shape bidirectional)
+		(at 66.04 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c628690-f82a-48c7-83fe-59f4b6a1104e")
 	)
 	(hierarchical_label "HDMITX0_HPDIN_M0"
 		(shape bidirectional)
@@ -4328,66 +4582,6 @@
 		)
 		(uuid "65de0c4d-8eb0-4a02-8a47-57f7f8601bca")
 	)
-	(hierarchical_label "HDMI0_TX2N_PORT"
-		(shape bidirectional)
-		(at 40.64 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67b29f9f-2321-466b-99c1-d6e41b1ba663")
-	)
-	(hierarchical_label "HDMI0_TX3P_PORT"
-		(shape bidirectional)
-		(at 198.12 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6cb4de2b-a89b-4288-b408-b5bdf4155e18")
-	)
-	(hierarchical_label "HDMI0_TX1P_PORT"
-		(shape bidirectional)
-		(at 66.04 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70f951d0-7f01-4a44-a2e4-0e6a81c3de39")
-	)
-	(hierarchical_label "HDMI0_TX3P_PORT"
-		(shape bidirectional)
-		(at 134.62 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73c8d011-c9b5-44ca-8781-0db5a9d79fa1")
-	)
-	(hierarchical_label "HDMI0_TX0P_PORT"
-		(shape bidirectional)
-		(at 198.12 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8656228e-fa1c-4f41-970f-3ebe2492de21")
-	)
 	(hierarchical_label "HDMI0_TX0N_PORT"
 		(shape bidirectional)
 		(at 69.85 71.12 0)
@@ -4399,18 +4593,6 @@
 			(justify left)
 		)
 		(uuid "8cae926c-2c7c-46d4-970f-8eff88dd773c")
-	)
-	(hierarchical_label "HDMI0_TX2N_PORT"
-		(shape bidirectional)
-		(at 198.12 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8cb93349-0edc-49c9-8c53-a6ccbe2beaf5")
 	)
 	(hierarchical_label "HDMI0_TX0P_PORT"
 		(shape bidirectional)
@@ -4448,31 +4630,7 @@
 		)
 		(uuid "ba0541ac-1890-40da-811c-502bed353338")
 	)
-	(hierarchical_label "HDMI0_TX3N_PORT"
-		(shape bidirectional)
-		(at 198.12 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbe037b7-e6f5-4b43-89a2-0381b72959b5")
-	)
-	(hierarchical_label "HDMI0_TX0N_PORT"
-		(shape bidirectional)
-		(at 109.22 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbe38bd8-234a-4e4f-8d9c-26d5d223858c")
-	)
-	(hierarchical_label "HDMITX0_SDA_M1"
+	(hierarchical_label "HDMITX0_SDA_M0"
 		(shape bidirectional)
 		(at 232.41 90.17 0)
 		(fields_autoplaced yes)
@@ -4483,18 +4641,6 @@
 			(justify left)
 		)
 		(uuid "cee4dbba-adbe-49d3-b948-c5f0a0540a30")
-	)
-	(hierarchical_label "HDMI0_TX1N_PORT"
-		(shape bidirectional)
-		(at 198.12 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6be0419-b952-4325-90fb-851d0360a176")
 	)
 	(hierarchical_label "HDMI0_TX2P_PORT"
 		(shape bidirectional)
@@ -4519,18 +4665,6 @@
 			(justify left)
 		)
 		(uuid "e8dac370-1bd5-4af5-b168-b93454dd9256")
-	)
-	(hierarchical_label "HDMI0_TX1P_PORT"
-		(shape bidirectional)
-		(at 198.12 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2db03f4-2a04-4007-9e3a-2e2acc66ed12")
 	)
 	(hierarchical_label "HDMI0_TX1N_PORT"
 		(shape bidirectional)
@@ -5752,7 +5886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -6055,6 +6189,14 @@
 		)
 		(pin "1"
 			(uuid "6583d2cd-3280-4941-bbca-23a24ab2d4d4")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/b4c36dcb-2f42-4340-9e43-bb38c102df4f"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6560,6 +6702,14 @@
 		(pin "1"
 			(uuid "dfcb65e1-a875-4e00-8500-6a3084d6fddf")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/b4c36dcb-2f42-4340-9e43-bb38c102df4f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS214NW")
@@ -6964,6 +7114,14 @@
 		)
 		(pin "1"
 			(uuid "792ecc73-b6c9-4ca3-9255-6d05aa541ce9")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/b4c36dcb-2f42-4340-9e43-bb38c102df4f"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7377,6 +7535,14 @@
 		(pin "1"
 			(uuid "3a6cb2f9-c8fa-4e93-9610-9da4ef1030ad")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/b4c36dcb-2f42-4340-9e43-bb38c102df4f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7774,6 +7940,14 @@
 		(pin "1"
 			(uuid "0a1a2910-35c7-462b-8a50-18121fac683d")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/b4c36dcb-2f42-4340-9e43-bb38c102df4f"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7831,6 +8005,14 @@
 		)
 		(pin "1"
 			(uuid "fea1a1e4-a700-481e-b50e-ed04cfdf4b29")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/b4c36dcb-2f42-4340-9e43-bb38c102df4f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

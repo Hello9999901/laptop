@@ -1662,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 115.57) (xy 234.95 115.57)
+			(xy 233.68 115.57) (xy 234.95 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.03) (xy 234.95 113.03)
+			(xy 233.68 113.03) (xy 234.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2186,17 +2186,6 @@
 		)
 		(uuid "36313f75-5ea7-4fde-9b2c-5569442c7434")
 	)
-	(label "DM1"
-		(at 227.33 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36f38147-173b-47dd-babf-a1ed5124360b")
-	)
 	(label "DP2"
 		(at 201.93 113.03 0)
 		(fields_autoplaced yes)
@@ -2218,17 +2207,6 @@
 			(justify left bottom)
 		)
 		(uuid "68225123-df30-42fb-907f-515295922a04")
-	)
-	(label "DP1"
-		(at 227.33 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73a14906-d39e-4ed3-8580-77d6b3957a01")
 	)
 	(label "X2"
 		(at 92.71 88.9 0)
@@ -2340,8 +2318,8 @@
 		)
 		(uuid "dbef81fe-d25d-4875-895f-a3f5ef324806")
 	)
-	(hierarchical_label "USB20_HOST0_DM"
-		(shape bidirectional)
+	(hierarchical_label "D-"
+		(shape input)
 		(at 138.43 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2352,8 +2330,20 @@
 		)
 		(uuid "0ac14958-8cf8-41dd-87cd-e2534fde6d27")
 	)
-	(hierarchical_label "USB20_HOST0_DP"
-		(shape bidirectional)
+	(hierarchical_label "DM1"
+		(shape input)
+		(at 233.68 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d752bd1-255b-470a-8f02-3f1059aac07e")
+	)
+	(hierarchical_label "D+"
+		(shape input)
 		(at 138.43 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2375,6 +2365,18 @@
 			(justify right)
 		)
 		(uuid "4a9991b3-9ab5-464a-944b-c8178bddd6e6")
+	)
+	(hierarchical_label "DP1"
+		(shape input)
+		(at 233.68 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92f37f44-85e6-417e-9659-49ef41aeb06f")
 	)
 	(hierarchical_label "USB20_HOST1_DP"
 		(shape bidirectional)
@@ -3042,7 +3044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 63.5 0)
 			(effects
 				(font
@@ -3328,7 +3330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -3662,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -3732,7 +3734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -4008,7 +4010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 74.93 0)
 			(effects
 				(font

@@ -2577,7 +2577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -2804,6 +2804,14 @@
 		(pin "1"
 			(uuid "4ba9d9ce-bbfe-4aca-82bb-24f4c83a508e")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/4296e3bb-d60d-4db1-b6b7-692bdef698b7"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2831,7 +2839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 74.93 0)
 			(effects
 				(font

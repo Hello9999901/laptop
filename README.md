@@ -11,9 +11,10 @@ Mission: to disprove the idea that technology is either repairable and open or i
 #### Planned Features:
 
 - RK3588 SoC Motherboard
-  - CM3588-based
-  - USB-C USB3.1 Gen 1 with DisplayPort and Power Delivery
-  - HDMI Input
+  - CM3588-based, up to 32GB of DDR5 2400MHz RAM
+  - USB-C USB3.1 Gen 1 with DisplayPort
+  - Separate USB-C PD controller and port
+  - HDMI Input (maybe)
   - RP2040 embedded controller
 - World's thinnest wireless mechanical keyboard
   - nRF52840 SoC
@@ -24,7 +25,7 @@ Mission: to disprove the idea that technology is either repairable and open or i
 - High accuracy trackpad
   - Azoteq Win 11 certified
 - High performance battery
-  - High discharge/charge ~30Wh Li-Po battery pack
+  - High discharge/charge ~60Wh Li-Po battery pack
 - Anodized aluminum CNC chassis
 
 #### Unplanned Features:

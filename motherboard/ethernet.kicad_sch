@@ -610,7 +610,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -622,7 +622,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -2239,6 +2239,182 @@
 		)
 		(uuid "fa7864ce-c351-466d-a6f9-d81e53bea297")
 	)
+	(label "N0"
+		(at 90.17 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00f172a2-a925-41aa-8cc6-4f2bf98dddf8")
+	)
+	(label "P3"
+		(at 171.45 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "085060c6-3ecc-4609-b11c-1118cf8175c7")
+	)
+	(label "P1"
+		(at 111.76 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a4cc8da-9319-451a-855e-adbe1f48c708")
+	)
+	(label "N3"
+		(at 171.45 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d031303-c396-4b92-bffd-018f9858dbbf")
+	)
+	(label "P2"
+		(at 111.76 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44e29a66-ab21-4bf6-80b1-63bc6cce195a")
+	)
+	(label "P1"
+		(at 115.57 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "732f6027-bc69-403d-bb89-b27787fb7ef8")
+	)
+	(label "P0"
+		(at 111.76 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74c86693-9376-4952-8d2a-bbb9480ecc52")
+	)
+	(label "P0"
+		(at 90.17 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82e10cbc-cadf-4168-afc6-96c7767dcbdc")
+	)
+	(label "P3"
+		(at 111.76 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f1a5226-fb23-4ae7-bc68-979d6b0d57ce")
+	)
+	(label "N0"
+		(at 111.76 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97274756-42a8-4b60-88f6-ed5ca96a16b9")
+	)
+	(label "N2"
+		(at 111.76 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e629ed8-ec1b-4c8e-9e74-7543a390cd79")
+	)
+	(label "N1"
+		(at 115.57 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f5efed2-14db-4811-9c9c-cc22c39011fe")
+	)
+	(label "N3"
+		(at 111.76 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac974baf-15ec-42ae-b5f6-9e02c777101e")
+	)
+	(label "N2"
+		(at 146.05 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b74865bc-f774-47bb-aad8-5200c58b4edd")
+	)
+	(label "N1"
+		(at 111.76 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f56fed58-a752-4c05-bb33-078c4bedcf0f")
+	)
+	(label "P2"
+		(at 146.05 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fac85bd3-8f95-4d14-8a9d-cfd72666a778")
+	)
 	(hierarchical_label "LED2_25GLAN_1GLED"
 		(shape output)
 		(at 161.29 74.93 0)
@@ -2251,30 +2427,6 @@
 		)
 		(uuid "171ace5c-70e9-4075-8892-e6dbc5846701")
 	)
-	(hierarchical_label "P25G_MDIP2"
-		(shape input)
-		(at 90.17 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "193d9ca8-6832-4cbe-8cb0-2858e9047c71")
-	)
-	(hierarchical_label "P25G_MDIN3"
-		(shape input)
-		(at 115.57 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19cb9ad3-7b30-4987-b4ef-7fff82a43dea")
-	)
 	(hierarchical_label "P25G_MDIN2"
 		(shape input)
 		(at 100.33 85.09 180)
@@ -2286,18 +2438,6 @@
 			(justify right)
 		)
 		(uuid "3986122e-4faf-4fd4-a955-f5f2f781d183")
-	)
-	(hierarchical_label "P25G_MDIP3"
-		(shape input)
-		(at 115.57 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ce1b5fb-b75c-484c-96b6-15283a22696d")
 	)
 	(hierarchical_label "P25G_MDIP2"
 		(shape input)
@@ -2335,18 +2475,6 @@
 		)
 		(uuid "47716ae3-c7c5-4fdc-a4eb-9bfd1bb68ed9")
 	)
-	(hierarchical_label "P25G_MDIP1"
-		(shape input)
-		(at 171.45 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47cd8569-2b70-4826-b963-85cf3880c36f")
-	)
 	(hierarchical_label "P25G_MDIP3"
 		(shape input)
 		(at 100.33 87.63 180)
@@ -2358,42 +2486,6 @@
 			(justify right)
 		)
 		(uuid "52abbe2c-9442-414e-ba2b-b189a5d999a3")
-	)
-	(hierarchical_label "P25G_MDIN1"
-		(shape input)
-		(at 171.45 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5bc40152-e189-4a03-9854-65bf439a7e3d")
-	)
-	(hierarchical_label "P25G_MDIN2"
-		(shape input)
-		(at 90.17 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f534319-cb7c-4aad-8d60-4c754fc6a028")
-	)
-	(hierarchical_label "P25G_MDIN0"
-		(shape input)
-		(at 146.05 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70bf83e7-e738-4626-9f71-f04b76f31ed3")
 	)
 	(hierarchical_label "P25G_MDIN0"
 		(shape input)
@@ -2443,18 +2535,6 @@
 		)
 		(uuid "cfa2725e-4f4e-42cc-985b-25f06eca3675")
 	)
-	(hierarchical_label "P25G_MDIP0"
-		(shape input)
-		(at 146.05 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7ad61a7-2759-4bc8-9317-5c219e15fc1d")
-	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 144.78 85.09 0)
@@ -2482,7 +2562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -3152,7 +3232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 85.09 0)
 			(effects
 				(font

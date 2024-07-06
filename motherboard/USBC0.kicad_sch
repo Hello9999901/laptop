@@ -374,7 +374,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -386,7 +386,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -2019,18 +2019,6 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -6.604) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 -6.604)
 					(radius 0.2794)
@@ -2044,7 +2032,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0 -6.604) (xy 0 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -2057,6 +2045,18 @@
 				(polyline
 					(pts
 						(xy 0.635 0.889) (xy 1.016 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -3578,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 134.62) (xy 133.35 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40783359-a7e6-4eb0-9906-3bcae2125d08")
+	)
+	(wire
+		(pts
 			(xy 132.08 91.44) (xy 133.35 91.44)
 		)
 		(stroke
@@ -4449,6 +4459,17 @@
 		)
 		(uuid "2169cead-7165-4a35-b990-b4a245f070cf")
 	)
+	(label "VBUS"
+		(at 160.02 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28ce9b21-ae16-4f73-bb6f-865674394f6d")
+	)
 	(label "TX1+"
 		(at 105.41 173.99 180)
 		(fields_autoplaced yes)
@@ -4636,6 +4657,17 @@
 		)
 		(uuid "ba359325-d007-4971-b557-ae5ee87d2e04")
 	)
+	(label "VBUS"
+		(at 133.35 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "beaa7cfc-9aac-4eaa-851b-57bbd7804b1c")
+	)
 	(label "D+"
 		(at 15.24 173.99 0)
 		(fields_autoplaced yes)
@@ -4691,6 +4723,17 @@
 		)
 		(uuid "e8d15fe0-0403-4e74-9aee-dcf583cc9c15")
 	)
+	(label "VBUS"
+		(at 110.49 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea480fd2-68b7-400b-9253-6075e1499b8a")
+	)
 	(label "SBUS2"
 		(at 58.42 179.07 180)
 		(fields_autoplaced yes)
@@ -4723,18 +4766,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef857e0c-3559-4973-ae1e-cd28cd280bdb")
-	)
-	(hierarchical_label "VBUS"
-		(shape bidirectional)
-		(at 160.02 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ab078df-8835-400f-a6cb-9d4051d4dae2")
 	)
 	(hierarchical_label "FUSB_SDA"
 		(shape bidirectional)
@@ -4880,18 +4911,6 @@
 		)
 		(uuid "c056f4a6-f6fa-4580-81dd-c2211f17088a")
 	)
-	(hierarchical_label "VBUS"
-		(shape bidirectional)
-		(at 125.73 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf4c5c9f-0ab1-4965-a604-29d56255d966")
-	)
 	(hierarchical_label "TX2+"
 		(shape bidirectional)
 		(at 91.44 101.6 0)
@@ -4978,7 +4997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -5180,7 +5199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -5374,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 123.19 0)
 			(effects
 				(font
@@ -5512,7 +5531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 54.61 0)
 			(effects
 				(font
@@ -5574,7 +5593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.22 54.61 0)
 			(effects
 				(font
@@ -5802,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -6474,7 +6493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -6642,6 +6661,14 @@
 		(pin "1"
 			(uuid "09595076-38f6-4c0e-a19c-597893090c56")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6671,7 +6698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 144.78 0)
 			(effects
 				(font
@@ -6763,6 +6790,14 @@
 		(pin "1"
 			(uuid "c3017fd1-fa1d-4f21-8b9c-8b6ac572c8f5")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -6820,6 +6855,14 @@
 		)
 		(pin "1"
 			(uuid "998696aa-ec60-4d6b-9fbd-a710d61391e0")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6980,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 99.06 0)
 			(effects
 				(font
@@ -7112,7 +7155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -7180,7 +7223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 86.36 0)
 			(effects
 				(font
@@ -7248,7 +7291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.41 123.19 0)
 			(effects
 				(font
@@ -7949,6 +7992,14 @@
 		(pin "1"
 			(uuid "fbb2092a-3591-4d80-832d-0d841507b51d")
 		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -7978,7 +8029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.43 144.78 0)
 			(effects
 				(font
@@ -8143,6 +8194,14 @@
 		)
 		(pin "1"
 			(uuid "d017fbd3-a971-4c74-ac9d-6e93a63b22db")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
