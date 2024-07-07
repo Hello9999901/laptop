@@ -2550,7 +2550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "6P_05mm_FPC:FPC-SMD_6P-P0.50_XUNPU_FPC-05F-6PH20"
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -2830,7 +2830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "6P_05mm_FPC:FPC-SMD_6P-P0.50_XUNPU_FPC-05F-6PH20"
 			(at 240.03 110.49 0)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "6P_05mm_FPC:FPC-SMD_6P-P0.50_XUNPU_FPC-05F-6PH20"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -4080,7 +4080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "6P_05mm_FPC:FPC-SMD_6P-P0.50_XUNPU_FPC-05F-6PH20"
 			(at 163.1859 111.0285 0)
 			(effects
 				(font

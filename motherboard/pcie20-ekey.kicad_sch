@@ -2517,7 +2517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 138.43 0)
 			(effects
 				(font
@@ -2645,7 +2645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -2713,7 +2713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -2901,7 +2901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WIRELESS_E_KEY:CONN-SMD_APCI0147-P001A"
 			(at 144.78 81.28 0)
 			(effects
 				(font

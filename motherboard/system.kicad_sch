@@ -2554,7 +2554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 74.93 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 55.88 153.67 90)
 			(effects
 				(font
@@ -2779,7 +2779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.81 85.09 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 88.9 0)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 179.07 0)
+		(at 58.42 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3107,7 +3107,7 @@
 		(fields_autoplaced yes)
 		(uuid "41ec9aa3-3b25-4a52-81d7-3d9594025058")
 		(property "Reference" "#PWR067"
-			(at 58.42 185.42 0)
+			(at 58.42 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 184.15 0)
+			(at 58.42 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 179.07 0)
+			(at 58.42 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 179.07 0)
+			(at 58.42 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 179.07 0)
+			(at 58.42 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 77.47 74.93 0)
 			(effects
 				(font
@@ -3724,7 +3724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -3792,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 77.47 106.68 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 57.15 0)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -3973,76 +3973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 63.5 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74c82931-3108-45e4-a571-c6fa3fdd7284")
-		(property "Reference" "J11"
-			(at 66.04 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PWR ON MODE"
-			(at 66.04 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ac979a9-03a2-4bd1-8aea-6a3227e04220")
-		)
-		(pin "1"
-			(uuid "a7fb807c-7abc-48be-ab3f-ab282569dc5e")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 64.77 106.68 90)
 		(unit 1)
@@ -4068,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -4136,7 +4066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 90.17 0)
 			(effects
 				(font
@@ -4204,7 +4134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 77.47 57.15 0)
 			(effects
 				(font
@@ -4241,6 +4171,76 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "914ec73d-339c-4d28-b971-3b895d6116ff")
+		(property "Reference" "R86"
+			(at 60.96 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 60.96 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1d59591-d057-44c6-81d0-a6e19ffb2806")
+		)
+		(pin "1"
+			(uuid "b00d9548-ca0d-4248-aa12-5e13827369d8")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Wuerth_7499111446_Horizontal"
 			(at 96.52 149.86 0)
 			(effects
 				(font
@@ -4476,7 +4476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 77.47 90.17 0)
 			(effects
 				(font
@@ -4887,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 64.77 0)
 			(effects
 				(font
@@ -5160,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 157.48 62.23 0)
 			(effects
 				(font

@@ -832,7 +832,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -844,7 +844,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -1905,7 +1905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -1973,7 +1973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.49 90.17 0)
 			(effects
 				(font
@@ -2041,7 +2041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 113.03 0)
 			(effects
 				(font
@@ -2109,7 +2109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "microSD_Card:TF-SMD_TF-CARD-H1.8"
 			(at 194.31 82.55 0)
 			(effects
 				(font
@@ -2201,7 +2201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 95.25 0)
 			(effects
 				(font

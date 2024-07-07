@@ -2707,7 +2707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.05 66.04 0)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 148.59 66.04 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Wuerth_7499111446_Horizontal"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.94 74.93 0)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.94 80.01 0)
 			(effects
 				(font

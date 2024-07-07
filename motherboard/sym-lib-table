@@ -3,4 +3,5 @@
   (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
   (lib (name "TPS54331DR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54331DR/TPS54331DR.kicad_sym")(options "")(descr ""))
   (lib (name "PI6C557-05B")(type "KiCad")(uri "${KIPRJMOD}/library/PI6C557-05BLE/PI6C557-05BLE.kicad_sym")(options "")(descr ""))
+  (lib (name "eDP_Connector")(type "KiCad")(uri "${KIPRJMOD}/library/eDP_Connector/20455-040E-76.kicad_sym")(options "")(descr ""))
 )
