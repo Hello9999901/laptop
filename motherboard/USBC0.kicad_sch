@@ -326,7 +326,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -338,7 +338,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -374,7 +374,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -386,7 +386,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -5515,7 +5515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C527590"
 			(at 120.65 123.19 0)
 			(effects
 				(font
@@ -5715,7 +5715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C527590"
 			(at 109.22 54.61 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C527590"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -6682,7 +6682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C527590"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C527590"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -7600,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -8471,7 +8471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 68.58 0)
 			(effects
 				(font

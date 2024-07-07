@@ -610,7 +610,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -622,7 +622,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -2690,21 +2690,21 @@
 		(fields_autoplaced yes)
 		(uuid "1b52b24e-1da8-44d9-8477-7d75d6b54d74")
 		(property "Reference" "R54"
-			(at 143.51 64.7699 0)
+			(at 148.59 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "560R"
-			(at 143.51 67.3099 0)
+		(property "Value" "680R"
+			(at 148.59 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -2909,7 +2909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "680R"
 			(at 151.13 67.3099 0)
 			(effects
 				(font
@@ -3154,7 +3154,7 @@
 				)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "680R"
 			(at 154.94 72.39 90)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				)
 			)
 		)
-		(property "Value" "560R"
+		(property "Value" "680R"
 			(at 154.94 77.47 90)
 			(effects
 				(font

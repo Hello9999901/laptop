@@ -3752,7 +3752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C527590"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -3784,10 +3784,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db2a27e3-3065-417c-8aa9-8305f40b8f63")
 		(property "Reference" "Y2"
-			(at 82.55 66.7698 0)
+			(at 81.534 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,14 +3794,14 @@
 			)
 		)
 		(property "Value" "12MHz"
-			(at 82.55 69.3098 0)
+			(at 81.534 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -3820,13 +3819,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
-			(at 76.2 72.39 0)
+		(property "Description" "C9002"
+			(at 72.644 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
