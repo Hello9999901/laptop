@@ -10,4 +10,5 @@
   (lib (name "NVME_M_KEY")(type "KiCad")(uri "${KIPRJMOD}/library/NVME_M_KEY.pretty")(options "")(descr ""))
   (lib (name "WIRELESS_E_KEY")(type "KiCad")(uri "${KIPRJMOD}/library/WIRELESS_E_KEY.pretty")(options "")(descr ""))
   (lib (name "microSD_Card")(type "KiCad")(uri "${KIPRJMOD}/library/microSD_Card.pretty")(options "")(descr ""))
+  (lib (name "Audio_Amp")(type "KiCad")(uri "${KIPRJMOD}/library/Audio_Amp_TPA2028D1YZFT/BGA9C50P3X3_162X162X63.pretty")(options "")(descr ""))
 )

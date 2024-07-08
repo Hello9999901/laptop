@@ -8324,7 +8324,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "/Users/byran/Downloads/CM3588_2309.step"
+	(model "${KIPRJMOD}/CM3588 3D/CM3588_3D.step"
 		(offset
 			(xyz -27.3 -35.5 3)
 		)

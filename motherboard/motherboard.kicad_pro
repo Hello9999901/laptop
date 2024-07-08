@@ -573,6 +573,10 @@
     [
       "13f827ac-a41e-48f0-a27a-ac5d9cb10cf1",
       "USB2.0"
+    ],
+    [
+      "d168cefe-cdbf-401a-9d73-1a46286dd06c",
+      "Audio"
     ]
   ],
   "text_variables": {}

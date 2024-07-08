@@ -38613,6 +38613,44 @@
 		)
 	)
 	(sheet
+		(at 292.1 191.77)
+		(size 38.1 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d168cefe-cdbf-401a-9d73-1a46286dd06c")
+		(property "Sheetname" "Audio"
+			(at 292.1 191.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 292.1 222.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 172.72 210.82)
 		(size 26.67 27.94)
 		(fields_autoplaced yes)
