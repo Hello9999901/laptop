@@ -3534,6 +3534,12 @@
 		(uuid "9a745c43-f96b-4931-92df-3283fad5a85c")
 	)
 	(junction
+		(at 165.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f41c2de-1242-4511-bf3a-c1ec7f83c04d")
+	)
+	(junction
 		(at 160.02 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5351,17 +5357,6 @@
 			(justify right bottom)
 		)
 		(uuid "2364ba46-9b17-41cf-a120-e9d0ec6a122e")
-	)
-	(label "+5v"
-		(at 165.1 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b3d836a-1052-40a6-9f78-5a47dd628236")
 	)
 	(label "+3.3V_PCIE"
 		(at 121.92 27.94 0)
@@ -9517,6 +9512,72 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/8b9107a7-7899-4235-bab8-96db30f71454"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ec8457-39d6-46e8-9a25-0ea2e99a93a1")
+		(property "Reference" "#PWR0137"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea858a3b-1cf0-497a-bd03-40a5297379d7")
+		)
+		(instances
+			(project ""
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/8b9107a7-7899-4235-bab8-96db30f71454"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
