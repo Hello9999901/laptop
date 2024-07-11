@@ -1,0 +1,268 @@
+---
+import { getCollection } from "astro:content"
+import PageLayout from "@layouts/PageLayout.astro"
+import ArrowCard from "@components/ArrowCard"
+import StackCard from "@components/StackCard.astro"
+import { SITE, SOCIALS } from "@consts"
+import TwinklingStars from "@components/TwinklingStars.astro"
+import MeteorShower from "@components/MeteorShower.astro"
+import { Markdown } from '@astropub/md'
+
+const posts = (await getCollection("blog"))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
+
+const projects = (await getCollection("projects"))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
+
+const stack = [
+  {
+    text: "KiCAD",
+    icon: "astro",
+    href: "https://kicad.org"
+  },
+  {
+    text: "GNU/Linux",
+    icon: "javascript",
+    href: "https://kernel.org"
+  },
+  {
+    text: "ZMK",
+    icon: "typescript",
+    href: "https://zmk.dev"
+  },
+  {
+    text: "Onshape",
+    icon: "tailwind",
+    href: "https://onshape.com"
+  },
+  {
+    text: "Visual Studio Code",
+    icon: "tailwind",
+    href: "https://code.visualstudio.com"
+  },
+]
+---
+
+<PageLayout title="Home" description={SITE.DESCRIPTION}>
+
+  <!-- Light Mode: Particles -->
+  <div class='absolute inset-0 block dark:hidden'>
+    <div id='particles1' class='fixed inset-0'></div>
+    <div id='particles2' class='fixed inset-0'></div>
+    <div id='particles3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Stars -->
+  <div class='absolute inset-0 bg-black hidden dark:block'>
+    <div id='stars1' class='fixed inset-0'></div>
+    <div id='stars2' class='fixed inset-0'></div>
+    <div id='stars3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Twinkling Stars / Metors -->
+  <div id="galaxy" class="fixed inset-0">
+    <div class="hidden dark:block">
+      <TwinklingStars/>
+      <MeteorShower/>
+    </div>
+  </div>
+
+  <script is:inline src="/js/bg.js"></script>
+
+  <!-- HERO -->
+  <section class="relative h-screen w-full">
+    <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
+      <div id="crescent" class='absolute top-0 left-1/2 -translate-x-1/2 w-[250vw] min-h-[100vh] aspect-square rounded-full p-[1px] bg-gradient-to-b from-black/25 dark:from-white/75 from-0% to-transparent to-5%'>
+        <div id="planet" class='w-full h-full bg-white dark:bg-black rounded-full p-[1px] overflow-hidden flex justify-center'>
+          <div id="blur" class='w-full h-20 rounded-full bg-neutral-900/25 dark:bg-white/25 blur-3xl'/>
+        </div>
+      </div>
+    </div>
+    <div class="animate absolute h-full w-full flex items-center justify-center">
+      <div class='relative w-full h-full flex items-center justify-center'>
+        <div class='p-5 text-center'>
+          <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
+            introducing //
+          </p>
+          <p class='animated text-6xl md:text-7xl lg:text-8xl font-bold text-black dark:text-white'>
+            anyon_e
+          </p>
+          <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
+            A high-end, open source RK3588-based laptop.
+          </p>
+          <p class='animated text-sm md:text-base lg:text-lg opacity-75 font-bold'>
+            // Attempt the impossible
+          </p>
+          <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
+            <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+              Current progress
+            </a>
+            <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
+              Read about the mission
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="relative bg-white dark:bg-black">
+    <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
+
+      <!-- About Section -->
+      <section class="animate">
+        <article class="prose">
+          <Markdown.Inline of={
+            /* Renders `Welcome to my <em>website</em>.` */
+            `# anyon e
+
+*also stylized as anyon_e*
+
+A highly integrated, high end, open source laptop.
+
+Mission: to disprove the idea that technology is either repairable and open or integrated and closed.
+
+#
+
+#### Planned Features:
+
+- RK3588 SoC Motherboard
+  - CM3588-based, up to 32GB of DDR5 2400MHz RAM
+  - USB-C USB3.1 Gen 1 with DisplayPort
+  - Separate USB-C PD controller and port
+  - HDMI Input (maybe)
+  - RP2040 embedded controller
+- World's thinnest wireless mechanical keyboard
+  - nRF52840 SoC
+  - Cherry ULP switches
+- 4K AMOLED 13.3" display
+  - 330 pixels per inch
+- Field-Oriented-Control BLDC input
+- High accuracy trackpad
+  - Azoteq Win 11 certified
+- High performance battery
+  - High discharge/charge ~60Wh Li-Po battery pack
+- Anodized aluminum CNC chassis
+
+#### Unplanned Features:
+
+- 3.5mm headphone port
+  - hardware support complexity
+- webcam/microphone
+  - privacy and system complexity
+  - minimize screen bezel size
+
+#
+
+*[ **an**-yon ]*
+
+*exotic particles whose quantum statistics are neither bosonic nor fermionic.*[^1]
+
+Integrated like bosons, distinct like fermions.
+
+#
+
+Thank you to the Phillips Exeter Academy Science Department for supporting this project.
+*Non Sibi. Knowledge and Goodness. Youth From Every Quarter.* [^2]
+
+[^1]: H. Bartolomei et al. ,Fractional statistics in anyon collisions.Science368,173-177(2020).DOI:10.1126/science.aaz5601
+
+[^2]: Byran Huang's ('25) 2024-25 Fall Term Senior Project. Thank you to my advisors, Mr. Brad Robinson and Mr. Charles Mamolo.
+`
+          } />
+        </article>
+      </section>
+      <!-- Tech Stack Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <p class="font-semibold text-black dark:text-white">
+            Engineered with
+          </p>
+          <div class="flex flex-wrap items-center gap-2 mt-5">
+            {stack.map(item => (
+              <StackCard
+                text={item.text}
+                icon={item.icon}
+                href={item.href}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      <!-- Blog Preview Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <p class="font-semibold text-black dark:text-white">
+              Recent posts
+            </p>
+            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                All posts
+              </span>
+            </a>
+          </div>
+          <ul class="space-y-4">
+            {posts.map((post) => (
+              <li>
+                <ArrowCard entry={post} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- Project Preview Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <p class="font-semibold text-black dark:text-white">
+              Recent projects
+            </p>
+            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                All projects
+              </span>
+            </a>
+          </div>
+          <ul class="space-y-4">
+            {projects.map((project) => (
+              <li>
+                <ArrowCard entry={project} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="animate">
+        <div>
+          <p class="font-semibold text-black dark:text-white italic">
+            Attempt the impossible.
+          </p>
+          <div class="grid grid-cols-4 gap-y-2 mt-4 auto-cols-min">
+            {SOCIALS.map(social => (
+              <div class="col-span-1 flex items-center gap-1">
+                <span class="whitespace-nowrap truncate">
+                  {social.NAME}
+                </span>
+              </div>
+              <div class="col-span-3 truncate">
+                <a href={social.HREF} target="_blank" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+                  <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                    {social.TEXT}
+                  </span>
+                </a>
+              </div>
+            ))}
+        </div>
+      </section>
+    </div>
+  </div>
+</PageLayout>

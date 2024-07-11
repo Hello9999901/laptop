@@ -1,0 +1,16 @@
+---
+type Props = {
+  name: string
+}
+const { name } = Astro.props
+---
+
+<div class="border p-4 bg-yellow-100 text-black">
+  <div>
+    Hello, 
+    <span class="font-semibold">
+      {name}!!!
+    </span>
+  </div>
+  <slot/>
+</div>
