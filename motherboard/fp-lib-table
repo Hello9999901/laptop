@@ -12,4 +12,5 @@
   (lib (name "microSD_Card")(type "KiCad")(uri "${KIPRJMOD}/library/microSD_Card.pretty")(options "")(descr ""))
   (lib (name "Audio_Amp")(type "KiCad")(uri "${KIPRJMOD}/library/Audio_Amp_TPA2028D1YZFT/BGA9C50P3X3_162X162X63.pretty")(options "")(descr ""))
   (lib (name "Headphone_Jack")(type "KiCad")(uri "${KIPRJMOD}/library/Headphone_Jack.pretty")(options "")(descr ""))
+  (lib (name "Ethernet")(type "KiCad")(uri "${KIPRJMOD}/library/L829-1J1T-JM/L829-1J1T-JM.pretty")(options "")(descr ""))
 )

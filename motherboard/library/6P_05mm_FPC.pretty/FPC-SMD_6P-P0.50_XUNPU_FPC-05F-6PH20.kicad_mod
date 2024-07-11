@@ -222,17 +222,17 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "99161789-5841-45a4-bb6c-a739537d6362")
 	)
-	(pad "7" smd rect
-		(at 2.94 1.29)
-		(size 2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "f662eabe-014f-4e23-b076-8e32822d3f6f")
-	)
-	(pad "8" smd rect
+	(pad "MP" smd rect
 		(at -2.94 1.29)
 		(size 2 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4248b869-95c0-4d3f-9c8a-9dd7b03b53c9")
+	)
+	(pad "MP" smd rect
+		(at 2.94 1.29)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f662eabe-014f-4e23-b076-8e32822d3f6f")
 	)
 	(model "/Users/byran/Documents/GitHub/laptop/motherboard/library/6P_05mm_FPC.3dshapes/FPC-SMD_6P-P0.50_XUNPU_FPC-05F-6PH20.wrl"
 		(offset

@@ -706,6 +706,24 @@
 				)
 			)
 			(pin input line
+				(at -19.05 -12.7 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -19.05 1.27 0)
 				(length 3.81)
 				(name "XO"
@@ -12646,7 +12664,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12664,7 +12682,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12682,7 +12700,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12700,7 +12718,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12853,34 +12871,16 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -6.35 180)
-				(length 3.81)
-				(name "SHLD1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SHLD1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 11.43 -8.89 180)
 				(length 3.81)
-				(name "SHLD2"
+				(name "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "SHLD2"
+				(number "SH"
 					(effects
 						(font
 							(size 1.27 1.27)

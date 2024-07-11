@@ -1705,6 +1705,10 @@
 		(uuid "814fbd7d-4944-42ef-8b4f-0b0b57d92e29")
 	)
 	(no_connect
+		(at 170.18 85.09)
+		(uuid "09b21efe-f078-4e22-91cf-2a85ad3bca1d")
+	)
+	(no_connect
 		(at 119.38 85.09)
 		(uuid "0aea032f-0d80-41f3-a5a5-3bd1fdcfbc96")
 	)
@@ -1733,12 +1737,20 @@
 		(uuid "55627a4d-214c-47f9-9470-a7ae16914d1f")
 	)
 	(no_connect
+		(at 170.18 92.71)
+		(uuid "579b14ed-9eac-4a99-99c2-0d9edad31ffd")
+	)
+	(no_connect
 		(at 170.18 146.05)
 		(uuid "5b99a5d6-01f0-4a3c-a009-b1b357293094")
 	)
 	(no_connect
 		(at 119.38 87.63)
 		(uuid "670975c2-a236-4b3e-b0ed-0e3c012b2497")
+	)
+	(no_connect
+		(at 170.18 90.17)
+		(uuid "764e6f2e-1ccc-4780-92cf-04ec88bfb864")
 	)
 	(no_connect
 		(at 170.18 130.81)
@@ -1759,6 +1771,18 @@
 	(no_connect
 		(at 170.18 128.27)
 		(uuid "b48cc8d0-9e99-43be-bfd4-feee0d01ed15")
+	)
+	(no_connect
+		(at 170.18 64.77)
+		(uuid "bb842b2f-4507-4e33-a50e-4d3219c53049")
+	)
+	(no_connect
+		(at 170.18 80.01)
+		(uuid "bfa6f95b-375a-4187-9703-424ac3607a8e")
+	)
+	(no_connect
+		(at 170.18 82.55)
+		(uuid "ee67ff3b-28ac-4e48-8aab-009a5886d5d3")
 	)
 	(no_connect
 		(at 170.18 143.51)
@@ -1841,16 +1865,6 @@
 			(type default)
 		)
 		(uuid "209867ed-7a6a-4e94-842a-ae649ae20e0a")
-	)
-	(wire
-		(pts
-			(xy 110.49 74.93) (xy 119.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d9d4e88-7e74-40ca-8c1f-b276e2d5c27d")
 	)
 	(wire
 		(pts
@@ -2021,6 +2035,16 @@
 			(type default)
 		)
 		(uuid "b1ea28f9-97d0-4787-a8ec-880be34eefc1")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33cfab1-d6b6-42ca-9687-79732c42baad")
 	)
 	(wire
 		(pts
@@ -2492,33 +2516,33 @@
 		(uuid "f3b8a006-3248-44a3-a063-b255b57cab06")
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 111.76 138.43 90)
+		(lib_id "Device:C_Small")
+		(at 107.95 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5110e804-f66f-4fe6-8a92-377d1479c74f")
-		(property "Reference" "R52"
-			(at 111.76 133.35 90)
+		(uuid "0cb9504a-a7e7-4aa4-ac4f-48a1b8beafe6")
+		(property "Reference" "C33"
+			(at 107.9563 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 111.76 135.89 90)
+		(property "Value" "100nF"
+			(at 107.9563 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.76 138.43 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 138.43 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,8 +2559,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 111.76 138.43 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,10 +2569,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "892ce8ec-7e00-4782-b651-36f713fc467d")
+			(uuid "ba00fa98-05ab-434d-8fb4-ca3f9981b94b")
 		)
 		(pin "2"
-			(uuid "ecc1c472-110d-45a2-8f0d-af37b4076b2e")
+			(uuid "035470d6-20ec-4a14-b5e4-66ac369bcf9a")
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/4296e3bb-d60d-4db1-b6b7-692bdef698b7"
+					(reference "C33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2689,24 +2721,24 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 179.07 107.95 90)
+		(at 111.76 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d35a2b4-c143-4777-baed-5c99006844bb")
-		(property "Reference" "R50"
-			(at 179.07 102.87 90)
+		(uuid "95060829-a71a-4316-91e1-06a7d720df47")
+		(property "Reference" "R52"
+			(at 111.76 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 179.07 105.41 90)
+		(property "Value" "2.2k"
+			(at 111.76 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2746,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.07 107.95 0)
+			(at 111.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 107.95 0)
+			(at 111.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2764,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 179.07 107.95 0)
+			(at 111.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,10 +2773,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e9b3215-f04f-4225-84fa-223e69347c62")
+			(uuid "9ee5a104-c84d-4249-b910-c10fce64ae42")
 		)
 		(pin "2"
-			(uuid "66571d0d-27e0-4266-8aa5-e56260f31de7")
+			(uuid "2f70143c-4b1e-462b-a26f-fe0b76470372")
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/4296e3bb-d60d-4db1-b6b7-692bdef698b7"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2811,66 +2851,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 107.95 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c717924b-44f5-467e-9789-1b4ee66dd60f")
-		(property "Reference" "C33"
-			(at 107.9563 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 107.9563 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7713ab5b-1071-444f-bcfa-99389962dce5")
-		)
-		(pin "2"
-			(uuid "7ee57023-3fc1-4cf1-996b-6df1428f6830")
 		)
 	)
 	(symbol
@@ -3128,6 +3108,74 @@
 		)
 		(pin "20"
 			(uuid "620efc14-8f99-4e37-bb07-cd9fdd55e011")
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 179.07 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1eb8b80-d2b0-41bf-a464-63f2f051593a")
+		(property "Reference" "R50"
+			(at 179.07 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 179.07 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06256ea0-656f-41a0-9f02-52d412a07493")
+		)
+		(pin "2"
+			(uuid "3ff93941-b283-4d6f-8111-b905f83bbed0")
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/4296e3bb-d60d-4db1-b6b7-692bdef698b7"
+					(reference "R50")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
