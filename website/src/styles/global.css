@@ -10,13 +10,25 @@
     font-style: normal;
     font-display: swap;
   }
-  
+
   @font-face {
     font-family: "Atkinson";
     src: url("/fonts/atkinson-bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
+  }
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("/fonts/JetBrainsMono-Variable.ttf") format("opentype");
+    font-style: normal;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: "Hubot Sans";
+    src: url("/fonts/Hubot-Sans.ttf") format("opentype");
+    font-style: normal;
+    font-stretch: normal;
   }
 }
 
@@ -25,7 +37,6 @@ html {
   color-scheme: light;
   background-color: white;
   font-family: "Atkinson", sans-serif;
-  
 }
 
 html.dark {

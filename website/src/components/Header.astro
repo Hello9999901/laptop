@@ -14,7 +14,7 @@ import Container from "@components/Container.astro"
           <svg class="size-6 fill-current">
             <use href="/brand.svg#brand"></use>
           </svg>
-          <div>
+          <div class="font-hype text-neutral-600 hover:text-black dark:text-neutral-300 dark:hover:text-white duration-300 ease-in-out">
             {SITE.TITLE}
           </div>
         </a>
@@ -32,8 +32,14 @@ import Container from "@components/Container.astro"
       </nav>
     </div>
 
+
     <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1">
-      <button id="header-theme-button" aria-label={`Toggle light and dark theme`} class={cn("hidden md:flex", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
+      <a href="https://github.com/Hello9999901/laptop" target="_blank" aria-label={`GitHub Source`} class={cn("hidden md:flex", "size-9 rounded-xl p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
+        <svg class="size-full fill-current">
+          <use href="/social.svg#github"></use>
+        </svg>
+      </a>
+      <button id="header-theme-button" aria-label={`Toggle light and dark theme`} class={cn("hidden md:flex", "size-9 rounded-xl p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
         <svg class="size-full block dark:hidden">
           <use href="/ui.svg#sun"></use>
         </svg>
@@ -42,7 +48,7 @@ import Container from "@components/Container.astro"
         </svg>
       </button>
 
-      <button id="header-drawer-button" aria-label={`Toggle drawer open and closed`} class={cn("flex md:hidden", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
+      <button id="header-drawer-button" aria-label={`Toggle drawer open and closed`} class={cn("flex md:hidden", "size-9 rounded-xl p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
         <svg id="drawer-open" class="size-full">
           <use href="/ui.svg#menu"></use>
         </svg>

@@ -1,14 +1,10 @@
 ---
 title: "Project One"
 summary: "Lorem ipsum dolor sit amet"
-date: "Mar 18 2022"
+date: "July 11, 2024"
 draft: false
 tags:
-- Astro
-- Javascript
-- Typescript
-- Tailwind
-- SolidJs
+- KiCAD
 demoUrl: https://astro-sphere-demo.vercel.app
 repoUrl: https://github.com/markhorn-dev/astro-sphere
 ---

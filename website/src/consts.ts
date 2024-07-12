@@ -38,10 +38,6 @@ export const LINKS: Links = [
     HREF: "/",
   },
   {
-    TEXT: "GitHub Source",
-    HREF: "https://github.com/Hello9999901/laptop",
-  },
-  {
     TEXT: "Soon!",
     HREF: "/.",
   },

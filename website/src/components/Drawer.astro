@@ -17,15 +17,9 @@ const subpath = pathname.match(/[^/]+/g)
   </nav>
 
   <div class="flex gap-1 mt-5">
-    <a href="/search" aria-label={`Search blog posts and projects on ${SITE.TITLE}`} class={cn("size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out", pathname === "/search" || "/" + subpath?.[0] === "search" ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black" : "")}>
-      <svg class="size-full">
-        <use href="/ui.svg#search"></use>
-      </svg>
-    </a>
-
-    <a href="/rss.xml" target="_blank" aria-label={`Rss feed for ${SITE.TITLE}`} class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out">
-      <svg class="size-full">
-        <use href="/ui.svg#rss"></use>
+    <a href="https://github.com/Hello9999901/laptop" target="_blank" aria-label={`GitHub Source`} class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out">
+      <svg class="size-full fill-current">
+        <use href="/social.svg#github"></use>
       </svg>
     </a>
 

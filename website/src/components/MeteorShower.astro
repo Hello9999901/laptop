@@ -10,7 +10,7 @@
 <div id="meteors">
   <!-- rotations defined in base.css & tailwind.config.mjs -->
   <div class="shower ur" />
-  <div class="shower dr" /> 
+  <div class="shower dr" />
   <div class="shower dl" />
   <div class="shower ul" />
 </div>
@@ -22,7 +22,7 @@
   meteor.setAttribute("class", "meteor");
   meteor.style.left = Math.round(Math.random() * window.innerWidth) + "px";
   meteor.style.top  = Math.round(Math.random() * window.innerHeight) + "px";
-  
+
   // append the meteor to a random meteor shower (direction)
   const showers = document.querySelectorAll(".shower");
   if (showers.length > 0) {
@@ -38,5 +38,5 @@
 }
 
 // Create meteors on interval on two (2) seconds
-setInterval(createMeteor, 1500);
+setInterval(createMeteor, 500);
 </script>

@@ -8,11 +8,6 @@ import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 import { Markdown } from '@astropub/md'
 
-const posts = (await getCollection("blog"))
-  .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,3)
-
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
@@ -20,28 +15,28 @@ const projects = (await getCollection("projects"))
 
 const stack = [
   {
-    text: "KiCAD",
-    icon: "astro",
+    text: "KiCAD EDA",
+    icon: "kicad_logo",
     href: "https://kicad.org"
   },
   {
     text: "GNU/Linux",
-    icon: "javascript",
+    icon: "linux_logo",
     href: "https://kernel.org"
   },
   {
-    text: "ZMK",
-    icon: "typescript",
+    text: "ZMK Project",
+    icon: "zmk_logo",
     href: "https://zmk.dev"
   },
   {
-    text: "Onshape",
-    icon: "tailwind",
+    text: "PTC Onshape",
+    icon: "onshape_logo",
     href: "https://onshape.com"
   },
   {
     text: "Visual Studio Code",
-    icon: "tailwind",
+    icon: "vscode_logo",
     href: "https://code.visualstudio.com"
   },
 ]
@@ -50,23 +45,15 @@ const stack = [
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
-  <div class='absolute inset-0 block dark:hidden'>
+  <div class='absolute inset-0 block dark:invert'>
     <div id='particles1' class='fixed inset-0'></div>
     <div id='particles2' class='fixed inset-0'></div>
     <div id='particles3' class='fixed inset-0'></div>
   </div>
 
-  <!-- Dark Theme: Stars -->
-  <div class='absolute inset-0 bg-black hidden dark:block'>
-    <div id='stars1' class='fixed inset-0'></div>
-    <div id='stars2' class='fixed inset-0'></div>
-    <div id='stars3' class='fixed inset-0'></div>
-  </div>
-
   <!-- Dark Theme: Twinkling Stars / Metors -->
   <div id="galaxy" class="fixed inset-0">
-    <div class="hidden dark:block">
-      <TwinklingStars/>
+    <div class="invert dark:invert-0">
       <MeteorShower/>
     </div>
   </div>
@@ -85,23 +72,23 @@ const stack = [
     <div class="animate absolute h-full w-full flex items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
-          <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
-            introducing //
+          <p class='animated text-lg md:text-xl lg:text-2xl tracking-wide opacity-75'>
+            Introducing //
           </p>
-          <p class='animated text-6xl md:text-7xl lg:text-8xl font-bold text-black dark:text-white'>
+          <p class='animated font-hype text-6xl md:text-7xl lg:text-8xl font-bold text-black dark:text-white transition-all'>
             anyon_e
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
             A high-end, open source RK3588-based laptop.
           </p>
-          <p class='animated text-sm md:text-base lg:text-lg opacity-75 font-bold'>
-            // Attempt the impossible
+          <p class='animated text-sm md:text-base lg:text-lg opacity-75 font-bold tracking-wide'>
+            // Attempt the impossible.
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+            <a href='/progress' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
               Current progress
             </a>
-            <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
+            <a href='/posts' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
               Read about the mission
             </a>
           </div>
@@ -193,40 +180,17 @@ Thank you to the Phillips Exeter Academy Science Department for supporting this 
           </div>
         </div>
       </section>
-      <!-- Blog Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent posts
-            </p>
-            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All posts
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {posts.map((post) => (
-              <li>
-                <ArrowCard entry={post} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
 
       <!-- Project Preview Section -->
       <section class="animate">
         <div class="space-y-4">
           <div class="flex justify-between">
             <p class="font-semibold text-black dark:text-white">
-              Recent projects
+              Recent posts
             </p>
-            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+            <a href="/posts" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All projects
+                All posts
               </span>
             </a>
           </div>
