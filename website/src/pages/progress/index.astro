@@ -3,13 +3,13 @@ import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import TopLayout from "@layouts/TopLayout.astro"
 import BottomLayout from "@layouts/BottomLayout.astro"
-import { WORK } from "@consts"
+import { PROGRESS } from "@consts"
 
-const collection = await getCollection("work")
+const collection = await getCollection("progress")
 
 collection.sort((a, b) => new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime())
 
-const work = await Promise.all(
+const progress = await Promise.all(
   collection.map(async (item) => {
     const { Content } = await item.render()
     return { ...item, Content }
@@ -28,16 +28,16 @@ function formatWorkDate(input: Date | string) {
 }
 ---
 
-<PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
+<PageLayout title={PROGRESS.TITLE} description={PROGRESS.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {WORK.TITLE}
+      {PROGRESS.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>
     <ul>
-      { 
-        work.map((entry) => (
+      {
+        progress.map((entry) => (
           <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
             <div class="text-sm uppercase mb-4">
               {formatWorkDate(entry.data.dateStart)} - {formatWorkDate(entry.data.dateEnd)}

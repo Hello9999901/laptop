@@ -8,8 +8,8 @@ import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 import { Markdown } from '@astropub/md'
 
-const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
+const posts = (await getCollection("posts"))
+  .filter(post => !post.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
@@ -195,9 +195,9 @@ Thank you to the Phillips Exeter Academy Science Department for supporting this 
             </a>
           </div>
           <ul class="space-y-4">
-            {projects.map((project) => (
+            {posts.map((post) => (
               <li>
-                <ArrowCard entry={project} />
+                <ArrowCard entry={post} />
               </li>
             ))}
           </ul>

@@ -7,10 +7,10 @@ export const SITE: Site = {
   AUTHOR: "Byran Huang",
 }
 
-// Work Page
-export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+// Progress Page
+export const PROGRESS: Page = {
+  TITLE: "Progress",
+  DESCRIPTION: "Current progress, timeline, and milestones.",
 }
 
 // Blog Page
@@ -19,10 +19,10 @@ export const BLOG: Page = {
   DESCRIPTION: "Writing on topics I am passionate about.",
 }
 
-// Projects Page
-export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+// Posts Page
+export const POSTS: Page = {
+  TITLE: "Posts",
+  DESCRIPTION: "Updates on the development of anyon_e.",
 }
 
 // Search Page

@@ -5,17 +5,17 @@ import { cn } from "@lib/utils"
 
 type Props = {
   tags: string[]
-  data: CollectionEntry<"projects">[]
+  data: CollectionEntry<"posts">[]
 }
 
-export default function Projects({ data, tags }: Props) {
+export default function Posts({ data, tags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>())
-  const [projects, setProjects] = createSignal<CollectionEntry<"projects">[]>([])
+  const [posts, setPosts] = createSignal<CollectionEntry<"posts">[]>([])
 
   createEffect(() => {
-    setProjects(data.filter((entry) => 
-      Array.from(filter()).every((value) => 
-        entry.data.tags.some((tag:string) => 
+    setPosts(data.filter((entry) =>
+      Array.from(filter()).every((value) =>
+        entry.data.tags.some((tag:string) =>
           tag.toLowerCase() === String(value).toLowerCase()
         )
       )
@@ -23,9 +23,9 @@ export default function Projects({ data, tags }: Props) {
   })
 
   function toggleTag(tag: string) {
-    setFilter((prev) => 
-      new Set(prev.has(tag) 
-        ? [...prev].filter((t) => t !== tag) 
+    setFilter((prev) =>
+      new Set(prev.has(tag)
+        ? [...prev].filter((t) => t !== tag)
         : [...prev, tag]
       )
     )
@@ -56,12 +56,12 @@ export default function Projects({ data, tags }: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {projects().length} OF {data.length} PROJECTS
+            SHOWING {posts().length} OF {data.length} POSTS
           </div>
           <ul class="flex flex-col gap-3">
-            {projects().map((project) => (
+            {posts().map((post) => (
               <li>
-                <ArrowCard entry={project} />
+                <ArrowCard entry={post} />
               </li>
             ))}
           </ul>
