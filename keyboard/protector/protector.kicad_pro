@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.01
         }
       },
       "diff_pair_dimensions": [
@@ -116,10 +116,10 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.2,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -178,12 +178,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.127,
-        0.2,
-        0.5,
-        0.6199,
-        0.7
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -215,10 +210,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -458,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keyboard.kicad_pro",
+    "filename": "protector.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -496,7 +487,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "keyboard.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -617,16 +608,8 @@
   },
   "sheets": [
     [
-      "b7d3f851-0752-4e3e-bd6d-3affc9fb3bff",
+      "911555b4-9d12-4406-8f0b-84e7061791df",
       "Root"
-    ],
-    [
-      "8a7a807d-1631-4def-b093-3afd7da15c20",
-      "nRF52840"
-    ],
-    [
-      "718055ec-4a25-4491-b657-7d47af064dce",
-      "Key Matrix"
     ]
   ],
   "text_variables": {}

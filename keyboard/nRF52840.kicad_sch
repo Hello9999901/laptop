@@ -242,7 +242,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -254,7 +254,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -316,6 +316,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -326,17 +337,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -543,6 +543,42 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08) hide
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08) hide
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4605,9 +4641,9 @@
 		)
 		(uuid "5c2f7d57-b6ab-4351-9f62-53e585a00475")
 	)
-	(text "ISET: 54mA"
+	(text "ISET: 540/2700 = 200mA"
 		(exclude_from_sim no)
-		(at 266.192 141.224 0)
+		(at 260.096 141.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7471,6 +7507,28 @@
 			)
 		)
 	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 326.39 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "171a0486-b5ff-4f91-aefd-e00d397fccac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.7848 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWC"
 		(shape input)
 		(at 110.49 210.82 180)
@@ -7841,6 +7899,28 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 326.39 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "910c3c8f-860f-4cac-91f9-959f5aebd1be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 318.5062 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 342.9 132.08 0)
@@ -7902,6 +7982,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 326.39 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a558495f-1a37-4dcf-8d6f-5de604e79633")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.7848 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8404,7 +8506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.7k"
 			(at 276.098 137.16 0)
 			(effects
 				(font
@@ -11315,6 +11417,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 331.47 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "829e55c3-a365-4c75-bd1f-5981c3bcf688")
+		(property "Reference" "J2"
+			(at 334.01 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB POGO"
+			(at 334.01 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 331.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 331.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b36adf2e-e4f5-49b8-b948-92b35e919f4d")
+		)
+		(pin "2"
+			(uuid "76bddd56-2529-40a6-b95a-1caa96df8149")
+		)
+		(pin "3"
+			(uuid "0332a12f-7ef6-4a40-a779-099cb66d69f8")
+		)
+		(pin "4"
+			(uuid "96bb71df-deed-4837-a5ea-671df02e6352")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b7d3f851-0752-4e3e-bd6d-3affc9fb3bff/8a7a807d-1631-4def-b093-3afd7da15c20"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 332.74 125.73 270)
 		(unit 1)
@@ -12275,9 +12453,9 @@
 		(at 91.44 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9f87a6a1-2f0c-49ba-aa15-f1dcb89bf513")
 		(property "Reference" "J3"
@@ -12793,6 +12971,72 @@
 			(project "keyboard"
 				(path "/b7d3f851-0752-4e3e-bd6d-3affc9fb3bff/8a7a807d-1631-4def-b093-3afd7da15c20"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa56deb4-6cb4-4a19-9263-071e1c7fc434")
+		(property "Reference" "#PWR020"
+			(at 326.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d338f3a-cc78-4176-838a-1d96c106ae66")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b7d3f851-0752-4e3e-bd6d-3affc9fb3bff/8a7a807d-1631-4def-b093-3afd7da15c20"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13498,6 +13742,12 @@
 		)
 		(pin "A12"
 			(uuid "678d8feb-f7af-492b-bd0d-7a681d778f84")
+		)
+		(pin "B6"
+			(uuid "39b5f41c-38b0-4b34-9f30-29a22f335aeb")
+		)
+		(pin "B7"
+			(uuid "9487063b-617a-4165-8ccb-099e2ae5b8b2")
 		)
 		(instances
 			(project ""
@@ -15233,9 +15483,9 @@
 		(at 279.4 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb540cbd-b1d6-40fa-8047-1126f5f5a917")
 		(property "Reference" "J1"
@@ -15247,7 +15497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pico-EZmate"
+		(property "Value" "BATT"
 			(at 281.94 113.0299 0)
 			(effects
 				(font
@@ -15256,7 +15506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 279.4 110.49 0)
 			(effects
 				(font
