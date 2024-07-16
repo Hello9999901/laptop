@@ -29673,7 +29673,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "c46118b6-b074-4826-a1de-8ef15c04ce33")
 			(effects
@@ -29684,7 +29684,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "d6c14372-c519-47b0-b9ed-f547405ba563")
 			(effects
@@ -35353,7 +35353,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "69fc87db-1846-44cc-b4a6-07766f13a8f0")
 			(effects
@@ -35364,7 +35364,7 @@
 			)
 		)
 		(property "Value" "USB POGO"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "88cc9835-13d4-417a-900d-2ffba220bc0e")
 			(effects
@@ -47881,7 +47881,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "3c37844f-28f4-46c5-b17b-ed5d6912b893")
 			(effects
@@ -47892,7 +47892,7 @@
 			)
 		)
 		(property "Value" "Debug"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "a84257de-a788-4f14-9ba9-2cee1db50863")
 			(effects
