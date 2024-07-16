@@ -6131,7 +6131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -6266,7 +6266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C9006"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 139.7 94.488 0)
 			(effects
 				(font
@@ -7541,7 +7541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 121.92 30.48 0)
 			(effects
 				(font
@@ -9026,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N:SOP65P640X120-20N"
+		(property "Footprint" "SOP65P640X120-20N"
 			(at 204.47 160.96 0)
 			(effects
 				(font
@@ -9219,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C913515"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 55.626 18.288 0)
 			(effects
 				(font
@@ -9898,7 +9898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C913515"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.768 27.686 0)
 			(effects
 				(font
@@ -10646,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 41.91 0)
 			(effects
 				(font

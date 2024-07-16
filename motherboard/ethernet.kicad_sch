@@ -656,7 +656,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 -19.431) (xy -1.778 -21.082)
+						(xy -2.794 -19.431) (xy -0.762 -19.431)
 					)
 					(stroke
 						(width 0.254)
@@ -668,7 +668,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 -19.431) (xy -0.762 -19.431)
+						(xy -2.794 -19.431) (xy -1.778 -21.082)
 					)
 					(stroke
 						(width 0.254)
@@ -704,7 +704,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -10.922) (xy -1.27 -10.922)
+						(xy -2.54 -10.922) (xy -1.524 -9.271)
 					)
 					(stroke
 						(width 0.254)
@@ -716,7 +716,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -10.922) (xy -1.524 -9.271)
+						(xy -2.54 -10.922) (xy -1.27 -10.922)
 					)
 					(stroke
 						(width 0.254)
@@ -752,7 +752,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -17.78) (xy 0 -17.78)
+						(xy -1.778 -17.78) (xy -1.778 -19.304)
 					)
 					(stroke
 						(width 0.1524)
@@ -764,7 +764,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -17.78) (xy -1.778 -19.304)
+						(xy -1.778 -17.78) (xy 0 -17.78)
 					)
 					(stroke
 						(width 0.1524)
@@ -860,7 +860,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -17.78) (xy 0 -16.51)
+						(xy 0 -17.78) (xy 1.778 -17.78)
 					)
 					(stroke
 						(width 0.1524)
@@ -872,7 +872,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -17.78) (xy 1.778 -17.78)
+						(xy 0 -17.78) (xy 0 -16.51)
 					)
 					(stroke
 						(width 0.1524)
@@ -2292,7 +2292,7 @@
 			)
 			(symbol "ACM2012_Common_Mode_Choke_1_1"
 				(pin passive line
-					(at -2.54 1.27 0)
+					(at -2.54 -1.27 0)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -2310,7 +2310,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -1.27 0)
+					(at -2.54 1.27 0)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -2328,7 +2328,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -1.27 180)
+					(at 2.54 1.27 180)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -2346,7 +2346,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 1.27 180)
+					(at 2.54 -1.27 180)
 					(length 0.9525)
 					(name ""
 						(effects

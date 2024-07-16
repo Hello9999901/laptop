@@ -3944,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -4153,7 +4153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -5646,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -5860,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
 			(at 190.5 137.16 0)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SPI Flash"
+		(property "Description" "8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
 			(at 190.5 137.16 0)
 			(effects
 				(font
@@ -6229,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 196.85 121.92 0)
 			(effects
 				(font

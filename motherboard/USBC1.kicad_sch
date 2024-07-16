@@ -450,17 +450,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -471,6 +460,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -2019,6 +2019,17 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -6.604) (xy 0 -7.62)
@@ -2029,17 +2040,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -2574,7 +2574,7 @@
 			)
 			(symbol "ACM2012_Common_Mode_Choke_1_1"
 				(pin passive line
-					(at -2.54 1.27 0)
+					(at -2.54 -1.27 0)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -2592,7 +2592,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -1.27 0)
+					(at -2.54 1.27 0)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -2610,7 +2610,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -1.27 180)
+					(at 2.54 1.27 180)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -2628,7 +2628,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 1.27 180)
+					(at 2.54 -1.27 180)
 					(length 0.9525)
 					(name ""
 						(effects
@@ -7051,7 +7051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 125.73 40.64 0)
 			(effects
 				(font
@@ -7187,7 +7187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -7326,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -8035,7 +8035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 40.64 0)
 			(effects
 				(font
@@ -8169,7 +8169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 109.22 0)
 			(effects
 				(font

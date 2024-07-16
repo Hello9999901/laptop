@@ -2757,7 +2757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -3106,7 +3106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 240.03 110.49 0)
 			(effects
 				(font
@@ -3393,7 +3393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -4218,7 +4218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C9002"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 72.644 68.326 0)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 162.56 110.49 0)
 			(effects
 				(font

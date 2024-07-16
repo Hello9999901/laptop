@@ -150,7 +150,7 @@
 		)
 		(symbol "ACM2012_Common_Mode_Choke_1_1"
 			(pin passive line
-				(at -2.54 1.27 0)
+				(at -2.54 -1.27 0)
 				(length 0.9525)
 				(name ""
 					(effects
@@ -168,7 +168,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -1.27 0)
+				(at -2.54 1.27 0)
 				(length 0.9525)
 				(name ""
 					(effects
@@ -186,7 +186,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -1.27 180)
+				(at 2.54 1.27 180)
 				(length 0.9525)
 				(name ""
 					(effects
@@ -204,7 +204,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 1.27 180)
+				(at 2.54 -1.27 180)
 				(length 0.9525)
 				(name ""
 					(effects

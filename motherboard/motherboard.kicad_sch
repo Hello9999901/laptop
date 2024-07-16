@@ -37334,7 +37334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 373.38 200.66 0)
 			(effects
 				(font
@@ -38017,7 +38017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 420.37 212.09 0)
 			(effects
 				(font
@@ -38620,7 +38620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C527590"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 416.56 212.09 0)
 			(effects
 				(font
