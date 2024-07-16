@@ -13765,20 +13765,6 @@
 		)
 		(uuid "5d219063-ef04-428f-b31f-6e8724346770")
 	)
-	(text "@TODO: need way to accept 5v"
-		(exclude_from_sim no)
-		(at 97.536 196.088 0)
-		(effects
-			(font
-				(face "JetBrains Mono NL")
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-				(italic yes)
-			)
-		)
-		(uuid "7f52d634-5125-4603-8786-c090d7ccc43c")
-	)
 	(text "custom selected gpio"
 		(exclude_from_sim no)
 		(at 238.252 302.514 0)
