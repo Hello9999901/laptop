@@ -3,10 +3,9 @@ import { defineCollection, z } from "astro:content"
 const progress = defineCollection({
   type: "content",
   schema: z.object({
-    company: z.string(),
-    role: z.string(),
-    dateStart: z.coerce.date(),
-    dateEnd: z.union([z.coerce.date(), z.string()]),
+    title: z.string(),
+    hash: z.string(),
+    dateStart: z.union([z.coerce.date(), z.string()]),
   }),
 })
 

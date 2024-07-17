@@ -26,6 +26,7 @@
     "astro": "^4.4.13",
     "clsx": "^2.1.0",
     "fuse.js": "^7.0.0",
+    "react-icons": "^5.2.1",
     "sharp": "^0.33.2",
     "solid-js": "^1.8.15",
     "tailwind-merge": "^2.2.1",

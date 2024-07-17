@@ -1,59 +1,83 @@
 ---
-import { getCollection } from "astro:content"
-import PageLayout from "@layouts/PageLayout.astro"
-import TopLayout from "@layouts/TopLayout.astro"
-import BottomLayout from "@layouts/BottomLayout.astro"
-import { PROGRESS } from "@consts"
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+import { PROGRESS } from "@consts";
 
-const collection = await getCollection("progress")
+const collection = await getCollection("progress");
 
-collection.sort((a, b) => new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime())
+collection.sort(
+	(a, b) =>
+		new Date(b.data.dateStart).getTime() -
+		new Date(a.data.dateStart).getTime()
+);
 
 const progress = await Promise.all(
-  collection.map(async (item) => {
-    const { Content } = await item.render()
-    return { ...item, Content }
-  })
-)
+	collection.map(async (item) => {
+		const { Content } = await item.render();
+		return { ...item, Content };
+	})
+);
 
 function formatWorkDate(input: Date | string) {
-  if (typeof input === "string") return input
+	if (typeof input === "string") return input;
 
-  const month = input.toLocaleDateString("en-US", {
-    month: "short",
-  })
+	const month = input.toLocaleDateString("en-US", {
+		month: "long",
+	});
 
-  const year = new Date(input).getFullYear()
-  return `${month} ${year}`
+	const year = new Date(input).getFullYear();
+	const day = new Date(input).getDate();
+	return `${month} ${day}, ${year}`;
 }
 ---
 
 <PageLayout title={PROGRESS.TITLE} description={PROGRESS.DESCRIPTION}>
-  <TopLayout>
-    <div class="animate page-heading">
-      {PROGRESS.TITLE}
-    </div>
-  </TopLayout>
-  <BottomLayout>
-    <ul>
-      {
-        progress.map((entry) => (
-          <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
-            <div class="text-sm uppercase mb-4">
-              {formatWorkDate(entry.data.dateStart)} - {formatWorkDate(entry.data.dateEnd)}
-            </div>
-            <div class="text-black dark:text-white font-semibold">
-              {entry.data.company}
-            </div>
-            <div class="text-sm font-semibold">
-              {entry.data.role}
-            </div>
-            <article class="prose dark:prose-invert">
-              <entry.Content />
-            </article>
-          </li>
-        ))
-      }
-    </ul>
-  </BottomLayout>
+	<TopLayout>
+		<div class="animate page-heading text-3xl">
+			{PROGRESS.TITLE}
+		</div>
+		<span class="animate">
+			A rough timeline of the development that is occuring. The "HASH
+			&lt;0000000&gt;" is a rough timestamp, linked to that specific
+			commit on GitHub. The title of the commit might not match up with
+			the descriptions below as documentation and development occur
+			asynchronously.
+		</span>
+	</TopLayout>
+	<BottomLayout>
+		<ul>
+			{
+				progress.map((entry) => (
+					<li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
+						<div class="text-sm uppercase mb-4">
+							{formatWorkDate(entry.data.dateStart)}
+						</div>
+						<div class="text-black dark:text-white font-semibold text-lg">
+							{entry.data.title}
+						</div>
+						<a
+							href={
+								"https://github.com/Hello9999901/laptop/commit/" +
+								entry.data.hash
+							}
+							target="_blank"
+						>
+							<div class="text-sm font-semibold flex">
+								HASH &lt;
+								<span class="font-hype dark:text-neutral-300 truncate text-clip max-w-[7ch] block dark:hover:text-gray-50 hover:text-neutral-500 duration-300 transition">
+									{entry.data.hash}
+								</span>
+								&gt;
+							</div>
+						</a>
+						<article class="prose dark:prose-invert">
+							<entry.Content />
+						</article>
+					</li>
+				))
+			}
+		</ul>
+	</BottomLayout>
 </PageLayout>
