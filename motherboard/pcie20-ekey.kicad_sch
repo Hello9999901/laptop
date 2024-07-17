@@ -1300,141 +1300,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1704,6 +1569,17 @@
 		)
 		(uuid "814fbd7d-4944-42ef-8b4f-0b0b57d92e29")
 	)
+	(text "ac coupling caps built into cm3588"
+		(exclude_from_sim no)
+		(at 76.454 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdb65170-2e6a-4202-b4b3-993fb100cc33")
+	)
 	(no_connect
 		(at 170.18 85.09)
 		(uuid "09b21efe-f078-4e22-91cf-2a85ad3bca1d")
@@ -1828,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 105.41 74.93)
+			(xy 102.87 74.93) (xy 119.38 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 111.76 77.47)
+			(xy 102.87 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2038,16 +1914,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 74.93) (xy 119.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33cfab1-d6b6-42ca-9687-79732c42baad")
-	)
-	(wire
-		(pts
 			(xy 102.87 146.05) (xy 119.38 146.05)
 		)
 		(stroke
@@ -2085,16 +1951,6 @@
 			(type default)
 		)
 		(uuid "cb3fce27-da33-40ba-83a8-e74803b1bb87")
-	)
-	(wire
-		(pts
-			(xy 116.84 77.47) (xy 119.38 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a1d145-2bad-4bec-b02d-2c52eca25085")
 	)
 	(wire
 		(pts
@@ -2514,142 +2370,6 @@
 			(justify right)
 		)
 		(uuid "f3b8a006-3248-44a3-a063-b255b57cab06")
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 107.95 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cb9504a-a7e7-4aa4-ac4f-48a1b8beafe6")
-		(property "Reference" "C33"
-			(at 107.9563 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 107.9563 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba00fa98-05ab-434d-8fb4-ca3f9981b94b")
-		)
-		(pin "2"
-			(uuid "035470d6-20ec-4a14-b5e4-66ac369bcf9a")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/4296e3bb-d60d-4db1-b6b7-692bdef698b7"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 114.3 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c2b8afa-f13b-4066-aa98-b00a976c2588")
-		(property "Reference" "C34"
-			(at 114.3063 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 114.3063 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 114.3 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 114.3 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34467230-54a7-4494-ba27-de0a334c5cc0")
-		)
-		(pin "2"
-			(uuid "6d456c41-9db3-487c-a573-4b7d0ede0366")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/4296e3bb-d60d-4db1-b6b7-692bdef698b7"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")

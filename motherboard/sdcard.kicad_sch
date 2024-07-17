@@ -807,17 +807,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -6.604) (xy 0 -7.62)
@@ -828,6 +817,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -2497,7 +2497,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 139.7 132.08 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 92.71 132.08 0)
 			(effects
 				(font

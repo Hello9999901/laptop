@@ -620,7 +620,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 -9.271) (xy -2.54 -10.922)
+						(xy -3.556 -9.271) (xy -1.524 -9.271)
 					)
 					(stroke
 						(width 0.254)
@@ -632,7 +632,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 -9.271) (xy -1.524 -9.271)
+						(xy -3.556 -9.271) (xy -2.54 -10.922)
 					)
 					(stroke
 						(width 0.254)
@@ -704,7 +704,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -10.922) (xy -1.524 -9.271)
+						(xy -2.54 -10.922) (xy -1.27 -10.922)
 					)
 					(stroke
 						(width 0.254)
@@ -716,7 +716,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -10.922) (xy -1.27 -10.922)
+						(xy -2.54 -10.922) (xy -1.524 -9.271)
 					)
 					(stroke
 						(width 0.254)
@@ -752,7 +752,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -17.78) (xy -1.778 -19.304)
+						(xy -1.778 -17.78) (xy 0 -17.78)
 					)
 					(stroke
 						(width 0.1524)
@@ -764,7 +764,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -17.78) (xy 0 -17.78)
+						(xy -1.778 -17.78) (xy -1.778 -19.304)
 					)
 					(stroke
 						(width 0.1524)
@@ -860,7 +860,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -17.78) (xy 1.778 -17.78)
+						(xy 0 -17.78) (xy 0 -16.51)
 					)
 					(stroke
 						(width 0.1524)
@@ -872,7 +872,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -17.78) (xy 0 -16.51)
+						(xy 0 -17.78) (xy 1.778 -17.78)
 					)
 					(stroke
 						(width 0.1524)
@@ -920,7 +920,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -21.082) (xy 0.762 -19.431)
+						(xy 1.778 -21.082) (xy 0.508 -21.082)
 					)
 					(stroke
 						(width 0.254)
@@ -932,7 +932,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -21.082) (xy 0.508 -21.082)
+						(xy 1.778 -21.082) (xy 0.762 -19.431)
 					)
 					(stroke
 						(width 0.254)
@@ -1737,6 +1737,18 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -6.604) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 -6.604)
 					(radius 0.2794)
@@ -1750,7 +1762,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -6.604) (xy 0 -7.62)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -1763,18 +1775,6 @@
 				(polyline
 					(pts
 						(xy 0.635 0.889) (xy -0.635 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -3109,6 +3109,17 @@
 		)
 		(uuid "00f172a2-a925-41aa-8cc6-4f2bf98dddf8")
 	)
+	(label "P0"
+		(at 90.17 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "059dd409-e6e5-4d91-9138-5b7fe2dcb619")
+	)
 	(label "CT2"
 		(at 115.57 60.96 0)
 		(fields_autoplaced yes)
@@ -3130,6 +3141,28 @@
 			(justify left bottom)
 		)
 		(uuid "085060c6-3ecc-4609-b11c-1118cf8175c7")
+	)
+	(label "P3"
+		(at 171.45 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a873cb7-629b-4859-ad24-1fc6794676fb")
+	)
+	(label "P1"
+		(at 115.57 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fb05412-24bf-4a61-8a98-ff39245ccab2")
 	)
 	(label "N0"
 		(at 165.1 35.56 0)
@@ -3241,6 +3274,17 @@
 		)
 		(uuid "82e10cbc-cadf-4168-afc6-96c7767dcbdc")
 	)
+	(label "P2"
+		(at 146.05 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ba41392-7c89-49ea-9255-8e08cedd90cf")
+	)
 	(label "CT3"
 		(at 171.45 54.61 0)
 		(fields_autoplaced yes)
@@ -3262,6 +3306,17 @@
 			(justify left bottom)
 		)
 		(uuid "8c17cf2b-1335-41cc-a3ee-23587b3f441a")
+	)
+	(label "N0"
+		(at 90.17 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eee97a7-5dec-44f7-ac46-a6a8568258b6")
 	)
 	(label "N1"
 		(at 115.57 119.38 0)
@@ -3297,6 +3352,28 @@
 		(uuid "afdc0add-4d1b-4202-95b4-15403af0db96")
 	)
 	(label "N2"
+		(at 146.05 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2eae29e-55fe-4f61-815d-2cf3d5fddf5d")
+	)
+	(label "N1"
+		(at 115.57 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b576b9b3-57f0-4845-b1a3-b0e42b34bde2")
+	)
+	(label "N2"
 		(at 146.05 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3317,6 +3394,17 @@
 			(justify left bottom)
 		)
 		(uuid "b7a27707-ddf4-4669-9cda-1c95c6569a00")
+	)
+	(label "N3"
+		(at 171.45 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97ac19e-6120-4172-b8ee-8b9c11e139bf")
 	)
 	(label "CT4"
 		(at 171.45 64.77 0)
@@ -3648,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -3848,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 72.39 0)
 			(effects
 				(font
@@ -4640,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -4774,7 +4862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 60.96 0)
 			(effects
 				(font
@@ -4834,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 102.87 106.68 0)
 			(effects
 				(font
@@ -5200,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 158.75 106.68 0)
 			(effects
 				(font

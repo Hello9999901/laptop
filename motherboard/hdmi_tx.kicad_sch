@@ -1294,7 +1294,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -1306,7 +1306,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 121.92 137.16 0)
 			(effects
 				(font
@@ -7705,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -7989,7 +7989,7 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
+		(property "Value" "TPD4E02B04"
 			(at 53.34 137.16 0)
 			(effects
 				(font
