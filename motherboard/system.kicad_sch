@@ -3366,7 +3366,7 @@
 		)
 		(uuid "ff8130d2-cdb0-4ca6-bc18-1047b1cadc61")
 	)
-	(label "PWRON_L"
+	(label "PWRON_L_IN"
 		(at 68.58 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3388,7 +3388,7 @@
 		)
 		(uuid "4c3168dc-827b-4373-90a4-37e485cb367f")
 	)
-	(label "RESET_L"
+	(label "RESET_L_IN"
 		(at 107.95 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3421,7 +3421,7 @@
 		)
 		(uuid "6556807b-0f8d-435f-8d79-af3638732b88")
 	)
-	(label "RESET_L"
+	(label "RESET_L_IN"
 		(at 68.58 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3465,7 +3465,7 @@
 		)
 		(uuid "a16a2840-2d16-42b0-a4bd-6e70cbc74951")
 	)
-	(label "RECOVERY"
+	(label "RECOVERY_IN"
 		(at 68.58 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3476,7 +3476,7 @@
 		)
 		(uuid "b224ab29-b967-49bb-a12f-99f2e6997922")
 	)
-	(label "PWRON_L"
+	(label "PWRON_L_IN"
 		(at 107.95 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3666,18 +3666,6 @@
 			(justify right)
 		)
 		(uuid "efce44a6-09ea-4218-a63c-b520ca089bc6")
-	)
-	(hierarchical_label "VBAT_RTC"
-		(shape input)
-		(at 91.44 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f32a0079-7e12-4299-8294-f5b1dcd2ab1b")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -4135,7 +4123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -6075,7 +6063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 58.42 179.07 0)
 			(effects
 				(font
@@ -6314,76 +6302,6 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 96.52 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a41878b3-c9b3-4f82-b051-56bd5535c763")
-		(property "Reference" "J7"
-			(at 99.06 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RTC BATTERY"
-			(at 99.06 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43f1fc0f-8f5d-494d-871e-2dc3f1c6a296")
-		)
-		(pin "1"
-			(uuid "d82c895b-c7da-4f01-8e2d-0d9c80562286")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7342,72 +7260,6 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
 					(reference "#PWR0160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e20725be-26bd-47c4-a61c-ce7bb05fda83")
-		(property "Reference" "#PWR064"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6d764a5-0765-4c5e-a97c-32fd82547be5")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)

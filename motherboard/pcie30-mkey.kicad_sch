@@ -6114,7 +6114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -6268,7 +6268,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
-			(at 139.7 94.488 0)
+			(at 139.192 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7300,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "58bf8b34-c55f-4a56-9a02-6d9f145a9bed")
 		(property "Reference" "C50"
 			(at 119.38 29.2162 0)
@@ -7320,7 +7319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 30.48 0)
 			(effects
 				(font
@@ -8551,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N"
+		(property "Footprint" "SOP65P640X120-20N:SOP65P640X120-20N"
 			(at 204.47 160.96 0)
 			(effects
 				(font
@@ -10085,7 +10084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 41.91 0)
 			(effects
 				(font

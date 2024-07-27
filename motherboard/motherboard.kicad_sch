@@ -13777,7 +13777,7 @@
 	)
 	(text "2k2 pull up device side"
 		(exclude_from_sim no)
-		(at 119.634 297.434 0)
+		(at 119.888 298.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35034,7 +35034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 190.5 0)
 			(effects
 				(font
@@ -37316,7 +37316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 373.38 200.66 0)
 			(effects
 				(font
@@ -37454,7 +37454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 313.69 179.07 0)
 			(effects
 				(font
@@ -37999,7 +37999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 420.37 212.09 0)
 			(effects
 				(font
@@ -38602,7 +38602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 416.56 212.09 0)
 			(effects
 				(font
@@ -38809,7 +38809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 334.01 179.07 0)
 			(effects
 				(font
@@ -40207,7 +40207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.77 190.5 0)
 			(effects
 				(font
