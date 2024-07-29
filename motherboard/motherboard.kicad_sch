@@ -29853,18 +29853,6 @@
 		)
 		(uuid "0a1e9520-6c8e-4ce5-9a98-6f4467edf93f")
 	)
-	(hierarchical_label "P25G_MDIP1"
-		(shape output)
-		(at 133.35 245.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b385faf-d558-4bd5-895e-b3a5d91a242a")
-	)
 	(hierarchical_label "PCIE30_PORT0_TX1N"
 		(shape output)
 		(at 321.31 281.94 180)
@@ -30549,18 +30537,6 @@
 		)
 		(uuid "251d75cf-2492-426e-befa-469940f7f7d8")
 	)
-	(hierarchical_label "P25G_MDIN2"
-		(shape output)
-		(at 133.35 241.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25dd7fc0-29b6-453d-8fae-a11e9c60162c")
-	)
 	(hierarchical_label "GPIO2_C0"
 		(shape output)
 		(at 68.58 66.04 180)
@@ -31185,18 +31161,6 @@
 		)
 		(uuid "43e44bdd-3495-474b-98e8-027b9fc0c93e")
 	)
-	(hierarchical_label "P25G_MDIP2"
-		(shape output)
-		(at 133.35 238.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "444ddf71-4f31-4831-b5d5-3be382a5f106")
-	)
 	(hierarchical_label "PCIE20_2_RXN"
 		(shape input)
 		(at 245.11 68.58 180)
@@ -31281,18 +31245,6 @@
 		)
 		(uuid "47c55103-2f5b-4bcb-b833-961f3d9e109c")
 	)
-	(hierarchical_label "LED3_25GLAN_25GLED"
-		(shape output)
-		(at 133.35 228.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "48ed579c-46ac-4946-aabd-22ad86e0188b")
-	)
 	(hierarchical_label "GPIO3_C0{slash}TP_INT_L"
 		(shape output)
 		(at 245.11 149.86 180)
@@ -31340,18 +31292,6 @@
 			(justify left)
 		)
 		(uuid "4d3efa52-d0f0-4429-9094-de43b946a0fd")
-	)
-	(hierarchical_label "P25G_MDIN0"
-		(shape output)
-		(at 133.35 254 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d782f31-0f67-4941-8580-bab99385e654")
 	)
 	(hierarchical_label "I2C6_SDA_M0"
 		(shape bidirectional)
@@ -31845,18 +31785,6 @@
 		)
 		(uuid "642af93d-6933-4f97-8b44-780a2241096b")
 	)
-	(hierarchical_label "P25G_MDIN1"
-		(shape output)
-		(at 133.35 247.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64437669-cd62-448a-a64f-293098771995")
-	)
 	(hierarchical_label "MIPI_DPHY0_TX_D1P"
 		(shape output)
 		(at 148.59 91.44 180)
@@ -32241,18 +32169,6 @@
 		)
 		(uuid "71989cc4-6dc3-4b85-ae8c-d89fa8430035")
 	)
-	(hierarchical_label "P25G_MDIN3"
-		(shape output)
-		(at 133.35 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71dcfe97-384b-4ded-8a60-4ea4be5e5a50")
-	)
 	(hierarchical_label "MIPI_DPHY1_RX_D2N"
 		(shape output)
 		(at 191.77 86.36 0)
@@ -32576,18 +32492,6 @@
 			(justify left)
 		)
 		(uuid "80ffc623-5dea-45b3-a407-0be5fa564de6")
-	)
-	(hierarchical_label "P25G_MDIP0"
-		(shape output)
-		(at 133.35 251.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "822c8019-5616-4652-b0b4-588edbfcc790")
 	)
 	(hierarchical_label "HDMITX1_SDA_M1"
 		(shape bidirectional)
@@ -33020,18 +32924,6 @@
 			(justify left)
 		)
 		(uuid "9b7563cb-ccd4-4d48-b61d-459dd04c84b0")
-	)
-	(hierarchical_label "LED2_25GLAN_1GLED"
-		(shape output)
-		(at 133.35 226.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c3048dc-30e5-41b2-aaac-36094f8c0f48")
 	)
 	(hierarchical_label "PCIE30_PORT0_TX0N"
 		(shape output)
@@ -33512,18 +33404,6 @@
 			(justify left)
 		)
 		(uuid "b502fadc-1720-4003-9729-3e844c36a618")
-	)
-	(hierarchical_label "P25G_MDIP3"
-		(shape output)
-		(at 133.35 232.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6342e4f-6f25-4d6e-af95-563c99240bc2")
 	)
 	(hierarchical_label "MIPI_CSI1_RX_D1N"
 		(shape output)
@@ -44632,144 +44512,6 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 133.35 223.52)
-		(size 26.67 34.29)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c30b22a0-12ad-404f-9813-7e2a25c78594")
-		(property "Sheetname" "Ethernet"
-			(at 133.35 222.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 133.35 258.3946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "LED2_25GLAN_1GLED" output
-			(at 133.35 226.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b681441b-1f0e-438e-be75-1e6d85942bc9")
-		)
-		(pin "LED3_25GLAN_25GLED" output
-			(at 133.35 228.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c1e64efe-b147-40d7-9f3e-36180d8fb3de")
-		)
-		(pin "P25G_MDIN2" input
-			(at 133.35 254 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "04a24ed2-fa63-4d87-9482-72f01874f222")
-		)
-		(pin "P25G_MDIP3" input
-			(at 133.35 232.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "49eb58b9-588d-42ae-8489-0ec8afa44074")
-		)
-		(pin "P25G_MDIN3" input
-			(at 133.35 234.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8a87cb94-329d-485e-bc55-3f1e156b14c8")
-		)
-		(pin "P25G_MDIP2" input
-			(at 133.35 251.46 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3bd46358-4265-4e40-9101-dcc24a26be09")
-		)
-		(pin "P25G_MDIP0" input
-			(at 133.35 238.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4faceb4-eed9-4c4d-a85f-a438cec5a5f4")
-		)
-		(pin "P25G_MDIP1" input
-			(at 133.35 245.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7162b11b-2d6b-4d31-9bbe-07e6950abe1a")
-		)
-		(pin "P25G_MDIN0" input
-			(at 133.35 241.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "43e08168-4a23-49b0-ad9a-6263aa1129e2")
-		)
-		(pin "P25G_MDIN1" input
-			(at 133.35 247.65 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1ff70d4a-c9ed-4f44-abca-5c60a21cd7ee")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
-					(page "8")
 				)
 			)
 		)
