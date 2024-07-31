@@ -29757,18 +29757,6 @@
 		)
 		(uuid "047308a5-7b30-4703-82ae-c302bece61f9")
 	)
-	(hierarchical_label "HDMI1_TX2P_PORT"
-		(shape output)
-		(at 254 250.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "04874d04-0c60-4b4a-9634-6e9c1d46a865")
-	)
 	(hierarchical_label "GPIO4_B3"
 		(shape output)
 		(at 245.11 119.38 180)
@@ -30285,6 +30273,18 @@
 		)
 		(uuid "1c267e8f-f96c-4490-b7b3-cb5bc93b6002")
 	)
+	(hierarchical_label "HDMI1_TX3P_PORT"
+		(shape output)
+		(at 254 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c4fb8f1-b89c-4ad6-8012-54509a2ece81")
+	)
 	(hierarchical_label "HDMI1_TX1P_PORT"
 		(shape output)
 		(at 369.57 50.8 180)
@@ -30452,18 +30452,6 @@
 			(justify left)
 		)
 		(uuid "23141a58-5293-4d27-aaf1-1fd39b3e23c8")
-	)
-	(hierarchical_label "HDMI1_TX1P_PORT"
-		(shape output)
-		(at 254 243.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "231700b5-68f3-4322-b528-ed8fa3fe059d")
 	)
 	(hierarchical_label "VDC_MODE"
 		(shape output)
@@ -30885,18 +30873,6 @@
 		)
 		(uuid "376c676c-11df-4882-a599-9a22886dcb2b")
 	)
-	(hierarchical_label "HDMI1_TX2N_PORT"
-		(shape output)
-		(at 254 252.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3885d828-b887-40aa-8e86-60256cc0e5a7")
-	)
 	(hierarchical_label "GPIO2_B7"
 		(shape output)
 		(at 68.58 165.1 180)
@@ -31028,18 +31004,6 @@
 			(justify right)
 		)
 		(uuid "3fda02ad-b555-44db-9291-10218794408f")
-	)
-	(hierarchical_label "HDMI1_TX3N_PORT"
-		(shape output)
-		(at 254 259.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ffd115b-2c17-4312-a422-dc6dcbd26cca")
 	)
 	(hierarchical_label "TYPEC1_SSTX1N"
 		(shape output)
@@ -31209,18 +31173,6 @@
 		)
 		(uuid "45fda89d-4d3b-4c4c-aec0-c181c2dd394f")
 	)
-	(hierarchical_label "HDMI1_TX0N_PORT"
-		(shape output)
-		(at 254 240.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46c2d8ab-a7ba-45bf-b61e-ed7d30e83867")
-	)
 	(hierarchical_label "PCIE20_1_TXN"
 		(shape output)
 		(at 69.85 335.28 180)
@@ -31256,18 +31208,6 @@
 			(justify right)
 		)
 		(uuid "4a5c9e75-1498-4de8-a184-6f90cb7aa225")
-	)
-	(hierarchical_label "HDMI1_TX3P_PORT"
-		(shape output)
-		(at 254 256.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b600267-ddf6-4a2e-83cb-8cb887cb42c7")
 	)
 	(hierarchical_label "MIPI_DPHY1_TX_D3P"
 		(shape output)
@@ -31316,6 +31256,18 @@
 			(justify right)
 		)
 		(uuid "4dd4ea3f-6ff5-4d9c-bc5c-a67d55d2d2c8")
+	)
+	(hierarchical_label "HDMI1_TX0N_PORT"
+		(shape output)
+		(at 254 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4eb3e99a-9a88-4204-917f-f70867dac995")
 	)
 	(hierarchical_label "I2C6_SCL_M0"
 		(shape input)
@@ -31497,6 +31449,18 @@
 		)
 		(uuid "552ecac6-7f56-43ad-8465-f51c73512089")
 	)
+	(hierarchical_label "HDMI1_TX1P_PORT"
+		(shape output)
+		(at 254 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "569c10d3-bd28-435f-b1e6-78bd87301249")
+	)
 	(hierarchical_label "PWRON_L"
 		(shape output)
 		(at 68.58 60.96 180)
@@ -31664,6 +31628,18 @@
 			(justify right)
 		)
 		(uuid "5d81d020-3093-4b0d-87e3-1ed2fd297e5f")
+	)
+	(hierarchical_label "HDMI1_TX0P_PORT"
+		(shape output)
+		(at 254 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5da280c6-38bf-4074-a619-6df0086f3aa3")
 	)
 	(hierarchical_label "GPIO1_D3{slash}PWM1_M1"
 		(shape input)
@@ -31845,18 +31821,6 @@
 		)
 		(uuid "6720d6b6-f985-4dd0-bf67-0ad6d479864f")
 	)
-	(hierarchical_label "HDMI1_TX_SBDP"
-		(shape output)
-		(at 254 231.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "674e220f-575a-42d2-bed1-3621a0785de5")
-	)
 	(hierarchical_label "P25G_MDIN2"
 		(shape output)
 		(at 106.68 154.94 0)
@@ -31881,6 +31845,18 @@
 		)
 		(uuid "67c0dd72-927c-4258-9da4-4e7ea2568454")
 	)
+	(hierarchical_label "HDMI1_TX_SBDN"
+		(shape output)
+		(at 254 259.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "682bb9d7-2bb8-4f95-a70d-2cd6e91499e3")
+	)
 	(hierarchical_label "GPIO2_B2"
 		(shape output)
 		(at 69.85 350.52 180)
@@ -31892,6 +31868,18 @@
 			(justify right)
 		)
 		(uuid "689e45ec-7f88-412b-b53d-a560e1283c80")
+	)
+	(hierarchical_label "HDMI1_TX2P_PORT"
+		(shape output)
+		(at 254 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68d69d92-7ede-48e4-8cb6-613b83a279e9")
 	)
 	(hierarchical_label "I2C6_SDA_M0"
 		(shape bidirectional)
@@ -32325,18 +32313,6 @@
 		)
 		(uuid "7a4e87fd-8fb9-43fb-a9c9-61745cf9a7cc")
 	)
-	(hierarchical_label "HDMI1_TX_SBDN"
-		(shape output)
-		(at 254 233.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a5311d5-8623-43ab-9a80-98cd4ecc2ebe")
-	)
 	(hierarchical_label "HDMI0_TX2P_PORT"
 		(shape bidirectional)
 		(at 71.12 238.76 180)
@@ -32697,6 +32673,18 @@
 		)
 		(uuid "8c9ab811-7d2f-489e-8101-b858615d179f")
 	)
+	(hierarchical_label "HDMI1_TX1N_PORT"
+		(shape output)
+		(at 254 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c9c667a-3ad0-436e-a38d-3741ace266be")
+	)
 	(hierarchical_label "LED3_25GLAN_25GLED"
 		(shape output)
 		(at 106.68 129.54 0)
@@ -32720,30 +32708,6 @@
 			(justify left)
 		)
 		(uuid "8d276d7a-41d5-452a-ae41-bff13336683f")
-	)
-	(hierarchical_label "HDMI1_TX1N_PORT"
-		(shape output)
-		(at 254 246.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d9e4188-0c28-49b3-9daa-080af99db9ce")
-	)
-	(hierarchical_label "HDMI1_TX0P_PORT"
-		(shape output)
-		(at 254 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ddf7f58-b411-4ccd-a042-842be7cbd67b")
 	)
 	(hierarchical_label "GPIO2_A7"
 		(shape output)
@@ -32948,6 +32912,18 @@
 			(justify right)
 		)
 		(uuid "9cb9a544-35cd-4750-9e40-1dd5b447212c")
+	)
+	(hierarchical_label "HDMI1_TX2N_PORT"
+		(shape output)
+		(at 254 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e3c7255-a85b-49a4-a6d5-623cea245a2e")
 	)
 	(hierarchical_label "SDMMC0_D2"
 		(shape bidirectional)
@@ -33488,6 +33464,18 @@
 			(justify right)
 		)
 		(uuid "b7b73b23-0817-4bfe-b1bb-5bd2bd109186")
+	)
+	(hierarchical_label "HDMI1_TX3N_PORT"
+		(shape output)
+		(at 254 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8105c40-da2f-4a62-8b9b-0483e6f44a89")
 	)
 	(hierarchical_label "TYPEC0_SSTX2P"
 		(shape output)
@@ -34401,6 +34389,18 @@
 		)
 		(uuid "ec627508-26c2-4a4a-985e-faffe19132ab")
 	)
+	(hierarchical_label "HDMI1_TX_SBDP"
+		(shape output)
+		(at 254 256.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec83cec1-6f4a-4952-bb8c-f4c1bdd77dbd")
+	)
 	(hierarchical_label "UART2_TX_M0_DEBUG"
 		(shape output)
 		(at 199.39 234.95 180)
@@ -35050,7 +35050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-1071_1x10-1MP_P1.25mm_Vertical"
 			(at 209.55 196.85 0)
 			(effects
 				(font
@@ -40227,7 +40227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-1071_1x10-1MP_P1.25mm_Vertical"
 			(at 250.19 196.85 0)
 			(effects
 				(font

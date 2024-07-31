@@ -30,6 +30,9 @@ fp-info-cache
 *.csv
 .DS_Store
 
+# JLCPCB Export Files
+jlcpcb/
+
 # Website
 # build output
 dist/

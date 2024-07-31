@@ -8550,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N:SOP65P640X120-20N"
+		(property "Footprint" "SOP65P640X120-20N"
 			(at 204.47 160.96 0)
 			(effects
 				(font

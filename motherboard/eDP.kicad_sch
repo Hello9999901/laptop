@@ -583,8 +583,8 @@
 			)
 			(symbol "20455-040E-76_0_0"
 				(rectangle
-					(start -5.08 -55.88)
-					(end 5.08 53.34)
+					(start -5.08 53.34)
+					(end 5.08 -55.88)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -594,7 +594,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 50.8 0)
+					(at -10.16 -48.26 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -612,7 +612,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 27.94 0)
+					(at -10.16 -25.4 0)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -630,7 +630,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 25.4 0)
+					(at -10.16 -22.86 0)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -648,7 +648,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 22.86 0)
+					(at -10.16 -20.32 0)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -666,7 +666,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 20.32 0)
+					(at -10.16 -17.78 0)
 					(length 5.08)
 					(name "13"
 						(effects
@@ -684,7 +684,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 17.78 0)
+					(at -10.16 -15.24 0)
 					(length 5.08)
 					(name "14"
 						(effects
@@ -702,7 +702,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 15.24 0)
+					(at -10.16 -12.7 0)
 					(length 5.08)
 					(name "15"
 						(effects
@@ -720,7 +720,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 12.7 0)
+					(at -10.16 -10.16 0)
 					(length 5.08)
 					(name "16"
 						(effects
@@ -738,7 +738,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 10.16 0)
+					(at -10.16 -7.62 0)
 					(length 5.08)
 					(name "17"
 						(effects
@@ -756,7 +756,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 7.62 0)
+					(at -10.16 -5.08 0)
 					(length 5.08)
 					(name "18"
 						(effects
@@ -774,7 +774,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 5.08 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "19"
 						(effects
@@ -792,7 +792,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 48.26 0)
+					(at -10.16 -45.72 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -810,7 +810,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "20"
 						(effects
@@ -828,7 +828,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "21"
 						(effects
@@ -846,7 +846,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
+					(at -10.16 5.08 0)
 					(length 5.08)
 					(name "22"
 						(effects
@@ -864,7 +864,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -5.08 0)
+					(at -10.16 7.62 0)
 					(length 5.08)
 					(name "23"
 						(effects
@@ -882,7 +882,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -7.62 0)
+					(at -10.16 10.16 0)
 					(length 5.08)
 					(name "24"
 						(effects
@@ -900,7 +900,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -10.16 0)
+					(at -10.16 12.7 0)
 					(length 5.08)
 					(name "25"
 						(effects
@@ -918,7 +918,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -12.7 0)
+					(at -10.16 15.24 0)
 					(length 5.08)
 					(name "26"
 						(effects
@@ -936,7 +936,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -15.24 0)
+					(at -10.16 17.78 0)
 					(length 5.08)
 					(name "27"
 						(effects
@@ -954,7 +954,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -17.78 0)
+					(at -10.16 20.32 0)
 					(length 5.08)
 					(name "28"
 						(effects
@@ -972,7 +972,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -20.32 0)
+					(at -10.16 22.86 0)
 					(length 5.08)
 					(name "29"
 						(effects
@@ -990,7 +990,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 45.72 0)
+					(at -10.16 -43.18 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1008,7 +1008,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -22.86 0)
+					(at -10.16 25.4 0)
 					(length 5.08)
 					(name "30"
 						(effects
@@ -1026,7 +1026,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -25.4 0)
+					(at -10.16 27.94 0)
 					(length 5.08)
 					(name "31"
 						(effects
@@ -1044,7 +1044,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -27.94 0)
+					(at -10.16 30.48 0)
 					(length 5.08)
 					(name "32"
 						(effects
@@ -1062,7 +1062,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -30.48 0)
+					(at -10.16 33.02 0)
 					(length 5.08)
 					(name "33"
 						(effects
@@ -1080,7 +1080,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -33.02 0)
+					(at -10.16 35.56 0)
 					(length 5.08)
 					(name "34"
 						(effects
@@ -1098,7 +1098,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -35.56 0)
+					(at -10.16 38.1 0)
 					(length 5.08)
 					(name "35"
 						(effects
@@ -1116,7 +1116,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -38.1 0)
+					(at -10.16 40.64 0)
 					(length 5.08)
 					(name "36"
 						(effects
@@ -1134,7 +1134,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -40.64 0)
+					(at -10.16 43.18 0)
 					(length 5.08)
 					(name "37"
 						(effects
@@ -1152,7 +1152,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -43.18 0)
+					(at -10.16 45.72 0)
 					(length 5.08)
 					(name "38"
 						(effects
@@ -1170,7 +1170,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -45.72 0)
+					(at -10.16 48.26 0)
 					(length 5.08)
 					(name "39"
 						(effects
@@ -1188,7 +1188,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 43.18 0)
+					(at -10.16 -40.64 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1206,7 +1206,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -48.26 0)
+					(at -10.16 50.8 0)
 					(length 5.08)
 					(name "40"
 						(effects
@@ -1224,7 +1224,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 40.64 0)
+					(at -10.16 -38.1 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -1242,7 +1242,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 38.1 0)
+					(at -10.16 -35.56 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -1260,7 +1260,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 35.56 0)
+					(at -10.16 -33.02 0)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -1278,7 +1278,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 33.02 0)
+					(at -10.16 -30.48 0)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -1296,7 +1296,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 30.48 0)
+					(at -10.16 -27.94 0)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -1381,93 +1381,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "eDP_adaptor_board-rescue:GND-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND-power_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND-power_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1690,6 +1603,16 @@
 				)
 			)
 		)
+	)
+	(text "flipped pinout from the OLED since that's how cable is configured"
+		(exclude_from_sim no)
+		(at 203.2 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0af94df5-3b15-42fe-a64a-16b4cdb1d748")
 	)
 	(text "referenced: https://hackaday.io/project/174315-direct-digital-negative-uv-printer-mkiii"
 		(exclude_from_sim no)
@@ -2536,6 +2459,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 124.46 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "283dc874-a11b-4ed3-9eab-ff5d16048a17")
+		(property "Reference" "#PWR064"
+			(at 124.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8486dd9-8549-4691-a37d-69cdb1464711")
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 138.43 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2882,71 +2870,6 @@
 			(project ""
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eDP_adaptor_board-rescue:GND-power")
-		(at 124.46 115.57 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "786ba891-a6d7-4d76-aa12-8e6510256a6b")
-		(property "Reference" "#PWR0161"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.016 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e80c027-efca-4031-9312-e6a5d229e43a")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
-					(reference "#PWR0161")
 					(unit 1)
 				)
 			)

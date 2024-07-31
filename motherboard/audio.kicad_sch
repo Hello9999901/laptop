@@ -1825,6 +1825,16 @@
 			)
 		)
 	)
+	(text "maybe switch to TPA2026"
+		(exclude_from_sim no)
+		(at 138.176 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3e5a7f3-8dbd-40be-a123-71a629728d1d")
+	)
 	(junction
 		(at 59.69 68.58)
 		(diameter 0)

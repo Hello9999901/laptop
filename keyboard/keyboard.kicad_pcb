@@ -737,7 +737,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2131,7 +2131,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.9 1 1)
@@ -2604,7 +2604,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-003-Keycap-Caps-Lock.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3092,7 +3092,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3313,7 +3313,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-003-Keycap-Caps-Lock.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.35 1 1)
@@ -3819,7 +3819,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4325,7 +4325,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5368,7 +5368,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6159,7 +6159,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8440,7 +8440,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8946,7 +8946,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9167,7 +9167,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz -26.5 0 4.5)
+				(xyz -26.5 0 4.3)
 			)
 			(scale
 				(xyz 5.8 1 1)
@@ -10928,7 +10928,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -11434,7 +11434,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12729,7 +12729,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12950,7 +12950,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -13171,7 +13171,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -13644,7 +13644,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -13865,7 +13865,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14623,7 +14623,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.3 1 1)
@@ -15403,7 +15403,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -16194,7 +16194,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -17309,7 +17309,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -17762,7 +17762,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -18268,7 +18268,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -19059,7 +19059,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20354,7 +20354,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20575,7 +20575,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20796,7 +20796,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21282,7 +21282,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21503,7 +21503,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -22009,7 +22009,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -22780,7 +22780,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -23897,7 +23897,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -24403,7 +24403,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -25194,7 +25194,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -26237,7 +26237,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -28865,7 +28865,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -29371,7 +29371,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -29921,17 +29921,6 @@
 			(pintype "passive")
 			(uuid "13225299-d921-4069-bb4b-648f0643f65c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
@@ -30429,7 +30418,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -31485,7 +31474,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -32256,7 +32245,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -32762,7 +32751,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -33838,7 +33827,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -34344,7 +34333,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.2 1 1)
@@ -34565,7 +34554,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -35051,7 +35040,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.5 1 1)
@@ -35623,17 +35612,6 @@
 			(pintype "passive")
 			(uuid "5aead16c-fd8b-434e-8bf8-a89d439a6cc9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
@@ -36131,7 +36109,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -36352,7 +36330,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -36573,7 +36551,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -37697,7 +37675,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -38740,7 +38718,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -38961,7 +38939,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -39712,7 +39690,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -41875,7 +41853,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -42096,7 +42074,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -42582,7 +42560,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -43055,7 +43033,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -44596,7 +44574,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.3 1 1)
@@ -45102,7 +45080,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -46145,7 +46123,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -46366,7 +46344,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -46587,7 +46565,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -47093,7 +47071,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -47864,7 +47842,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -48151,17 +48129,6 @@
 			(pintype "passive")
 			(uuid "e21dd765-dd03-4e0a-abb6-6ef2b6861ae7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Cherry_ULP:Cherry_ULP_SMD"
 		(layer "F.Cu")
@@ -48374,7 +48341,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -48880,7 +48847,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -49101,7 +49068,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -49322,7 +49289,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -49808,7 +49775,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -50314,7 +50281,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.5 1 1)
@@ -53471,7 +53438,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -53692,7 +53659,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -53913,7 +53880,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -54345,7 +54312,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1.5 1 1)
@@ -54831,7 +54798,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -55052,7 +55019,7 @@
 		)
 		(model "${KIPRJMOD}/Cherry_ULP.pretty/#911-001-Keycap-Square.IGS"
 			(offset
-				(xyz 0 0 4.5)
+				(xyz 0 0 4.3)
 			)
 			(scale
 				(xyz 1 1 1)
