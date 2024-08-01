@@ -3,4 +3,5 @@
   (lib (name "Cherry_ULP")(type "KiCad")(uri "${KIPRJMOD}/Cherry_ULP.pretty")(options "")(descr ""))
   (lib (name "Mikoto-Footprints")(type "KiCad")(uri "${KIPRJMOD}/mikoto-footprints.pretty")(options "")(descr ""))
   (lib (name "BQ21040")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ21040DBVR/BQ21040.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )

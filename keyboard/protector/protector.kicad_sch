@@ -1320,6 +1320,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C140340"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba0edd6a-c826-4877-b429-7b0e6d50ec3e")
 		)
@@ -1540,6 +1549,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 162.56 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "281239cc-5ead-49a0-b888-90bac314f037")
 		)
@@ -1602,6 +1620,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
+			(at 101.6 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,6 +1699,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 162.56 76.2062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,6 +1918,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C140340"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af422a91-b88d-483f-ae55-bc48b2867ecd")
 		)
@@ -1962,6 +2007,15 @@
 		)
 		(property "Description" "Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries"
 			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2864878"
+			(at 142.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
