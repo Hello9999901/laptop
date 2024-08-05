@@ -463,10 +463,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.121666,
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
@@ -474,8 +474,110 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.3,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.121666,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "+1V8",
+        "pcb_color": "rgb(150, 255, 228)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.121666,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "+3.3V",
+        "pcb_color": "rgb(201, 255, 147)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.121666,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "+5V",
+        "pcb_color": "rgb(142, 201, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.121666,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "100Ω",
+        "pcb_color": "rgb(255, 120, 86)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.175768,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "85Ω",
+        "pcb_color": "rgb(255, 135, 188)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.155448,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "90Ω",
+        "pcb_color": "rgb(208, 149, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -484,7 +586,72 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC0/D*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC0/TX*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC0/RX*"
+      },
+      {
+        "netclass": "100Ω",
+        "pattern": "/HDMI_TX/HDMI0_TX*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC1/D*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC1/TX*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC1/RX*"
+      },
+      {
+        "netclass": "100Ω",
+        "pattern": "/HDMI1_TX*"
+      },
+      {
+        "netclass": "85Ω",
+        "pattern": "/PCIE20*"
+      },
+      {
+        "netclass": "85Ω",
+        "pattern": "/PCIE30*"
+      },
+      {
+        "netclass": "85Ω",
+        "pattern": "/PCIE3.0-MKEY/CLK*"
+      },
+      {
+        "netclass": "85Ω",
+        "pattern": "/PCIE3.0-MKEY/PCIE*"
+      },
+      {
+        "netclass": "100Ω",
+        "pattern": "/SDMMC*"
+      },
+      {
+        "netclass": "+3.3V",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "+1V8",
+        "pattern": "+1V8*"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -683,6 +850,42 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
           "show": false
         }
       ],

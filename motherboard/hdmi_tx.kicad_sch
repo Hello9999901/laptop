@@ -1294,7 +1294,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -1306,7 +1306,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -4950,7 +4950,7 @@
 		)
 		(uuid "131a5f96-100c-4861-bc71-511e44566d84")
 	)
-	(label "HDMI0_TX1P_PORT"
+	(label "HDMI0_TX1P"
 		(at 88.9 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4961,7 +4961,7 @@
 		)
 		(uuid "1b407479-3483-4189-9061-72a5d189089d")
 	)
-	(label "HDMI0_TX3P_PORT"
+	(label "HDMI0_TX3P"
 		(at 156.21 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4983,7 +4983,7 @@
 		)
 		(uuid "1fb0272f-b8e5-4dfb-ba74-a315706f00fb")
 	)
-	(label "HDMI0_TX3N_PORT"
+	(label "HDMI0_TX3N"
 		(at 156.21 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4994,7 +4994,7 @@
 		)
 		(uuid "2af7080c-40bb-4648-a719-8e3713021d9a")
 	)
-	(label "HDMI0_TX2N_PORT"
+	(label "HDMI0_TX2N"
 		(at 19.05 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5005,7 +5005,7 @@
 		)
 		(uuid "36b610f4-938c-4ae7-b6e6-e8d14201a3ae")
 	)
-	(label "HDMI0_TX0P_PORT"
+	(label "HDMI0_TX0P"
 		(at 90.17 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5016,7 +5016,7 @@
 		)
 		(uuid "3cfd11b3-d2ab-4db0-b52f-93a879a43422")
 	)
-	(label "HDMI0_TX2P_PORT"
+	(label "HDMI0_TX2P"
 		(at 19.05 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5027,7 +5027,7 @@
 		)
 		(uuid "3f8aab14-bbbd-4af6-bb1f-255df08d923c")
 	)
-	(label "HDMI0_TX2P_PORT"
+	(label "HDMI0_TX2P"
 		(at 181.61 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5060,7 +5060,7 @@
 		)
 		(uuid "53dfbeaf-d7d7-43f3-b146-c9c17fcc5f83")
 	)
-	(label "HDMI0_TX3P_PORT"
+	(label "HDMI0_TX3P"
 		(at 181.61 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5071,7 +5071,7 @@
 		)
 		(uuid "599faf59-092f-4da2-b1f0-ca4f0e9633bd")
 	)
-	(label "HDMI0_TX1N_PORT"
+	(label "HDMI0_TX1N"
 		(at 181.61 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5093,7 +5093,7 @@
 		)
 		(uuid "624be24b-c045-4ade-9719-a881c0b7be09")
 	)
-	(label "HDMI0_TX1N_PORT"
+	(label "HDMI0_TX1N"
 		(at 88.9 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5104,7 +5104,7 @@
 		)
 		(uuid "6744df4b-ea42-42fe-be6b-133dce3f4fc8")
 	)
-	(label "HDMI0_TX0N_PORT"
+	(label "HDMI0_TX0N"
 		(at 181.61 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5137,7 +5137,7 @@
 		)
 		(uuid "884a7ac1-8169-406a-a4d1-bbf2e5d23177")
 	)
-	(label "HDMI0_TX1P_PORT"
+	(label "HDMI0_TX1P"
 		(at 181.61 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5148,7 +5148,7 @@
 		)
 		(uuid "98e37203-2522-42c2-aa08-a4cc6845a5d3")
 	)
-	(label "HDMI0_TX2N_PORT"
+	(label "HDMI0_TX2N"
 		(at 181.61 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5181,7 +5181,7 @@
 		)
 		(uuid "9b459e47-495b-4360-8a29-78b825033348")
 	)
-	(label "HDMI0_TX0N_PORT"
+	(label "HDMI0_TX0N"
 		(at 90.17 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5192,7 +5192,7 @@
 		)
 		(uuid "a3971cd5-35ce-4a4a-82dc-69aa8673cca9")
 	)
-	(label "HDMI0_TX0P_PORT"
+	(label "HDMI0_TX0P"
 		(at 181.61 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5214,7 +5214,7 @@
 		)
 		(uuid "ad6a1a7f-5791-4fcf-a964-87d4ef90d35d")
 	)
-	(label "HDMI0_TX3N_PORT"
+	(label "HDMI0_TX3N"
 		(at 156.21 154.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5225,7 +5225,7 @@
 		)
 		(uuid "b98f27c0-be10-42c8-b693-c72b1dca19ef")
 	)
-	(label "HDMI0_TX3N_PORT"
+	(label "HDMI0_TX3N"
 		(at 181.61 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5236,7 +5236,7 @@
 		)
 		(uuid "c2c1e65c-58d9-4017-9d79-fe1869a331ff")
 	)
-	(label "HDMI0_TX2N_PORT"
+	(label "HDMI0_TX2N"
 		(at 19.05 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5269,7 +5269,7 @@
 		)
 		(uuid "d0e23b22-ebb7-4bf3-b2f8-9908c88901d6")
 	)
-	(label "HDMI0_TX1P_PORT"
+	(label "HDMI0_TX1P"
 		(at 88.9 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5280,7 +5280,7 @@
 		)
 		(uuid "d396cb8e-a808-47b9-89e7-ffb8771bbe8e")
 	)
-	(label "HDMI0_TX0N_PORT"
+	(label "HDMI0_TX0N"
 		(at 90.17 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5291,7 +5291,7 @@
 		)
 		(uuid "d5325d78-630f-46fe-a827-3f0ba31b3fec")
 	)
-	(label "HDMI0_TX3P_PORT"
+	(label "HDMI0_TX3P"
 		(at 156.21 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5313,7 +5313,7 @@
 		)
 		(uuid "d89897fc-5340-4b99-9af2-7bfc20598998")
 	)
-	(label "HDMI0_TX2P_PORT"
+	(label "HDMI0_TX2P"
 		(at 19.05 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5324,7 +5324,7 @@
 		)
 		(uuid "d9a88097-aa07-4080-8b50-7f9239c76abb")
 	)
-	(label "HDMI0_TX0P_PORT"
+	(label "HDMI0_TX0P"
 		(at 90.17 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5335,7 +5335,7 @@
 		)
 		(uuid "da769b72-382c-43fb-b0cd-cee9198b4dec")
 	)
-	(label "HDMI0_TX1N_PORT"
+	(label "HDMI0_TX1N"
 		(at 88.9 154.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5346,7 +5346,7 @@
 		)
 		(uuid "fd31f038-7723-41e1-ab2a-4cb575561f3e")
 	)
-	(hierarchical_label "HDMI0_TX1P_PORT"
+	(hierarchical_label "HDMI0_TX1P"
 		(shape bidirectional)
 		(at 69.85 63.5 0)
 		(fields_autoplaced yes)
@@ -5430,7 +5430,7 @@
 		)
 		(uuid "65de0c4d-8eb0-4a02-8a47-57f7f8601bca")
 	)
-	(hierarchical_label "HDMI0_TX0N_PORT"
+	(hierarchical_label "HDMI0_TX0N"
 		(shape bidirectional)
 		(at 69.85 71.12 0)
 		(fields_autoplaced yes)
@@ -5442,7 +5442,7 @@
 		)
 		(uuid "8cae926c-2c7c-46d4-970f-8eff88dd773c")
 	)
-	(hierarchical_label "HDMI0_TX0P_PORT"
+	(hierarchical_label "HDMI0_TX0P"
 		(shape bidirectional)
 		(at 69.85 68.58 0)
 		(fields_autoplaced yes)
@@ -5454,7 +5454,7 @@
 		)
 		(uuid "99ac2085-598f-428c-8280-6dc84051796a")
 	)
-	(hierarchical_label "HDMI0_TX2N_PORT"
+	(hierarchical_label "HDMI0_TX2N"
 		(shape bidirectional)
 		(at 69.85 60.96 0)
 		(fields_autoplaced yes)
@@ -5466,7 +5466,7 @@
 		)
 		(uuid "add2133d-7a27-48af-b4ab-ad8804c89d12")
 	)
-	(hierarchical_label "HDMI0_TX3P_PORT"
+	(hierarchical_label "HDMI0_TX3P"
 		(shape bidirectional)
 		(at 69.85 73.66 0)
 		(fields_autoplaced yes)
@@ -5490,7 +5490,7 @@
 		)
 		(uuid "cee4dbba-adbe-49d3-b948-c5f0a0540a30")
 	)
-	(hierarchical_label "HDMI0_TX2P_PORT"
+	(hierarchical_label "HDMI0_TX2P"
 		(shape bidirectional)
 		(at 69.85 58.42 0)
 		(fields_autoplaced yes)
@@ -5502,7 +5502,7 @@
 		)
 		(uuid "e884cd13-8cbf-45cf-b98b-9a1a20645c8a")
 	)
-	(hierarchical_label "HDMI0_TX3N_PORT"
+	(hierarchical_label "HDMI0_TX3N"
 		(shape bidirectional)
 		(at 69.85 76.2 0)
 		(fields_autoplaced yes)
@@ -5514,7 +5514,7 @@
 		)
 		(uuid "e8dac370-1bd5-4af5-b168-b93454dd9256")
 	)
-	(hierarchical_label "HDMI0_TX1N_PORT"
+	(hierarchical_label "HDMI0_TX1N"
 		(shape bidirectional)
 		(at 69.85 66.04 0)
 		(fields_autoplaced yes)

@@ -5535,7 +5535,7 @@
 		)
 		(uuid "ff7d2b7b-d91f-49f1-b949-d9c691be17de")
 	)
-	(hierarchical_label "PCIE0_PORT0_REFCLKN_IN"
+	(hierarchical_label "PCIE0_PORT0_REFCLKN"
 		(shape input)
 		(at 248.92 116.84 0)
 		(fields_autoplaced yes)
@@ -5547,7 +5547,7 @@
 		)
 		(uuid "03c64875-c376-44a2-bc6d-f0cb3f2f130b")
 	)
-	(hierarchical_label "PCIE0_PORT1_REFCLKN_IN"
+	(hierarchical_label "PCIE0_PORT1_REFCLKN"
 		(shape input)
 		(at 248.92 100.33 0)
 		(fields_autoplaced yes)
@@ -5571,7 +5571,7 @@
 		)
 		(uuid "1091e4e4-de92-4311-8270-a9deab1be879")
 	)
-	(hierarchical_label "PCIE0_PORT1_REFCLKP_IN"
+	(hierarchical_label "PCIE0_PORT1_REFCLKP"
 		(shape input)
 		(at 248.92 97.79 0)
 		(fields_autoplaced yes)
@@ -5619,7 +5619,7 @@
 		)
 		(uuid "52623e68-e95e-4a68-80fc-561f54499e32")
 	)
-	(hierarchical_label "PCIE0_PORT0_REFCLKP_IN"
+	(hierarchical_label "PCIE0_PORT0_REFCLKP"
 		(shape input)
 		(at 248.92 114.3 0)
 		(fields_autoplaced yes)
@@ -8550,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N"
+		(property "Footprint" "SOP65P640X120-20N:SOP65P640X120-20N"
 			(at 204.47 160.96 0)
 			(effects
 				(font

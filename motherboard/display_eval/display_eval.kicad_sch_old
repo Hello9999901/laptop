@@ -6160,15 +6160,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
-			(at 227.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "eb274e6e-f1d9-4a12-b4eb-b1f145e52475")
 		)
@@ -6232,15 +6223,6 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 57.15 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 59.69 166.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,15 +6563,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 125.73 171.4562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f38692d6-9c2d-423c-8c20-ed4b3f07af36")
 		)
@@ -6653,15 +6626,6 @@
 		)
 		(property "Description" "HDMI 1.4+ type A connector"
 			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720616"
-			(at 231.14 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,15 +6896,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C285995"
-			(at 36.83 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "41f42074-f8bd-4fa0-9d11-e0827af1b744")
 		)
@@ -7014,15 +6969,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86815"
-			(at 99.06 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "280cfb0c-21a4-4829-b1e2-d276369902e0")
 		)
@@ -7087,15 +7033,6 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22935"
-			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,15 +7177,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 180.34 147.3262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2a7057a6-5865-4dac-9cd5-0d49400d6166")
 		)
@@ -7312,15 +7240,6 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 181.61 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 184.15 147.3262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,15 +7628,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7527731"
-			(at 105.41 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "26"
 			(uuid "a70964f8-b034-49d8-8fa0-a797487ba1ca")
 		)
@@ -7905,15 +7815,6 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 66.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,15 +8433,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 63.5 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c80558d9-5885-4455-8d18-acbc4def10d5")
 		)
@@ -8815,15 +8707,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2296"
-			(at 236.1565 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "16a0e3ef-b99c-4a97-ade0-923e9539f125")
 		)
@@ -9081,15 +8964,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C711350"
-			(at 175.26 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "19"
 			(uuid "24da29d6-5623-4c3d-88b8-4f2714f35548")
 		)
@@ -9285,15 +9159,6 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 119.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 121.92 171.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,15 +9505,6 @@
 		)
 		(property "Description" "Hall Effect Switch, SOT-23"
 			(at 166.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C879548"
-			(at 157.48 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
