@@ -493,7 +493,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "dxf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "keyboard.step",
@@ -717,10 +717,6 @@
     [
       "718055ec-4a25-4491-b657-7d47af064dce",
       "Key Matrix"
-    ],
-    [
-      "dfef7c7a-3a82-46ba-8b3b-aa94f2607f63",
-      "Battery Protector"
     ]
   ],
   "text_variables": {}
