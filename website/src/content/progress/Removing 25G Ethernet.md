@@ -1,6 +1,6 @@
 ---
 title: "Removed 2.5G Ethernet + Subtracting 38mm from the SSD"
-hash: "3718073a7b3cd8b09f7a54d581c9525380008b53"
+hash: "Hello9999901/laptop/commit/3718073a7b3cd8b09f7a54d581c9525380008b53"
 dateStart: "7/28/2024"
 ---
 

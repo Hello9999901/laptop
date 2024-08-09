@@ -1,6 +1,6 @@
 ---
 title: "Motherboard Layout"
-hash: "065d56bcbf0afe930ac8a8ca5442cbb30772766b"
+hash: "Hello9999901/laptop/commit/065d56bcbf0afe930ac8a8ca5442cbb30772766b"
 dateStart: "7/16/2024"
 ---
 

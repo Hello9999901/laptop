@@ -1,6 +1,6 @@
 ---
 title: "Motherboard Schematic"
-hash: "7537e6f6f953aed19e3b554f8151d0d517349e46"
+hash: "Hello9999901/laptop/commit/7537e6f6f953aed19e3b554f8151d0d517349e46"
 dateStart: "7/8/2024"
 ---
 

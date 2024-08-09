@@ -59,7 +59,7 @@ function formatWorkDate(input: Date | string) {
 						</div>
 						<a
 							href={
-								"https://github.com/Hello9999901/laptop/commit/" +
+								"https://github.com/" +
 								entry.data.hash
 							}
 							target="_blank"
@@ -67,7 +67,7 @@ function formatWorkDate(input: Date | string) {
 							<div class="text-sm font-semibold flex">
 								HASH &lt;
 								<span class="font-hype dark:text-neutral-300 truncate text-clip max-w-[7ch] block dark:hover:text-gray-50 hover:text-neutral-500 duration-300 transition">
-									{entry.data.hash}
+									{entry.data.hash.split('/')[3]}
 								</span>
 								&gt;
 							</div>
