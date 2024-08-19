@@ -1694,16 +1694,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 144.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c40ce88-d92f-4f34-9693-3f436790ba5b")
-	)
-	(wire
-		(pts
 			(xy 102.87 74.93) (xy 119.38 74.93)
 		)
 		(stroke
@@ -1731,6 +1721,16 @@
 			(type default)
 		)
 		(uuid "14be4c10-a138-4d5f-89ea-1994f3b233bf")
+	)
+	(wire
+		(pts
+			(xy 133.35 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173e9558-7a02-4191-bbfa-531dc3c7ee41")
 	)
 	(wire
 		(pts
@@ -2012,16 +2012,27 @@
 		)
 		(uuid "f7cce6a1-9156-4f79-a14b-9db8d79482cb")
 	)
-	(label "EKEY_3.3V"
-		(at 133.35 55.88 0)
+	(global_label "+3.3V_PCIE"
+		(shape input)
+		(at 133.35 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "81692a2e-3a39-4260-b049-53b917981fed")
+		(uuid "a63facee-cded-4b78-9945-28d26915eab5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4186 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "GPIO2_B3{slash}SDIO_CLK"
 		(shape output)

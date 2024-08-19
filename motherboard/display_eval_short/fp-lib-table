@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "eDP_Connector")(type "KiCad")(uri "/Users/byran/Documents/GitHub/laptop/motherboard/library/eDP_Connector/IPEX_20455-040E-76.pretty")(options "")(descr ""))
+  (lib (name "DP_Connector")(type "KiCad")(uri "/Users/byran/Documents/GitHub/laptop/motherboard/library/DP_Connector/MOLEX_0472720024.pretty")(options "")(descr ""))
+  (lib (name "HDMI_MALE_HORIZONTAL")(type "KiCad")(uri "${KIPRJMOD}/HDMI_MALE_HORIZONTAL/HDMI_MALE_HORIZONTAL.pretty")(options "")(descr ""))
+)

@@ -3653,6 +3653,12 @@
 		(uuid "f7abdd2b-14b4-4a7f-b36a-9ee478544036")
 	)
 	(junction
+		(at 121.92 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3fce30-092a-41a2-b0a6-7ee95cb3e666")
+	)
+	(junction
 		(at 245.11 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4664,6 +4670,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 27.94) (xy 133.35 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f976e1-eec0-4e24-84e3-0e3269ee0bfa")
+	)
+	(wire
+		(pts
 			(xy 137.16 129.54) (xy 139.7 129.54)
 		)
 		(stroke
@@ -4994,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 27.94) (xy 133.35 27.94)
+			(xy 119.38 27.94) (xy 121.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5359,17 +5375,6 @@
 		)
 		(uuid "2364ba46-9b17-41cf-a120-e9d0ec6a122e")
 	)
-	(label "+3.3V_PCIE"
-		(at 121.92 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35e0011e-b55c-4002-9537-a0d818ad4822")
-	)
 	(label "+3.3V_PI6C"
 		(at 153.67 81.28 0)
 		(fields_autoplaced yes)
@@ -5534,6 +5539,28 @@
 			(justify right bottom)
 		)
 		(uuid "ff7d2b7b-d91f-49f1-b949-d9c691be17de")
+	)
+	(global_label "+3.3V_PCIE"
+		(shape input)
+		(at 119.38 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6547b6b3-32fd-479d-9674-2ca216a2e680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4486 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "PCIE0_PORT0_REFCLKN"
 		(shape input)

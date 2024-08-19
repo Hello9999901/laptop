@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DP Connector")(type "KiCad")(uri "/Users/byran/Documents/GitHub/laptop/motherboard/library/DP_Connector/0472720024.kicad_sym")(options "")(descr ""))
+  (lib (name "HDMI Male Vertical")(type "KiCad")(uri "/Users/byran/Documents/GitHub/laptop/motherboard/library/HDMI_MALE_VERTICAL/HDMI_MALE_VERTICAL.kicad_sym")(options "")(descr ""))
+)
