@@ -1487,16 +1487,6 @@
 			)
 		)
 	)
-	(text "spare"
-		(exclude_from_sim no)
-		(at 102.616 137.668 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2ee71116-6f06-4ddc-9faf-4603ffd44b3c")
-	)
 	(text "trackpad"
 		(exclude_from_sim no)
 		(at 153.2981 125.1915 0)
@@ -1718,10 +1708,6 @@
 		(uuid "3ac28c19-a827-487a-bd71-fa887147e6c7")
 	)
 	(no_connect
-		(at 97.79 135.89)
-		(uuid "40f99536-150d-4188-88b1-1712e21e4e9b")
-	)
-	(no_connect
 		(at 157.48 110.49)
 		(uuid "453ef36b-def1-413d-8f02-aea7191f5118")
 	)
@@ -1768,10 +1754,6 @@
 	(no_connect
 		(at 100.33 81.28)
 		(uuid "ee3a3c5b-6dc5-4db7-9456-403ced7537cf")
-	)
-	(no_connect
-		(at 97.79 138.43)
-		(uuid "f9d9156a-3dad-4df9-be34-d37d82ea10c0")
 	)
 	(wire
 		(pts
@@ -2667,18 +2649,6 @@
 		)
 		(uuid "3c81dbf1-bfca-4280-aeab-9a58da38c23c")
 	)
-	(hierarchical_label "USB20_HOST1_DM"
-		(shape bidirectional)
-		(at 97.79 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a9991b3-9ab5-464a-944b-c8178bddd6e6")
-	)
 	(hierarchical_label "DP1"
 		(shape input)
 		(at 233.68 113.03 180)
@@ -2690,18 +2660,6 @@
 			(justify right)
 		)
 		(uuid "92f37f44-85e6-417e-9659-49ef41aeb06f")
-	)
-	(hierarchical_label "USB20_HOST1_DP"
-		(shape bidirectional)
-		(at 97.79 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c195fab9-4637-424b-b012-a9c3714c59a9")
 	)
 	(symbol
 		(lib_id "power:+5V")

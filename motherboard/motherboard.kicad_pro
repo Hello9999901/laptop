@@ -579,6 +579,23 @@
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.121666,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "VDD",
+        "pcb_color": "rgb(90, 135, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.11,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -650,6 +667,10 @@
       {
         "netclass": "+5V",
         "pattern": "+5V*"
+      },
+      {
+        "netclass": "VDD",
+        "pattern": "VDD"
       }
     ]
   },

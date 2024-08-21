@@ -7,4 +7,6 @@
   (lib (name "Audio_Amp")(type "KiCad")(uri "${KIPRJMOD}/library/Audio_Amp_TPA2028D1YZFT/TPA2028D1YZFT.kicad_sym")(options "")(descr ""))
   (lib (name "Headphone_Jack")(type "KiCad")(uri "${KIPRJMOD}/library/Headphone_Jack.kicad_sym")(options "")(descr ""))
   (lib (name "Ethernet")(type "KiCad")(uri "${KIPRJMOD}/library/L829-1J1T-JM/L829-1J1T-JM.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2016")(type "KiCad")(uri "${KIPRJMOD}/library/TPA2016D2RTJR-2/TPA2016D2RTJR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS564257")(type "KiCad")(uri "${KIPRJMOD}/library/TPS564257DRLR/TPS564257DRLR.kicad_sym")(options "")(descr ""))
 )
