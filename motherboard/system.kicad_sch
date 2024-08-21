@@ -6119,7 +6119,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914ec73d-339c-4d28-b971-3b895d6116ff")
 		(property "Reference" "R86"

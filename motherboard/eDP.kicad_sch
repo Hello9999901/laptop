@@ -306,128 +306,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "eDP_Connector:20455-040E-76"
 			(pin_names
 				(offset 1.016)
@@ -1614,9 +1492,19 @@
 		)
 		(uuid "0af94df5-3b15-42fe-a64a-16b4cdb1d748")
 	)
+	(text "BIST"
+		(exclude_from_sim no)
+		(at 164.846 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58522e14-3544-4e01-9600-4ab53fe9ca7e")
+	)
 	(text "referenced: https://hackaday.io/project/174315-direct-digital-negative-uv-printer-mkiii"
 		(exclude_from_sim no)
-		(at 100.838 29.21 0)
+		(at 96.012 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1624,15 +1512,15 @@
 		)
 		(uuid "877e9a7a-7031-4c29-bf53-6c9fdbed4dca")
 	)
-	(text "built in self test?"
+	(text "HPD"
 		(exclude_from_sim no)
-		(at 106.68 100.33 0)
+		(at 164.846 110.744 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cff2f2d4-fbe0-4454-998d-6f42ef609bba")
+		(uuid "dce18f67-2ad7-4662-9ebc-02c42ef74897")
 	)
 	(junction
 		(at 153.67 120.65)
@@ -1753,6 +1641,10 @@
 	(no_connect
 		(at 153.67 128.27)
 		(uuid "3591c01f-ebc9-40b0-a31f-4432cce85602")
+	)
+	(no_connect
+		(at 153.67 100.33)
+		(uuid "577cb359-38f2-4165-88da-d4e427ae9b90")
 	)
 	(no_connect
 		(at 153.67 140.97)
@@ -1888,16 +1780,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 153.67 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a37a171-3bee-4856-82ba-bd5e5547cc75")
-	)
-	(wire
-		(pts
 			(xy 129.54 87.63) (xy 153.67 87.63)
 		)
 		(stroke
@@ -1915,16 +1797,6 @@
 			(type default)
 		)
 		(uuid "5905b2b1-654f-4e2c-b71a-915f74764bbe")
-	)
-	(wire
-		(pts
-			(xy 135.89 100.33) (xy 153.67 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66615dce-b414-422c-a992-13a36bab9152")
 	)
 	(wire
 		(pts
@@ -2138,16 +2010,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 100.33) (xy 130.81 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8471bb5-664a-4d38-b698-1a0491e91b9e")
-	)
-	(wire
-		(pts
 			(xy 153.67 102.87) (xy 153.67 105.41)
 		)
 		(stroke
@@ -2208,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 128.27 110.49)
+			(xy 130.81 110.49) (xy 153.67 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2337,18 +2199,6 @@
 		)
 		(uuid "14f315e2-65e2-4a0f-b583-ad7e38a0a03b")
 	)
-	(hierarchical_label "BIST_EN"
-		(shape input)
-		(at 129.54 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2244ca7c-fc2f-4c79-8302-172abbd7007a")
-	)
 	(hierarchical_label "DP_2N"
 		(shape input)
 		(at 129.54 62.23 180)
@@ -2396,6 +2246,18 @@
 			(justify right)
 		)
 		(uuid "7f3f9872-20f5-4da3-a8b4-782cb7aae300")
+	)
+	(hierarchical_label "GPIO3_B7"
+		(shape output)
+		(at 130.81 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a155cfdc-6d46-4dcb-a241-5613dc9de082")
 	)
 	(hierarchical_label "DP_1N"
 		(shape input)
@@ -2589,74 +2451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.81 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b5932ac-ad3b-4ae7-8b56-7d6681c5c098")
-		(property "Reference" "R121"
-			(at 130.81 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 130.81 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.81 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 130.81 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91130ef8-6db9-4f06-82b7-fb7b63b52ebe")
-		)
-		(pin "2"
-			(uuid "0ea14275-e719-4949-a3df-aeb134bfcbb7")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
-					(reference "R121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 129.54 133.35 0)
 		(unit 1)
@@ -2717,74 +2511,6 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
 					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "6ceac63a-4384-4658-8f43-ca16c291dfc1")
-		(property "Reference" "R120"
-			(at 133.35 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 133.35 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f52d739a-a496-45d2-bed2-e26ba8d5da1f")
-		)
-		(pin "2"
-			(uuid "3cd508f7-30cd-46de-b8c7-ff08e472fa7c")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
-					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -2870,72 +2596,6 @@
 			(project ""
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a03e7bae-3378-41b3-a547-2991f0b81823")
-		(property "Reference" "#PWR0144"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 105.8298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5da5f29e-2d02-44cf-9e09-47fe98126d38")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/41516588-89d4-4c4a-8d7d-a4354a401e31"
-					(reference "#PWR0144")
 					(unit 1)
 				)
 			)

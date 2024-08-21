@@ -13735,9 +13735,9 @@
 		)
 		(uuid "37fff182-6763-4dfa-8e89-21370162d4fd")
 	)
-	(text "<- 12v? (says 6-21v)"
+	(text "<- 12v"
 		(exclude_from_sim no)
-		(at 273.05 223.774 0)
+		(at 268.478 226.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
