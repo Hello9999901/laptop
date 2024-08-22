@@ -198,7 +198,7 @@
           "max_amplitude": 0.6,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.1
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -633,7 +633,7 @@
         "pattern": "/USBC1/RX*"
       },
       {
-        "netclass": "100Ω",
+        "netclass": "85Ω",
         "pattern": "/HDMI1_TX*"
       },
       {
