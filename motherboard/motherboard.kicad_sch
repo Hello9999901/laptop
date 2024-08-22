@@ -13680,6 +13680,8 @@
 			(font
 				(face "JetBrains Mono")
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left top)
 		)

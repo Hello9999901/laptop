@@ -326,7 +326,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -338,7 +338,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -374,7 +374,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -386,7 +386,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -450,6 +450,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -460,17 +471,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -1862,18 +1862,6 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -6.604) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 -6.604)
 					(radius 0.2794)
@@ -1887,7 +1875,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0 -6.604) (xy 0 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -1900,6 +1888,18 @@
 				(polyline
 					(pts
 						(xy 0.635 0.889) (xy 1.016 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -3722,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 102.87 54.61)
+			(xy 95.25 54.61) (xy 102.87 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4552,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 83.82 52.07)
+			(xy 81.28 52.07) (xy 90.17 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4572,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 54.61) (xy 83.82 54.61)
+			(xy 81.28 54.61) (xy 90.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4682,7 +4682,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 52.07) (xy 102.87 52.07)
+			(xy 95.25 52.07) (xy 102.87 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5057,6 +5057,17 @@
 		)
 		(uuid "96f50d04-292c-45b5-9b01-beb1522cf9c5")
 	)
+	(label "IN_D+"
+		(at 87.63 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "981d0cec-7988-43f2-9ab6-911b66abcc09")
+	)
 	(label "SBUS1"
 		(at 102.87 92.71 180)
 		(fields_autoplaced yes)
@@ -5166,6 +5177,17 @@
 			(justify left bottom)
 		)
 		(uuid "d52ebf6c-0d47-4312-986d-927bdb8bcb7d")
+	)
+	(label "IN_D-"
+		(at 87.63 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3e3187a-cd15-443d-9c06-7187019cd3c7")
 	)
 	(label "RX1-"
 		(at 102.87 62.23 180)
@@ -5921,7 +5943,7 @@
 	)
 	(symbol
 		(lib_id "library:ACM2012_Common_Mode_Choke")
-		(at 86.36 53.34 0)
+		(at 92.71 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5930,7 +5952,7 @@
 		(fields_autoplaced yes)
 		(uuid "1846567e-34aa-42b6-9c06-5bad43a62feb")
 		(property "Reference" "CMC2"
-			(at 86.36 49.53 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5960,7 @@
 			)
 		)
 		(property "Value" "ACM2012"
-			(at 90.551 56.515 0)
+			(at 96.901 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5969,7 @@
 			)
 		)
 		(property "Footprint" "ACM2012:FIL_ACM2012-900-2P-T001"
-			(at 84.328 61.722 0)
+			(at 90.678 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5978,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2012_en.pdf"
-			(at 88.392 65.278 0)
+			(at 94.742 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5987,7 @@
 			)
 		)
 		(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 400mA DCR 190mOhm"
-			(at 86.868 59.436 0)
+			(at 93.218 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)

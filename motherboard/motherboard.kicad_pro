@@ -671,6 +671,18 @@
       {
         "netclass": "VDD",
         "pattern": "VDD"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC1/IN*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC0/IN*"
+      },
+      {
+        "netclass": "100Ω",
+        "pattern": "/HDMI_TX/IN_*"
       }
     ]
   },

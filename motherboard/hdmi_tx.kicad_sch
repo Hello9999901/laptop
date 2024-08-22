@@ -1269,6 +1269,17 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -6.604) (xy 0 -7.62)
@@ -1279,17 +1290,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -3088,6 +3088,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18261e37-0429-4b0b-bde4-d5c2883be268")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 64.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183af605-2769-4c26-bff8-7a386a1f9c60")
+	)
+	(wire
+		(pts
 			(xy 264.16 110.49) (xy 264.16 125.73)
 		)
 		(stroke
@@ -3465,6 +3485,26 @@
 			(type default)
 		)
 		(uuid "442c3ae4-72c8-4c06-a860-8d5ea6d3fda3")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b51459-4572-4c5d-88e2-c9316fdcb9bf")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 64.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e32aa9-df07-463a-abb8-3de8c6294f9f")
 	)
 	(wire
 		(pts
@@ -4198,6 +4238,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 58.42) (xy 64.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a296e6a5-8c4b-4cbe-8a08-94e87ab799f6")
+	)
+	(wire
+		(pts
 			(xy 207.01 49.53) (xy 207.01 50.8)
 		)
 		(stroke
@@ -4435,6 +4485,16 @@
 			(type default)
 		)
 		(uuid "ca327ec9-41f4-4d2f-bf68-73726cae334f")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 64.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca908cbc-99b3-4bca-86d4-a9eaad040187")
 	)
 	(wire
 		(pts
@@ -4728,6 +4788,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 71.12) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6dec89-6fbf-4345-9939-6bd9f252a525")
+	)
+	(wire
+		(pts
 			(xy 267.97 134.62) (xy 267.97 132.08)
 		)
 		(stroke
@@ -4775,6 +4845,16 @@
 			(type default)
 		)
 		(uuid "f10d97d9-7f70-4a36-b9cf-eebc42c696b8")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f178ae25-b771-40f2-8601-23ed00c77120")
 	)
 	(wire
 		(pts
@@ -4917,6 +4997,17 @@
 		)
 		(uuid "058d0679-7198-425c-af43-ec3fcf1ea38f")
 	)
+	(label "IN_TX1P"
+		(at 72.39 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05ed33a6-c6f0-466b-bfee-e7ab04f603dc")
+	)
 	(label "SBDN"
 		(at 110.49 173.99 180)
 		(fields_autoplaced yes)
@@ -4938,6 +5029,17 @@
 			(justify right bottom)
 		)
 		(uuid "10855434-4385-42a1-966c-d72481a41cb0")
+	)
+	(label "IN_TX1N"
+		(at 72.39 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1237fd09-d2b2-41e4-8004-56e858f22510")
 	)
 	(label "SBDP"
 		(at 67.31 179.07 0)
@@ -4983,6 +5085,17 @@
 		)
 		(uuid "1fb0272f-b8e5-4dfb-ba74-a315706f00fb")
 	)
+	(label "IN_TX0N"
+		(at 72.39 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26c2a706-920a-48cb-9746-8c9373f4de09")
+	)
 	(label "HDMI0_TX3N"
 		(at 156.21 149.86 180)
 		(fields_autoplaced yes)
@@ -4993,6 +5106,17 @@
 			(justify right bottom)
 		)
 		(uuid "2af7080c-40bb-4648-a719-8e3713021d9a")
+	)
+	(label "IN_TX3N"
+		(at 72.39 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33a42c25-a3f7-489c-9bee-5f8e86d67324")
 	)
 	(label "HDMI0_TX2N"
 		(at 19.05 149.86 0)
@@ -5059,6 +5183,17 @@
 			(justify left bottom)
 		)
 		(uuid "53dfbeaf-d7d7-43f3-b146-c9c17fcc5f83")
+	)
+	(label "IN_TX3P"
+		(at 72.39 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58f17b93-3f5b-47b5-af4f-4a2c76d94616")
 	)
 	(label "HDMI0_TX3P"
 		(at 181.61 123.19 0)
@@ -5313,6 +5448,17 @@
 		)
 		(uuid "d89897fc-5340-4b99-9af2-7bfc20598998")
 	)
+	(label "IN_TX2P"
+		(at 72.39 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d934b568-92e0-4d15-bb96-c79904573716")
+	)
 	(label "HDMI0_TX2P"
 		(at 19.05 139.7 0)
 		(fields_autoplaced yes)
@@ -5335,6 +5481,28 @@
 		)
 		(uuid "da769b72-382c-43fb-b0cd-cee9198b4dec")
 	)
+	(label "IN_TX2N"
+		(at 72.39 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eeca7c07-b508-4579-ad21-084651e2cf71")
+	)
+	(label "IN_TX0P"
+		(at 72.39 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f08d61c1-0e9e-41c4-b62a-229e1d2c9b6d")
+	)
 	(label "HDMI0_TX1N"
 		(at 88.9 154.94 180)
 		(fields_autoplaced yes)
@@ -5348,7 +5516,7 @@
 	)
 	(hierarchical_label "HDMI0_TX1P"
 		(shape bidirectional)
-		(at 69.85 63.5 0)
+		(at 78.74 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5432,7 +5600,7 @@
 	)
 	(hierarchical_label "HDMI0_TX0N"
 		(shape bidirectional)
-		(at 69.85 71.12 0)
+		(at 78.74 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5444,7 +5612,7 @@
 	)
 	(hierarchical_label "HDMI0_TX0P"
 		(shape bidirectional)
-		(at 69.85 68.58 0)
+		(at 78.74 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5456,7 +5624,7 @@
 	)
 	(hierarchical_label "HDMI0_TX2N"
 		(shape bidirectional)
-		(at 69.85 60.96 0)
+		(at 78.74 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5468,7 +5636,7 @@
 	)
 	(hierarchical_label "HDMI0_TX3P"
 		(shape bidirectional)
-		(at 69.85 73.66 0)
+		(at 78.74 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5492,7 +5660,7 @@
 	)
 	(hierarchical_label "HDMI0_TX2P"
 		(shape bidirectional)
-		(at 69.85 58.42 0)
+		(at 78.74 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5504,7 +5672,7 @@
 	)
 	(hierarchical_label "HDMI0_TX3N"
 		(shape bidirectional)
-		(at 69.85 76.2 0)
+		(at 78.74 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5516,7 +5684,7 @@
 	)
 	(hierarchical_label "HDMI0_TX1N"
 		(shape bidirectional)
-		(at 69.85 66.04 0)
+		(at 78.74 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5528,7 +5696,7 @@
 	)
 	(symbol
 		(lib_id "library:ACM2012_Common_Mode_Choke")
-		(at 67.31 69.85 0)
+		(at 76.2 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5537,7 +5705,7 @@
 		(fields_autoplaced yes)
 		(uuid "07deac57-c717-4e98-8a66-f89af65f3cec")
 		(property "Reference" "CMC5"
-			(at 67.31 66.04 0)
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5713,7 @@
 			)
 		)
 		(property "Value" "ACM2012"
-			(at 71.501 73.025 0)
+			(at 80.391 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5722,7 @@
 			)
 		)
 		(property "Footprint" "ACM2012:FIL_ACM2012-900-2P-T001"
-			(at 65.278 78.232 0)
+			(at 74.168 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5731,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2012_en.pdf"
-			(at 69.342 81.788 0)
+			(at 78.232 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5740,7 @@
 			)
 		)
 		(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 400mA DCR 190mOhm"
-			(at 67.818 75.946 0)
+			(at 76.708 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +9061,7 @@
 	)
 	(symbol
 		(lib_id "library:ACM2012_Common_Mode_Choke")
-		(at 67.31 74.93 0)
+		(at 76.2 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8902,7 +9070,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfa4fe9d-9f9f-419c-a8ef-a65e8a5ae0e5")
 		(property "Reference" "CMC6"
-			(at 67.31 71.12 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,7 +9078,7 @@
 			)
 		)
 		(property "Value" "ACM2012"
-			(at 71.501 78.105 0)
+			(at 80.391 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +9087,7 @@
 			)
 		)
 		(property "Footprint" "ACM2012:FIL_ACM2012-900-2P-T001"
-			(at 65.278 83.312 0)
+			(at 74.168 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +9096,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2012_en.pdf"
-			(at 69.342 86.868 0)
+			(at 78.232 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +9105,7 @@
 			)
 		)
 		(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 400mA DCR 190mOhm"
-			(at 67.818 81.026 0)
+			(at 76.708 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9614,7 @@
 	)
 	(symbol
 		(lib_id "library:ACM2012_Common_Mode_Choke")
-		(at 67.31 64.77 0)
+		(at 76.2 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9455,7 +9623,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6c0a329-3a0c-4495-978a-366e11d231ec")
 		(property "Reference" "CMC4"
-			(at 67.31 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9631,7 @@
 			)
 		)
 		(property "Value" "ACM2012"
-			(at 71.501 67.945 0)
+			(at 80.391 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9640,7 @@
 			)
 		)
 		(property "Footprint" "ACM2012:FIL_ACM2012-900-2P-T001"
-			(at 65.278 73.152 0)
+			(at 74.168 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9649,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2012_en.pdf"
-			(at 69.342 76.708 0)
+			(at 78.232 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9658,7 @@
 			)
 		)
 		(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 400mA DCR 190mOhm"
-			(at 67.818 70.866 0)
+			(at 76.708 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +10041,7 @@
 	)
 	(symbol
 		(lib_id "library:ACM2012_Common_Mode_Choke")
-		(at 67.31 59.69 0)
+		(at 76.2 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9882,7 +10050,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec85e49c-e99c-43a6-950c-beb43b67a127")
 		(property "Reference" "CMC3"
-			(at 67.31 55.88 0)
+			(at 76.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +10058,7 @@
 			)
 		)
 		(property "Value" "ACM2012"
-			(at 71.501 62.865 0)
+			(at 80.391 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +10067,7 @@
 			)
 		)
 		(property "Footprint" "ACM2012:FIL_ACM2012-900-2P-T001"
-			(at 65.278 68.072 0)
+			(at 74.168 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +10076,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2012_en.pdf"
-			(at 69.342 71.628 0)
+			(at 78.232 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,7 +10085,7 @@
 			)
 		)
 		(property "Description" "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 400mA DCR 190mOhm"
-			(at 67.818 65.786 0)
+			(at 76.708 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
