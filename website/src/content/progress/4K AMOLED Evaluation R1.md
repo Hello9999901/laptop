@@ -1,5 +1,5 @@
 ---
-title: "AMOLED Evaluation R1"
+title: "4K AMOLED Evaluation R1"
 hash: "Hello9999901/laptop/commit/fdd6672159e983177fd62d12f2ffced35667086c"
 dateStart: "8/19/2024"
 ---
