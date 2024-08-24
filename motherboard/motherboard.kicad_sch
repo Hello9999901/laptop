@@ -30939,7 +30939,7 @@
 		)
 		(uuid "4069ac13-a8ce-4260-8fef-2e9595439a93")
 	)
-	(hierarchical_label "USB20_HOST1_DM"
+	(hierarchical_label "USB20_HOST1_DN"
 		(shape bidirectional)
 		(at 60.96 299.72 180)
 		(fields_autoplaced yes)
@@ -31023,7 +31023,7 @@
 		)
 		(uuid "438e97bd-00b0-4e37-b0f1-a5c05636acb1")
 	)
-	(hierarchical_label "USB20_HOST1_DM"
+	(hierarchical_label "USB20_HOST1_DN"
 		(shape bidirectional)
 		(at 407.67 60.96 0)
 		(fields_autoplaced yes)
@@ -32415,18 +32415,6 @@
 		)
 		(uuid "830abc88-56ac-43b9-a4ab-a6c421f5f3a1")
 	)
-	(hierarchical_label "I2C7_SDA_M0"
-		(shape output)
-		(at 300.99 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "831ce4f6-dd32-4cd5-b5f3-c30e1f654a74")
-	)
 	(hierarchical_label "GPIO3_B4"
 		(shape output)
 		(at 407.67 152.4 0)
@@ -33747,7 +33735,7 @@
 		)
 		(uuid "ca803171-d6cd-43d9-8cbb-40b1fc29502c")
 	)
-	(hierarchical_label "USB20_HOST0_DM"
+	(hierarchical_label "USB20_HOST0_DN"
 		(shape bidirectional)
 		(at 407.67 68.58 0)
 		(fields_autoplaced yes)
@@ -34179,18 +34167,6 @@
 		)
 		(uuid "e635b2de-2af3-4472-917e-8eebd4bbe321")
 	)
-	(hierarchical_label "I2C7_SCL_M0"
-		(shape output)
-		(at 300.99 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e759776b-9914-4448-92db-ab23c751fbc8")
-	)
 	(hierarchical_label "HDMI_RX_CEC"
 		(shape bidirectional)
 		(at 407.67 134.62 0)
@@ -34275,7 +34251,7 @@
 		)
 		(uuid "ebfaa68e-5dc9-4b4f-b937-2f2257208ac6")
 	)
-	(hierarchical_label "USB20_HOST0_DM"
+	(hierarchical_label "USB20_HOST0_DN"
 		(shape bidirectional)
 		(at 304.8 294.64 180)
 		(fields_autoplaced yes)
@@ -46346,26 +46322,6 @@
 			)
 			(uuid "31dba795-d029-4d67-b137-3a86a974e2fe")
 		)
-		(pin "L_AMP_SDA" input
-			(at 300.99 201.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "42268dd0-de63-4d63-a589-9016c47c85f8")
-		)
-		(pin "L_AMP_SCL" input
-			(at 300.99 204.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "afa7a528-af93-4e8d-a080-dcc5e5a78f3c")
-		)
 		(pin "HPL" input
 			(at 300.99 207.01 180)
 			(effects
@@ -46386,25 +46342,25 @@
 			)
 			(uuid "0d44dce2-189f-48c8-9f57-842c6936b56f")
 		)
-		(pin "R_AMP_SCL" input
-			(at 300.99 212.09 180)
+		(pin "AMP_SCL" input
+			(at 300.99 204.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0e8fdc9-4b27-4da0-9d68-1378b80f1b73")
+			(uuid "41383ce7-888c-4d96-9582-05a22d67283b")
 		)
-		(pin "R_AMP_SDA" input
-			(at 300.99 214.63 180)
+		(pin "AMP_SDA" input
+			(at 300.99 201.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b88b935e-c18c-4c6a-8bec-6c9eec63e597")
+			(uuid "9de83dc8-5229-4f83-a0e3-9947de48ac14")
 		)
 		(instances
 			(project "motherboard"

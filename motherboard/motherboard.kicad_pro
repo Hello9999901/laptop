@@ -684,6 +684,14 @@
       {
         "netclass": "100Ω",
         "pattern": "/HDMI_TX/IN_*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB2.0/D*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB20_*"
       }
     ]
   },
