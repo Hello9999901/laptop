@@ -326,7 +326,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -338,7 +338,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -2500,7 +2500,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
+						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2512,7 +2512,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
+						(xy 0 -2.54) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -3395,6 +3395,12 @@
 		(uuid "b882cbf0-8f82-42b7-92a5-3ac4efdb6a2f")
 	)
 	(junction
+		(at 100.33 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "033475a0-8ddf-4281-9415-45cd6315886c")
+	)
+	(junction
 		(at 156.21 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3513,6 +3519,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5414600-64b0-42a4-943d-db1c69e76177")
+	)
+	(junction
+		(at 80.01 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db3a7a28-50f0-46ba-9389-96992eb8cdec")
 	)
 	(junction
 		(at 176.53 86.36)
@@ -3672,6 +3684,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 109.22) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1446481c-4df1-438e-8b55-752f13452fa3")
+	)
+	(wire
+		(pts
 			(xy 129.54 165.1) (xy 120.65 165.1)
 		)
 		(stroke
@@ -3799,6 +3821,16 @@
 			(type default)
 		)
 		(uuid "2827cfe8-26db-4279-bf83-09bc4125c337")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297b0b77-4ef7-4271-a1fe-f9c5e85168ef")
 	)
 	(wire
 		(pts
@@ -4112,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 125.73) (xy 111.76 125.73)
+			(xy 76.2 125.73) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4302,6 +4334,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 119.38) (xy 80.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93295781-8716-47dc-852b-b833c64115f6")
+	)
+	(wire
+		(pts
 			(xy 156.21 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -4402,7 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 100.33 111.76)
+			(xy 100.33 105.41) (xy 100.33 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4542,6 +4584,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 109.22) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb31756-3d90-4487-8a34-90a18c751596")
+	)
+	(wire
+		(pts
 			(xy 144.78 36.83) (xy 168.91 36.83)
 		)
 		(stroke
@@ -4599,6 +4651,16 @@
 			(type default)
 		)
 		(uuid "d6562d11-760e-4947-97c4-23f4c6a57321")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 111.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da50f60c-73d5-4990-9e10-144d59a450ce")
 	)
 	(wire
 		(pts
@@ -5329,7 +5391,7 @@
 	)
 	(hierarchical_label "FUSB_INT"
 		(shape input)
-		(at 97.79 125.73 180)
+		(at 76.2 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7891,6 +7953,76 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 80.01 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd51cfdc-0ebd-4956-94cc-aec03d73c9a7")
+		(property "Reference" "R55"
+			(at 82.55 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb6bbf7a-8789-4e3b-84bd-7d2b94bf6e03")
+		)
+		(pin "1"
+			(uuid "8fa2a275-3c97-4794-8f91-9657ca39e4a3")
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
+					(reference "R55")
 					(unit 1)
 				)
 			)

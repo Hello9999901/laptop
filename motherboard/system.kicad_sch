@@ -2675,6 +2675,15 @@
 		(at 154.94 90.17)
 		(uuid "9846d23c-bebf-4fd4-b227-3feef8438434")
 	)
+	(bus_entry
+		(at 66.04 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f8bcda-ed53-4ac5-8ec1-1bb11dbd1c6a")
+	)
 	(wire
 		(pts
 			(xy 67.31 74.93) (xy 77.47 74.93)
@@ -3486,6 +3495,28 @@
 		)
 		(uuid "b5f37f6d-7ada-4f8b-9b52-e25b7f77d2e8")
 	)
+	(global_label "+3.3V_PCIE"
+		(shape input)
+		(at 154.94 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce2cbe06-18bc-4c25-b36a-20854fb7a1e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.0086 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "RECOVERY"
 		(shape output)
 		(at 46.99 106.68 180)
@@ -4248,72 +4279,6 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
 					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 154.94 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "329af11d-962d-4ec3-b03c-115cb1d6b608")
-		(property "Reference" "#PWR074"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 154.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82120cc1-80e9-434a-ad21-274459550ee8")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/d2371120-9201-4f7f-a684-821b8780a78d"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)

@@ -2761,7 +2761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "eDP_Connector:IPEX_20455-040E-76"
+		(property "Footprint" "20455-040E-76:IPEX_20455-040E-76"
 			(at 163.83 100.33 0)
 			(effects
 				(font

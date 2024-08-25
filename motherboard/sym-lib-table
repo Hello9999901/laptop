@@ -9,4 +9,5 @@
   (lib (name "Ethernet")(type "KiCad")(uri "${KIPRJMOD}/library/L829-1J1T-JM/L829-1J1T-JM.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2016")(type "KiCad")(uri "${KIPRJMOD}/library/TPA2016D2RTJR-2/TPA2016D2RTJR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS564257")(type "KiCad")(uri "${KIPRJMOD}/library/TPS564257DRLR/TPS564257DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "RT9193-18GB")(type "KiCad")(uri "${KIPRJMOD}/library/RT9193-18GB/RT9193-18GB.kicad_sym")(options "")(descr ""))
 )

@@ -3561,7 +3561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPA2016:QFN50P400X400X80-21N"
+		(property "Footprint" "TPA2016D2RTJR:QFN50P400X400X80-21N"
 			(at 118.11 66.04 0)
 			(effects
 				(font
