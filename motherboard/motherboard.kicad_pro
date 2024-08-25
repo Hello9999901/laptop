@@ -692,6 +692,14 @@
       {
         "netclass": "90Ω",
         "pattern": "/USB20_*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC0/SBU*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USBC1/SBU*"
       }
     ]
   },

@@ -45754,16 +45754,6 @@
 			)
 			(uuid "18c55c25-f8e7-40ac-8023-2dcef4748922")
 		)
-		(pin "SBUS2" bidirectional
-			(at 139.7 314.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c062b6ac-eae6-4ceb-b9eb-ea692bb418e1")
-		)
 		(pin "TX2+" bidirectional
 			(at 139.7 293.37 180)
 			(effects
@@ -45774,16 +45764,6 @@
 			)
 			(uuid "de35b34d-0db8-4b20-ba66-3d7a43987b10")
 		)
-		(pin "SBUS1" bidirectional
-			(at 139.7 312.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fa2859e3-0534-4175-ae1d-4e8b4ced13f7")
-		)
 		(pin "TX2-" bidirectional
 			(at 139.7 295.91 180)
 			(effects
@@ -45793,6 +45773,26 @@
 				(justify left)
 			)
 			(uuid "85ac603d-820c-444e-9a95-1b315dad5c7c")
+		)
+		(pin "SBUS+" bidirectional
+			(at 139.7 312.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffa01e95-80af-4abe-84a0-0a7a131e469d")
+		)
+		(pin "SBUS-" bidirectional
+			(at 139.7 314.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "badc6267-ad0a-4552-9ecd-6504efedf161")
 		)
 		(instances
 			(project "motherboard"

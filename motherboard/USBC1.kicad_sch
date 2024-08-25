@@ -5377,7 +5377,7 @@
 		)
 		(uuid "2f72a513-0c9c-4225-8a1c-31cf02afc5a5")
 	)
-	(hierarchical_label "SBUS2"
+	(hierarchical_label "SBUS2-"
 		(shape bidirectional)
 		(at 102.87 95.25 0)
 		(fields_autoplaced yes)
@@ -5437,7 +5437,7 @@
 		)
 		(uuid "a6918bcc-da3d-46ac-82f1-869f90796b76")
 	)
-	(hierarchical_label "SBUS1"
+	(hierarchical_label "SBUS1+"
 		(shape bidirectional)
 		(at 102.87 92.71 0)
 		(fields_autoplaced yes)

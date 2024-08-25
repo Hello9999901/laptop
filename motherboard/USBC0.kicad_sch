@@ -4969,17 +4969,6 @@
 		)
 		(uuid "7c2a1614-9c08-459a-9c09-e8d18de7efb4")
 	)
-	(label "SBUS1"
-		(at 77.47 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89ad4932-ef99-46e2-b57b-d7ff1b32fd79")
-	)
 	(label "TX1-"
 		(at 77.47 83.82 180)
 		(fields_autoplaced yes)
@@ -4990,17 +4979,6 @@
 			(justify right bottom)
 		)
 		(uuid "8dd76e15-2359-467e-a9bf-31c372e64837")
-	)
-	(label "SBUS2"
-		(at 77.47 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e7ff98a-ad5d-408b-a3d3-8cdad35bcaf3")
 	)
 	(label "TX1-"
 		(at 105.41 184.15 180)
@@ -5013,7 +4991,7 @@
 		)
 		(uuid "955b5237-f51a-4f00-864f-3343d17a14fa")
 	)
-	(label "SBUS2"
+	(label "SBUS-"
 		(at 15.24 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5090,7 +5068,7 @@
 		)
 		(uuid "c0f26c66-d746-4697-8321-12674a2d2c9b")
 	)
-	(label "SBUS2"
+	(label "SBUS-"
 		(at 15.24 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5156,7 +5134,7 @@
 		)
 		(uuid "dde6d3e0-ac9d-45fe-b14c-0ab2be5336fa")
 	)
-	(label "SBUS1"
+	(label "SBUS+"
 		(at 58.42 184.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5178,7 +5156,7 @@
 		)
 		(uuid "e82120d7-c6c0-47fa-88cb-7cd91d54b250")
 	)
-	(label "SBUS1"
+	(label "SBUS+"
 		(at 58.42 179.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5353,7 +5331,7 @@
 		)
 		(uuid "7daf0487-423b-4b2d-9def-e1561891f550")
 	)
-	(hierarchical_label "SBUS2"
+	(hierarchical_label "SBUS-"
 		(shape bidirectional)
 		(at 77.47 109.22 0)
 		(fields_autoplaced yes)
@@ -5401,7 +5379,7 @@
 		)
 		(uuid "e02092a8-39ca-4e09-8d13-91a186d1b1b3")
 	)
-	(hierarchical_label "SBUS1"
+	(hierarchical_label "SBUS+"
 		(shape bidirectional)
 		(at 77.47 106.68 0)
 		(fields_autoplaced yes)
