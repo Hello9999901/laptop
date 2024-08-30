@@ -3784,12 +3784,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 190.5 111.76 0)
+		(property "Value" "+1V8"
+			(at 193.04 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5881,7 +5882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
 			(at 190.5 152.4 0)
 			(effects
 				(font
@@ -7461,12 +7462,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 170.18 111.76 0)
+		(property "Value" "+1V8"
+			(at 172.72 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

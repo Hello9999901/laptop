@@ -35105,6 +35105,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19272233"
+			(at 471.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbfafaa8-2169-48cd-9129-2f2f081e01b5")
 		)
@@ -35377,6 +35386,15 @@
 		)
 		(property "Description" ""
 			(at 388.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597931"
+			(at 388.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36648,6 +36666,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 444.5 228.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1889249-4198-4ca6-ad69-2bcde444bbb3")
 		)
@@ -36782,6 +36809,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25767"
+			(at 450.85 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb71bd14-5618-477c-b0d0-7cbccdf32e95")
 		)
@@ -36852,6 +36888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25778"
+			(at 443.23 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3ca634c-52e7-4bf4-93d1-1751d99b5933")
 		)
@@ -36915,6 +36960,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 438.15 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 440.69 262.8962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37058,6 +37112,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25897"
+			(at 439.42 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5d912b0-8b4b-4a7e-81fc-965b0cb6f822")
 		)
@@ -37121,6 +37184,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 516.89 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 519.43 228.6062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37459,6 +37531,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19272233"
+			(at 467.36 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abd06f77-5b77-4aa8-8f82-b22c4175a5a8")
 		)
@@ -37481,6 +37562,70 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 372.11 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e8d80e2-6e59-4ba9-9d42-86d7c9484c91")
+		(property "Reference" "H7"
+			(at 158.75 370.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hirose"
+			(at 158.75 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Blank"
+			(at 156.21 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -37741,6 +37886,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913517"
+			(at 434.34 228.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62965e45-c8a7-4e16-9b63-9bcd9c3534d8")
 		)
@@ -37804,6 +37958,15 @@
 		)
 		(property "Description" ""
 			(at 551.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27416"
+			(at 551.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37956,6 +38119,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25897"
+			(at 441.96 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "808d0d9d-6ee4-4e64-86a2-97484d634ecb")
 		)
@@ -38019,6 +38191,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 447.04 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11616"
+			(at 449.58 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38427,6 +38608,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 570.23 160.0262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af0d6233-9b60-4d41-b810-afa5a663dab5")
 		)
@@ -38563,6 +38753,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913517"
+			(at 431.8 185.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4290f1af-5e86-4800-8edd-edf40d3f6e83")
 		)
@@ -38629,6 +38828,15 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C162690"
+			(at 501.65 185.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -38763,6 +38971,15 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C162690"
+			(at 502.92 262.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -38904,6 +39121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25779"
+			(at 453.39 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36155ee6-c95b-44d3-83d9-19b60e0a0493")
 		)
@@ -38974,6 +39200,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C162690"
+			(at 504.19 228.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc864154-e74c-4132-957f-285ca81afdf7")
 		)
@@ -38984,6 +39219,70 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 378.46 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d0f0cab-4941-4a75-9b71-2dfc228ec52c")
+		(property "Reference" "H8"
+			(at 158.75 377.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hirose"
+			(at 158.75 379.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Blank"
+			(at 156.21 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -39309,6 +39608,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913517"
+			(at 430.53 262.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa9d7aa9-acb6-4031-bf2f-c480c8510106")
 		)
@@ -39516,6 +39824,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 449.58 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4fa0f7f-8b5c-4bc1-bce3-3e5311dd267f")
 		)
@@ -39582,6 +39899,15 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C162690"
+			(at 497.84 262.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -39656,6 +39982,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 513.08 262.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16e198b2-1dd8-40f5-a4cf-07e7cb53347d")
 		)
@@ -39717,6 +40052,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 492.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 492.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39872,6 +40216,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 365.76 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a891431b-709b-4f6f-9dba-5df1900d8ae1")
+		(property "Reference" "H6"
+			(at 158.75 364.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hirose"
+			(at 158.75 367.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Blank"
+			(at 156.21 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 511.81 229.87 0)
 		(unit 1)
@@ -39922,6 +40330,15 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C162690"
+			(at 509.27 228.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -40053,6 +40470,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 495.3 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C167220"
+			(at 495.3 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40262,6 +40688,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 516.89 185.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "196f5f31-045b-4d4a-92be-647893e65790")
 		)
@@ -40325,6 +40760,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 433.07 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913517"
+			(at 435.61 262.8962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40402,6 +40846,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913517"
+			(at 439.42 228.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b740c3ea-c931-4c20-ac45-e920b2c4503b")
 		)
@@ -40472,6 +40925,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 443.23 185.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60d837ae-ca88-4e3c-9cad-ac5276bad83d")
 		)
@@ -40533,6 +40995,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 488.95 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C408446"
+			(at 488.95 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40807,6 +41278,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 447.04 280.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bd0679e-a254-4e2a-9693-9fb5b1ebdc49")
 		)
@@ -40870,6 +41350,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 529.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 532.13 160.0262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41079,6 +41568,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C162690"
+			(at 506.73 185.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b92b094a-4c7b-439c-a54d-e59b820933ef")
 		)
@@ -41140,6 +41638,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 495.3 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 495.3 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41274,6 +41781,15 @@
 		)
 		(property "Description" ""
 			(at 264.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597931"
+			(at 264.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42543,6 +43059,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C408446"
+			(at 492.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e367c8ca-e6a2-47e6-b691-54a54c2e40f1")
 		)
@@ -42742,6 +43267,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19272233"
+			(at 469.9 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16e4c365-03b6-4aa5-9095-fd98e133787d")
 		)
@@ -42817,6 +43351,15 @@
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 414.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C564042"
+			(at 416.56 207.3655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42912,6 +43455,15 @@
 		)
 		(property "Description" ""
 			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597931"
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44314,6 +44866,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 488.95 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7cb9a6c9-5071-4fe1-b3ec-0f619c67ab82")
 		)
@@ -44450,6 +45011,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11616"
+			(at 452.12 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42a80122-352c-49db-bd10-ef20d28bf0f9")
 		)
@@ -44460,6 +45030,70 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 359.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c654da-c449-4b1a-a976-c431b4bc1101")
+		(property "Reference" "H5"
+			(at 158.75 358.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hirose"
+			(at 158.75 360.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Blank"
+			(at 156.21 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -44513,6 +45147,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 435.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913517"
+			(at 438.15 185.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44647,6 +45290,15 @@
 		)
 		(property "Description" ""
 			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597931"
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
