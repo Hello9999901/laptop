@@ -1,9 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
-  (lib (name "BQ25713")(type "KiCad")(uri "${KIPRJMOD}/library/BQ25713/2024-06-29_01-26-47.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS55289")(type "KiCad")(uri "${KIPRJMOD}/library/TPS55289RYQR/TPS55289RYQR/KiCad/TPS55289RYQR.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS25750D")(type "KiCad")(uri "${KIPRJMOD}/library/TPS25750DRJKR/TPS25750DRJKR.kicad_sym")(options "")(descr ""))
-  (lib (name "BQ25798")(type "KiCad")(uri "${KIPRJMOD}/library/ul_BQ25798RQMR/2024-07-01_01-28-49.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS54531")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54531DDAR/TPS54531DDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "HUSB238")(type "KiCad")(uri "${KIPRJMOD}/library/HUSB238/husb238.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ77915")(type "KiCad")(uri "${KIPRJMOD}/library/BQ7791501PWR/BQ7791501PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25713")(type "KiCad")(uri "${KIPRJMOD}/library/ul_BQ25713RSNR/KiCADv6/2024-09-08_03-50-33.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC2943")(type "KiCad")(uri "${KIPRJMOD}/library/ul_LTC2943IDD-PBF/KiCADv6/2024-09-08_03-51-34.kicad_sym")(options "")(descr ""))
 )

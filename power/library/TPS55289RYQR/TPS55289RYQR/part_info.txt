@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TPS55289RYQR
-PartCategory=Integrated Circuit
-PackageCategory=Other
-PinCount=23
-Version=1.3
-Released=2022-10-21 12:18:23
-Downloaded=2024-06-29 02:30:23
-3D=Y
