@@ -1638,7 +1638,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1650,7 +1650,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1686,7 +1686,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1698,7 +1698,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -1760,6 +1760,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1770,17 +1781,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -3566,18 +3566,6 @@
 					)
 				)
 				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start -2.794 3.048)
 					(mid -2.6144 2.9736)
 					(end -2.54 2.794)
@@ -3602,9 +3590,9 @@
 					)
 				)
 				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -3617,6 +3605,18 @@
 					(start -2.54 2.159)
 					(mid -2.6144 1.9794)
 					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
 					(stroke
 						(width 0)
 						(type default)
@@ -5382,7 +5382,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
+						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -5394,7 +5394,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
+						(xy 0 -2.54) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -16447,265 +16447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-S3-MINI-1")
-		(at 5.08 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21ac1cc2-b3c0-4078-9e11-46c5725bcb70")
-		(property "Reference" "U5"
-			(at 7.2741 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-S3-MINI-1"
-			(at 7.2741 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-S2-MINI-1"
-			(at 20.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf"
-			(at 5.08 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"
-			(at 5.08 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "cb67127d-5ee2-408f-a209-1ea2144799ff")
-		)
-		(pin "13"
-			(uuid "b8c3fe3d-7735-46a4-bac5-eff06c80ad77")
-		)
-		(pin "14"
-			(uuid "5190f629-584c-4a5c-876a-aa6bd8bc1c0f")
-		)
-		(pin "11"
-			(uuid "43fef6cd-4dea-4445-9158-097a563d7b2c")
-		)
-		(pin "10"
-			(uuid "af86613c-f644-4152-8259-186012568f21")
-		)
-		(pin "15"
-			(uuid "d7e899ee-c79a-433e-ac59-f397323d5bb5")
-		)
-		(pin "16"
-			(uuid "ca4f03e5-a9d7-4709-bc8b-f973a7924350")
-		)
-		(pin "17"
-			(uuid "024f41bc-3eff-442b-b0f9-d59ecd73f859")
-		)
-		(pin "18"
-			(uuid "0deddf65-2f47-4524-85d2-b554a2b945b4")
-		)
-		(pin "19"
-			(uuid "40dafb9a-e802-43f4-b661-efa564c35516")
-		)
-		(pin "2"
-			(uuid "a9d7a078-d4c0-4c4e-a05d-1f872b766994")
-		)
-		(pin "20"
-			(uuid "2478b99c-214e-4817-af00-f432a21b38d6")
-		)
-		(pin "21"
-			(uuid "edb3b77a-240e-4043-80d7-fb27ca6ff5bd")
-		)
-		(pin "22"
-			(uuid "cc1b2d4e-0bd5-402f-8f7c-cb1303112d50")
-		)
-		(pin "23"
-			(uuid "1f7cf65f-63be-4e02-951f-b8aa12eb0f2e")
-		)
-		(pin "24"
-			(uuid "8f942241-6c55-46af-96e2-d1b4e2a3853b")
-		)
-		(pin "25"
-			(uuid "497b145e-f859-400d-9786-a9724a9f712e")
-		)
-		(pin "26"
-			(uuid "c8b7e915-8fc8-4d67-a364-f6519bd625bd")
-		)
-		(pin "27"
-			(uuid "c8533242-9efc-41db-a79f-e3081c09eeb3")
-		)
-		(pin "28"
-			(uuid "62feb840-f015-418e-a224-07e746a4d770")
-		)
-		(pin "29"
-			(uuid "45cd1e6f-6fc7-4f8e-bc16-28f05544de2f")
-		)
-		(pin "3"
-			(uuid "85392e41-1e21-4755-9066-e801b91f8801")
-		)
-		(pin "30"
-			(uuid "0780e1a0-faf9-4deb-b297-2e290313565a")
-		)
-		(pin "31"
-			(uuid "8e3f1b93-e137-419c-9b22-123514392d45")
-		)
-		(pin "32"
-			(uuid "28f4326e-907f-486c-9c2a-48a03a26cb27")
-		)
-		(pin "33"
-			(uuid "7ce8a946-a2d7-410e-b0b1-33154b804c77")
-		)
-		(pin "34"
-			(uuid "2895dedc-a133-4a78-bb4c-fff6f05724a2")
-		)
-		(pin "35"
-			(uuid "65b7e3f0-5724-40c1-a297-5c0b4e839f76")
-		)
-		(pin "36"
-			(uuid "64edece7-96aa-40af-b58f-8bf9177e418c")
-		)
-		(pin "37"
-			(uuid "2ba7676f-4b8f-471f-ae76-272a7ef3a6a9")
-		)
-		(pin "38"
-			(uuid "6bf30246-43ed-40c1-bf49-3772aac7757b")
-		)
-		(pin "39"
-			(uuid "c5ba808f-da45-4200-8e72-f8e92cca21e4")
-		)
-		(pin "4"
-			(uuid "0704fd90-0800-4c3e-8c63-f658c217bb69")
-		)
-		(pin "40"
-			(uuid "7695492d-9b84-40a6-94d3-57e3b9c7e6e4")
-		)
-		(pin "41"
-			(uuid "9f4151a0-8ed2-4032-bdd4-563a118a8da0")
-		)
-		(pin "42"
-			(uuid "3dafff41-8e14-4b17-ba00-0f401a7e8dfe")
-		)
-		(pin "43"
-			(uuid "4f3def50-8a37-4c63-ae37-0c52c071b920")
-		)
-		(pin "44"
-			(uuid "d987b7c7-31f8-4f5a-9b06-d5e714410edf")
-		)
-		(pin "45"
-			(uuid "84a06eb6-b468-46e2-be11-f1f5eb8e4822")
-		)
-		(pin "46"
-			(uuid "c9d70014-43fd-4c0b-932c-b5b29e65f365")
-		)
-		(pin "47"
-			(uuid "9afb75b3-e202-4879-88af-9d37d27f272b")
-		)
-		(pin "48"
-			(uuid "17f5da80-37db-45d1-b20c-053975d01f07")
-		)
-		(pin "49"
-			(uuid "aa493d6f-a1a3-4864-a3a1-74389d9a183d")
-		)
-		(pin "5"
-			(uuid "30dfc9d0-e27a-4e45-a95d-478a6be48142")
-		)
-		(pin "50"
-			(uuid "c795a058-3910-4692-8abc-fef6cb473a67")
-		)
-		(pin "51"
-			(uuid "e34e5006-290c-408d-a176-d2066df199f0")
-		)
-		(pin "52"
-			(uuid "4187ef46-9b98-486e-8ef8-3788990a2508")
-		)
-		(pin "53"
-			(uuid "b4cb0fa6-04be-454f-81ac-fe7a2dab21c7")
-		)
-		(pin "54"
-			(uuid "f68d0a5e-8308-4de3-9042-ab99eca7ca64")
-		)
-		(pin "55"
-			(uuid "3377db35-e69c-47d7-882c-3621d616fed3")
-		)
-		(pin "56"
-			(uuid "77836b9d-184d-49f0-baed-37218bd778a6")
-		)
-		(pin "57"
-			(uuid "930c2313-8ed8-492a-87eb-2dd8bfa3290f")
-		)
-		(pin "58"
-			(uuid "11c844c4-e025-4b5d-9d0e-f0d633f5f218")
-		)
-		(pin "59"
-			(uuid "545dedc1-905b-4b4d-92e8-5e9897b7e8a4")
-		)
-		(pin "6"
-			(uuid "a1338e36-fc8f-44b2-b56c-2cc131140bf8")
-		)
-		(pin "60"
-			(uuid "f0cfe4ed-4595-4410-ba6c-93e2cafc9341")
-		)
-		(pin "61"
-			(uuid "3f46722d-2b42-4f55-8942-3349fd58e0dd")
-		)
-		(pin "62"
-			(uuid "3eb0e7dc-09dc-4e8b-b6d5-d22f9df2480b")
-		)
-		(pin "63"
-			(uuid "0738a96d-3f04-450d-8125-d910110b9486")
-		)
-		(pin "64"
-			(uuid "c56d60af-de64-438f-808f-68db2ab934c5")
-		)
-		(pin "65"
-			(uuid "192ad885-fcd4-4720-a0dc-281e8aded876")
-		)
-		(pin "7"
-			(uuid "a05d5296-9bb2-4e05-8ac1-d47f801ec57f")
-		)
-		(pin "8"
-			(uuid "c2e90018-e119-4cd3-b2ca-c1a1db64db46")
-		)
-		(pin "9"
-			(uuid "27e57d18-703a-419d-933f-a5a134cf6479")
-		)
-		(pin "1"
-			(uuid "daa78b46-76cd-479c-980d-cf90ccfa667a")
-		)
-		(instances
-			(project ""
-				(path "/f6ef1cf7-e202-4cf7-a9a2-de51d726791c"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -58.42 69.85 0)
 		(unit 1)
@@ -17924,7 +17665,7 @@
 				)
 			)
 		)
-		(property "Value" "MWSA0603S-100MT"
+		(property "Value" "FTC252012S100MBCA"
 			(at 73.66 128.27 90)
 			(effects
 				(font
@@ -17932,7 +17673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0603S"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 73.66 130.81 0)
 			(effects
 				(font
@@ -25580,6 +25321,265 @@
 			(project "power"
 				(path "/f6ef1cf7-e202-4cf7-a9a2-de51d726791c"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Module:ESP32-S3-MINI-1")
+		(at 5.08 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa85cfef-1e6d-4f1f-82fc-97c34176508e")
+		(property "Reference" "U5"
+			(at 7.2741 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-S3-MINI-1"
+			(at 7.2741 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-S2-MINI-1"
+			(at 20.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf"
+			(at 5.08 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"
+			(at 5.08 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "3e552d9d-d224-4d01-af01-c26b949e4033")
+		)
+		(pin "53"
+			(uuid "8053dbdb-2a62-4985-b1c8-ae8b450c53ce")
+		)
+		(pin "54"
+			(uuid "5bba1917-5bc9-4d26-8e9a-e2b968988af7")
+		)
+		(pin "5"
+			(uuid "dc1a5b78-9550-422a-8963-e6d9d5df1416")
+		)
+		(pin "50"
+			(uuid "287e7680-025b-4200-a8d6-e818f55640b3")
+		)
+		(pin "51"
+			(uuid "a0d48351-606d-4a5d-9e0f-bb3d9ba792e3")
+		)
+		(pin "52"
+			(uuid "ad06080c-d383-44f0-bb3d-95149b2ee3db")
+		)
+		(pin "49"
+			(uuid "2e1ee085-c8ff-46a1-922e-b407d4ec9424")
+		)
+		(pin "36"
+			(uuid "8346f70c-00ce-448f-8d24-f3cf54627ebe")
+		)
+		(pin "26"
+			(uuid "49717356-ba12-4908-9b12-c23e7a903ac1")
+		)
+		(pin "55"
+			(uuid "8c4faac2-23e1-4294-a645-c28e482156bb")
+		)
+		(pin "56"
+			(uuid "f56fc6d2-e69d-4794-a9cf-2dd3f1c52eb5")
+		)
+		(pin "57"
+			(uuid "e4fa19c2-4490-4afa-88a4-bbcfb6c0ab67")
+		)
+		(pin "58"
+			(uuid "c32124ae-d992-4871-baff-3c80ca6352f9")
+		)
+		(pin "59"
+			(uuid "5eea16da-7a91-4939-80d7-f80410a5f85b")
+		)
+		(pin "44"
+			(uuid "948ab638-f5a0-44e7-a23e-da7a3e62827d")
+		)
+		(pin "45"
+			(uuid "3e4ee808-8094-4ea4-997c-5ab407160d46")
+		)
+		(pin "46"
+			(uuid "fae2019f-2c29-4dca-9724-775f69cf83c1")
+		)
+		(pin "47"
+			(uuid "abcdc12b-b262-469f-8507-fdc7a55dbeb8")
+		)
+		(pin "48"
+			(uuid "2a1000d8-eea5-402d-bd1f-e3168cee317d")
+		)
+		(pin "22"
+			(uuid "d0f9ce29-ad8b-435c-84c6-24b64dad7afa")
+		)
+		(pin "33"
+			(uuid "f0ff398c-844e-4f02-93f3-f0d238e75d00")
+		)
+		(pin "2"
+			(uuid "8b6eec67-60df-40dc-bc61-93a4811c35be")
+		)
+		(pin "19"
+			(uuid "950c160c-8a31-448c-b223-2fd3940ae6cb")
+		)
+		(pin "37"
+			(uuid "b0e4d3e9-35a4-41d8-8237-3d7c01bbbe85")
+		)
+		(pin "38"
+			(uuid "a3dafd33-f4c1-4d43-82bb-f95fab88699c")
+		)
+		(pin "39"
+			(uuid "93b3f0c7-0522-4f7a-952e-1ef977a78621")
+		)
+		(pin "4"
+			(uuid "95859705-d332-4e38-a041-172d68cf6967")
+		)
+		(pin "40"
+			(uuid "3084cdf2-f4ae-422c-b6b3-c0c20a51d3bb")
+		)
+		(pin "41"
+			(uuid "780ecc3e-a9d7-48b1-95da-9b53c7f3652d")
+		)
+		(pin "42"
+			(uuid "254dd9b2-d93e-4eea-8597-d8bfbe8ffffb")
+		)
+		(pin "43"
+			(uuid "f082b8ae-8d94-40e3-87b9-5ee01156af1b")
+		)
+		(pin "34"
+			(uuid "309fa1fb-eef9-4a84-a6ed-92d4e47ca48c")
+		)
+		(pin "35"
+			(uuid "84228ea6-5edd-4ef9-a4bb-f7193cc9201f")
+		)
+		(pin "6"
+			(uuid "df5aa2a7-65c0-4ebb-94eb-568dcda588d5")
+		)
+		(pin "60"
+			(uuid "93d130f7-3d69-4d61-8e5a-9c1cd2ff897e")
+		)
+		(pin "61"
+			(uuid "b4b6707d-66ee-45e5-8a86-6a7ff91ebbca")
+		)
+		(pin "31"
+			(uuid "1db0fa0e-eaea-48b4-b7df-4ffee76cefa9")
+		)
+		(pin "32"
+			(uuid "a83e4b33-32cc-4146-b565-c4fbd7ead4f3")
+		)
+		(pin "28"
+			(uuid "f210e792-f040-41c6-8a09-cef74b613091")
+		)
+		(pin "29"
+			(uuid "c49abccb-3870-4580-9d6a-07a52bb0e168")
+		)
+		(pin "3"
+			(uuid "16159855-76fe-4d34-85db-28604243aa6f")
+		)
+		(pin "12"
+			(uuid "975271fc-a881-4573-b996-1bdcd8ed5a3d")
+		)
+		(pin "30"
+			(uuid "136b325d-772e-4cf5-9577-307228a368b0")
+		)
+		(pin "16"
+			(uuid "adbd1621-2d63-4181-a0fd-3fee82794256")
+		)
+		(pin "27"
+			(uuid "27a6887c-8a9c-4fbe-9d02-ce374a3d857b")
+		)
+		(pin "20"
+			(uuid "b05f343f-2903-4a39-9e4f-d1846ffdca28")
+		)
+		(pin "7"
+			(uuid "6edc3e3a-1fa8-45f3-8121-0a598ed23c7f")
+		)
+		(pin "8"
+			(uuid "db64a4ad-7a43-4120-be8b-e6f745bf413a")
+		)
+		(pin "9"
+			(uuid "f96c7154-0d0b-4498-8e9d-67a876b4d7e7")
+		)
+		(pin "62"
+			(uuid "57b4b7d3-af28-4d0d-9615-f1494751a1bd")
+		)
+		(pin "63"
+			(uuid "350dc491-ea01-46fe-b110-2fdadcb0984a")
+		)
+		(pin "14"
+			(uuid "e958880a-e564-4d5f-8c3c-5857d51e7ce3")
+		)
+		(pin "23"
+			(uuid "06c644c5-e243-447a-b29d-8cdd9d80c272")
+		)
+		(pin "15"
+			(uuid "29ecbf89-4dc4-48da-aed0-a22f42c6f9a4")
+		)
+		(pin "64"
+			(uuid "e915b5ff-f248-470f-bcb4-38c05abf94b1")
+		)
+		(pin "65"
+			(uuid "5975f6a2-3ab9-4487-8254-3f54ea65af03")
+		)
+		(pin "11"
+			(uuid "41f082d6-c34b-444d-91cf-a66773845cb4")
+		)
+		(pin "10"
+			(uuid "e26996e2-a112-4e3b-bf11-7b9147810ae9")
+		)
+		(pin "17"
+			(uuid "1bee7fb0-6f2c-433b-abf5-714ec908f134")
+		)
+		(pin "25"
+			(uuid "3ef9b84e-c709-4a32-b6e8-030730e4855a")
+		)
+		(pin "18"
+			(uuid "c0577d19-5cd9-498f-b3f6-089fa0ef6f73")
+		)
+		(pin "24"
+			(uuid "22ab3f33-cc48-49fe-b48b-98f54a61f2d3")
+		)
+		(pin "21"
+			(uuid "6fa5c71d-6c88-43ab-b6e4-a4f59d3303df")
+		)
+		(pin "1"
+			(uuid "3db85fa7-5a41-4a3e-8afb-c336fe1d419c")
+		)
+		(instances
+			(project ""
+				(path "/f6ef1cf7-e202-4cf7-a9a2-de51d726791c"
+					(reference "U5")
 					(unit 1)
 				)
 			)
