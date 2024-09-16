@@ -4,6 +4,13 @@
 	(generator_version "8.99")
 	(uuid "d89ca7cb-35b6-41e1-ade7-25e7bc528b55")
 	(paper "A4")
+	(title_block
+		(title "anyon e")
+		(date "2024-09-15")
+		(rev "V0.3")
+		(company "Byran Huang")
+		(comment 4 "Proof of concept board for feature verification")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names

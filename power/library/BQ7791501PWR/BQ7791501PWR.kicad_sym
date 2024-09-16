@@ -242,7 +242,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 15.24 180)
+				(at 17.78 6.35 180)
 				(length 5.08)
 				(name "DSG"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 17.78 180)
+				(at 17.78 8.89 180)
 				(length 5.08)
 				(name "CHG"
 					(effects

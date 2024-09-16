@@ -136,7 +136,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -12.065 0)
+				(at -22.86 -12.7 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -9.525 0)
+				(at -22.86 -10.16 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -1.905 180)
+				(at 22.86 -1.27 180)
 				(length 5.08)
 				(name "COMP2"
 					(effects
@@ -262,7 +262,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 5.715 180)
+				(at 22.86 6.35 180)
 				(length 5.08)
 				(name "SRN"
 					(effects
@@ -298,7 +298,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 8.255 180)
+				(at 22.86 8.89 180)
 				(length 5.08)
 				(name "SRP"
 					(effects
@@ -442,7 +442,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 0.635 180)
+				(at 22.86 1.27 180)
 				(length 5.08)
 				(name "REGN"
 					(effects

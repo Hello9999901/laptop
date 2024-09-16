@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "anyon e")
-		(date "2024-06-12")
-		(rev "V0.1")
+		(date "2024-09-15")
+		(rev "V0.3")
 		(company "Byran Huang")
 		(comment 4 "Proof of concept board for feature verification")
 	)
@@ -2674,15 +2674,6 @@
 	(no_connect
 		(at 154.94 90.17)
 		(uuid "9846d23c-bebf-4fd4-b227-3feef8438434")
-	)
-	(bus_entry
-		(at 66.04 73.66)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f8bcda-ed53-4ac5-8ec1-1bb11dbd1c6a")
 	)
 	(wire
 		(pts

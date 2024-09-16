@@ -74,7 +74,7 @@
 		)
 		(symbol "LTC2943IDD-PBF_0_1"
 			(pin input line
-				(at -13.97 3.175 0)
+				(at -13.97 3.81 0)
 				(length 5.08)
 				(name "SENSE+"
 					(effects
@@ -92,7 +92,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -3.175 180)
+				(at 13.97 -3.81 180)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -110,7 +110,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -0.635 180)
+				(at 13.97 0 180)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -128,7 +128,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -3.175 0)
+				(at 13.97 3.81 180)
 				(length 5.08)
 				(name "*ALCC"
 					(effects
@@ -146,7 +146,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.795 90)
+				(at 0 -10.16 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -164,7 +164,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 3.175 180)
+				(at -13.97 -1.27 0)
 				(length 5.08)
 				(name "SENSE-"
 					(effects
@@ -184,8 +184,8 @@
 		)
 		(symbol "LTC2943IDD-PBF_1_1"
 			(rectangle
-				(start -8.89 5.715)
-				(end 8.89 -5.715)
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -195,7 +195,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.795 90)
+				(at 0 -10.16 90)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -213,7 +213,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.795 90)
+				(at 0 -10.16 90)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -231,7 +231,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -10.795 90)
+				(at 0 -10.16 90)
 				(length 5.08) hide
 				(name "EPAD"
 					(effects

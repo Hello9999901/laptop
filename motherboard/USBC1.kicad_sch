@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "anyon e")
-		(date "2024-06-12")
-		(rev "V0.1")
+		(date "2024-09-15")
+		(rev "V0.3")
 		(company "Byran Huang")
 		(comment 4 "Proof of concept board for feature verification")
 	)
@@ -326,7 +326,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -338,7 +338,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1862,17 +1862,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -6.604) (xy 0 -7.62)
@@ -1883,6 +1872,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -4822,7 +4822,7 @@
 		)
 		(uuid "fe920918-bffb-4de5-9477-527d2ef6c963")
 	)
-	(label "SBUS2"
+	(label "SBUS-"
 		(at 26.67 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4844,7 +4844,7 @@
 		)
 		(uuid "09d06f1c-2198-4cde-bfea-54bf0fcb3a2e")
 	)
-	(label "SBUS1"
+	(label "SBUS+"
 		(at 69.85 170.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4943,7 +4943,7 @@
 		)
 		(uuid "38a4a054-a2e3-4574-ad9b-e549bc646b91")
 	)
-	(label "SBUS2"
+	(label "SBUS-"
 		(at 26.67 160.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5009,7 +5009,7 @@
 		)
 		(uuid "4f9e3c2b-f933-427c-86d4-e98a6728e4be")
 	)
-	(label "SBUS2"
+	(label "SBUS-"
 		(at 102.87 95.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5130,7 +5130,7 @@
 		)
 		(uuid "981d0cec-7988-43f2-9ab6-911b66abcc09")
 	)
-	(label "SBUS1"
+	(label "SBUS+"
 		(at 102.87 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5196,7 +5196,7 @@
 		)
 		(uuid "b0908ddd-a030-463c-917e-5f75d7501307")
 	)
-	(label "SBUS1"
+	(label "SBUS+"
 		(at 69.85 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5365,7 +5365,7 @@
 		)
 		(uuid "1c6cdf61-6360-408a-80fe-ba15ee62f9c4")
 	)
-	(hierarchical_label "GPIO1_D2{slash}TYPEC5V_PWREN_H"
+	(hierarchical_label "GPIO3_B4"
 		(shape input)
 		(at 156.21 86.36 180)
 		(fields_autoplaced yes)
@@ -5377,7 +5377,7 @@
 		)
 		(uuid "2f72a513-0c9c-4225-8a1c-31cf02afc5a5")
 	)
-	(hierarchical_label "SBUS2-"
+	(hierarchical_label "SBUS-"
 		(shape bidirectional)
 		(at 102.87 95.25 0)
 		(fields_autoplaced yes)
@@ -5437,7 +5437,7 @@
 		)
 		(uuid "a6918bcc-da3d-46ac-82f1-869f90796b76")
 	)
-	(hierarchical_label "SBUS1+"
+	(hierarchical_label "SBUS+"
 		(shape bidirectional)
 		(at 102.87 92.71 0)
 		(fields_autoplaced yes)
@@ -8436,16 +8436,16 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TVS2200DRV")
-		(at 168.91 44.45 180)
+		(at 168.91 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc26142b-e63d-442b-a90e-d70807cb2495")
 		(property "Reference" "U29"
-			(at 182.88 43.1799 0)
+			(at 182.88 45.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8454,7 @@
 			)
 		)
 		(property "Value" "TVS2200DRV"
-			(at 182.88 45.7199 0)
+			(at 182.88 43.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8463,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 163.83 35.56 0)
+			(at 163.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

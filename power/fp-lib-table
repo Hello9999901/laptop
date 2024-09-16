@@ -1,5 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "TPS25750D")(type "KiCad")(uri "${KIPRJMOD}/library/TPS25750DRJKR/IC_TPS25750DRJKR.pretty")(options "")(descr ""))
-  (lib (name "CONV_TPS54531DDAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS54531DDAR/CONV_TPS54531DDAR.pretty")(options "")(descr ""))
+  (lib (name "HUSB238")(type "KiCad")(uri "${KIPRJMOD}/library/HUSB238/husb238.pretty")(options "")(descr ""))
+  (lib (name "BQ77915")(type "KiCad")(uri "${KIPRJMOD}/library/BQ7791501PWR/BQ7791501.pretty")(options "")(descr ""))
+  (lib (name "LTC2943")(type "KiCad")(uri "${KIPRJMOD}/library/ul_LTC2943IDD-PBF/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "BQ25713")(type "KiCad")(uri "${KIPRJMOD}/library/ul_BQ25713RSNR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "FPC")(type "KiCad")(uri "${KIPRJMOD}/library/6P_05mm_FPC.pretty")(options "")(descr ""))
 )

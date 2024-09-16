@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS92360DCKR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2022-10-20 11:19:27
+Downloaded=2024-09-14 17:25:11
+3D=Y

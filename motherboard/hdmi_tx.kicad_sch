@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "anyon e")
-		(date "2024-06-12")
-		(rev "V0.1")
+		(date "2024-09-15")
+		(rev "V0.3")
 		(company "Byran Huang")
 		(comment 4 "Proof of concept board for feature verification")
 	)
@@ -1294,7 +1294,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -1306,7 +1306,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)

@@ -1,0 +1,16 @@
+.TPS92360DCKR :1 ;LED Lighting Drivers 38-V 1.2-A single channel LED backlight driver 5-SC70 -40 to 85
+SOT65P210X110-5N
+*STM IC
+*NGS
+*PLB 1="SW" 2="GND" 3="FB" 4="CTRL" 5="VIN"
+*MXP 5
+*DFN TPS92360DCKR
+~!Mouser Part Number (595-TPS92360DCKR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS92360DCKR?qs=TuK3vfAjtkVCHAFNej%252BeDQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS92360DCKR)
+~!Link Datasheet (https://www.mouser.de/ProductDetail/Texas-Instruments/TPS92360DCKR?qs=TuK3vfAjtkVCHAFNej%252BeDQ%3D%3D)
+~!Height (1.1mm)
+~!3D_Model (TPS92360DCKR)
+TPS92360DCKR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

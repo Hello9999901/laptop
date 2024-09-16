@@ -1,0 +1,20 @@
+setwindow Form.padedit
+######################## New PadStack #########################
+pse_new
+fillin "r120_40.pad"
+FORM padedit units Millimeter
+FORM padedit layers
+
+FORM padedit grid row 1
+FORM padedit geometry Rectangle
+FORM padedit width 0.4
+FORM padedit height 1.2
+FORM padedit x_offset 0
+FORM padedit y_offset 0
+FORM padedit geometry_th Null
+FORM padedit geometry_ant Null
+
+FORM padedit single YES
+FORM padedit plating Non-Plated
+pse_save_as
+fillin "r120_40.Pad"

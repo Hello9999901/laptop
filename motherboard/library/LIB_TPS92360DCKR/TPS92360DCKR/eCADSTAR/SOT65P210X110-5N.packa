@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS92360DCKR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-10-20-11:19:28)
+    (mountForm default
+        (footprintRef "SOT65P210X110-5N")
+        (spec "System")
+    )
+)
