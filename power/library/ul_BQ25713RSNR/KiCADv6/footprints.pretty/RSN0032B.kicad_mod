@@ -507,13 +507,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f8329d92-5af7-49a5-8a02-055c7fc3e953")
 	)
-	(pad "33" smd rect
-		(at 0.000003 0)
-		(size 2.799999 2.799999)
-		(layers "F.Cu" "F.Mask")
-		(uuid "256244a5-fcd8-4cc3-bef7-4a3538bbe4a9")
-	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at -1.15 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -521,7 +515,7 @@
 		(remove_unused_layers no)
 		(uuid "74393423-be37-43b7-bc19-f10a922992f1")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0.000003 -1.15)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -529,7 +523,7 @@
 		(remove_unused_layers no)
 		(uuid "1a7b416c-cb16-4b67-a198-8fa3f826c421")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0.000003 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -537,7 +531,13 @@
 		(remove_unused_layers no)
 		(uuid "82331e93-4316-4970-9f7f-7c2c904066ae")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" smd rect
+		(at 0.000003 0)
+		(size 2.799999 2.799999)
+		(layers "F.Cu" "F.Mask")
+		(uuid "256244a5-fcd8-4cc3-bef7-4a3538bbe4a9")
+	)
+	(pad "33" thru_hole circle
 		(at 0.000003 1.15)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -545,7 +545,7 @@
 		(remove_unused_layers no)
 		(uuid "b4cc83a2-8b66-45ea-91ea-0fff3f90695c")
 	)
-	(pad "V" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 1.15 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
