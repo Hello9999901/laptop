@@ -5,4 +5,5 @@
   (lib (name "LTC2943")(type "KiCad")(uri "${KIPRJMOD}/library/ul_LTC2943IDD-PBF/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "BQ25713")(type "KiCad")(uri "${KIPRJMOD}/library/ul_BQ25713RSNR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "FPC")(type "KiCad")(uri "${KIPRJMOD}/library/6P_05mm_FPC.pretty")(options "")(descr ""))
+  (lib (name "TPS564257")(type "KiCad")(uri "${KIPRJMOD}/library/TPS564257DRLR/TPS564257.pretty")(options "")(descr ""))
 )
