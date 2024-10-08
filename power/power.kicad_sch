@@ -1638,7 +1638,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1650,7 +1650,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1686,7 +1686,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1698,7 +1698,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -1760,17 +1760,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1781,6 +1770,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -4127,9 +4127,9 @@
 					)
 				)
 				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -4139,9 +4139,9 @@
 					)
 				)
 				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
 					(stroke
 						(width 0)
 						(type default)
@@ -5430,7 +5430,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
+						(xy 0 -2.54) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -5442,7 +5442,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
+						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -22737,7 +22737,7 @@
 				)
 			)
 		)
-		(property "Value" "SLO0530H3R3MTT"
+		(property "Value" "MWSA0503S-3R3MT"
 			(at 45.974 141.224 90)
 			(effects
 				(font
@@ -22745,7 +22745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRA00050530"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0503S"
 			(at 45.72 146.05 0)
 			(effects
 				(font
@@ -22772,7 +22772,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C408446"
+		(property "LCSC" "C408409"
 			(at 45.72 140.97 0)
 			(effects
 				(font
