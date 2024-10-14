@@ -75,6 +75,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -229,6 +230,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -423,11 +425,13 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
@@ -443,10 +447,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -475,6 +483,7 @@
         "microvia_drill": 0.0,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -492,6 +501,7 @@
         "microvia_drill": 0.0,
         "name": "+1V8",
         "pcb_color": "rgb(150, 255, 228)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -509,6 +519,7 @@
         "microvia_drill": 0.0,
         "name": "+3.3V",
         "pcb_color": "rgb(201, 255, 147)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -526,6 +537,7 @@
         "microvia_drill": 0.0,
         "name": "+5V",
         "pcb_color": "rgb(142, 201, 255)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -543,6 +555,7 @@
         "microvia_drill": 0.0,
         "name": "100Ω",
         "pcb_color": "rgb(255, 120, 86)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -560,6 +573,7 @@
         "microvia_drill": 0.0,
         "name": "85Ω",
         "pcb_color": "rgb(255, 135, 188)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -577,6 +591,7 @@
         "microvia_drill": 0.0,
         "name": "90Ω",
         "pcb_color": "rgb(208, 149, 255)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -594,6 +609,7 @@
         "microvia_drill": 0.0,
         "name": "VDD",
         "pcb_color": "rgb(90, 135, 255)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.45,
@@ -602,7 +618,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -1002,6 +1018,14 @@
       "Root"
     ],
     [
+      "4296e3bb-d60d-4db1-b6b7-692bdef698b7",
+      "PCIE2.0-EKEY"
+    ],
+    [
+      "b4c36dcb-2f42-4340-9e43-bb38c102df4f",
+      "Ext_USB2.0"
+    ],
+    [
       "732379c4-9163-4848-a88d-bc8edf569b02",
       "USBC0"
     ],
@@ -1010,20 +1034,20 @@
       "USBC1"
     ],
     [
-      "b4c36dcb-2f42-4340-9e43-bb38c102df4f",
-      "HDMI_TX"
+      "d2371120-9201-4f7f-a684-821b8780a78d",
+      "System"
     ],
     [
       "41516588-89d4-4c4a-8d7d-a4354a401e31",
       "eDP"
     ],
     [
-      "d2371120-9201-4f7f-a684-821b8780a78d",
-      "System"
+      "d168cefe-cdbf-401a-9d73-1a46286dd06c",
+      "Audio"
     ],
     [
-      "4296e3bb-d60d-4db1-b6b7-692bdef698b7",
-      "PCIE2.0-EKEY"
+      "13f827ac-a41e-48f0-a27a-ac5d9cb10cf1",
+      "USB2.0"
     ],
     [
       "8b9107a7-7899-4235-bab8-96db30f71454",
@@ -1032,14 +1056,6 @@
     [
       "2b07758b-0d60-456c-9b9b-614b30378eb3",
       "SD Card"
-    ],
-    [
-      "13f827ac-a41e-48f0-a27a-ac5d9cb10cf1",
-      "USB2.0"
-    ],
-    [
-      "d168cefe-cdbf-401a-9d73-1a46286dd06c",
-      "Audio"
     ]
   ],
   "text_variables": {}

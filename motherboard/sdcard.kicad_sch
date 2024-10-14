@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240417)
+	(version 20241004)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "b2602156-8838-495d-abe9-09c6d0ec7825")
@@ -212,24 +212,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 -12.7 180)
-					(length 3.81)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -22.86 7.62 0)
 					(length 3.81)
@@ -374,12 +356,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -497,6 +502,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Protection:TPD4EUSB30"
 			(pin_names
@@ -839,7 +845,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -851,7 +857,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -1039,24 +1045,6 @@
 				)
 			)
 			(symbol "TPD4EUSB30_1_1"
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin free line
 					(at -12.7 7.62 0)
 					(length 5.08)
@@ -1068,6 +1056,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1093,6 +1099,24 @@
 						)
 					)
 				)
+				(pin free line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -12.7 90)
 					(length 5.08)
@@ -1104,6 +1128,43 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1165,67 +1226,18 @@
 						)
 					)
 				)
-				(pin free line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1316,6 +1328,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -1998,7 +2011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1590fc12-8115-45db-96e3-204386d6b248")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0156"
 			(at 101.6 144.78 0)
 			(effects
 				(font
@@ -2048,7 +2061,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "#PWR079")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6c748b-3888-4c10-ace5-a169971b827f")
-		(property "Reference" "R58"
+		(property "Reference" "R81"
 			(at 114.3 71.12 90)
 			(effects
 				(font
@@ -2116,7 +2129,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "R58")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -2132,7 +2145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42af7191-37ae-4c2f-8d5c-3cb8e20c0906")
-		(property "Reference" "R57"
+		(property "Reference" "R80"
 			(at 119.38 68.58 90)
 			(effects
 				(font
@@ -2184,7 +2197,7 @@
 		(instances
 			(project ""
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "R57")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -2200,7 +2213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e37d9cc-8e7e-4f66-bbaa-997edcc5a4d5")
-		(property "Reference" "R62"
+		(property "Reference" "R85"
 			(at 113.03 91.44 90)
 			(effects
 				(font
@@ -2252,7 +2265,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "R62")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -2268,7 +2281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70896c89-21ae-4660-8ecd-b5826c84daeb")
-		(property "Reference" "J14"
+		(property "Reference" "J24"
 			(at 151.765 62.23 0)
 			(effects
 				(font
@@ -2344,7 +2357,7 @@
 		(instances
 			(project ""
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "J14")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a1b2e9-c993-4b7a-8140-e67952c238ff")
-		(property "Reference" "R61"
+		(property "Reference" "R84"
 			(at 107.95 86.36 90)
 			(effects
 				(font
@@ -2412,7 +2425,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "R61")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99e9bcc1-736e-4908-bbaa-0c3facf965b3")
-		(property "Reference" "R60"
+		(property "Reference" "R83"
 			(at 113.03 83.82 90)
 			(effects
 				(font
@@ -2480,7 +2493,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "R60")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c32877-a0c5-48c9-b599-656c365c5126")
-		(property "Reference" "U19"
+		(property "Reference" "U23"
 			(at 148.59 113.03 0)
 			(effects
 				(font
@@ -2572,7 +2585,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "U19")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -2588,7 +2601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a90274fa-eb20-4da2-8072-d78e21c03096")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0154"
 			(at 123.19 106.68 0)
 			(effects
 				(font
@@ -2638,7 +2651,7 @@
 		(instances
 			(project ""
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "#PWR077")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -2654,7 +2667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd5cd88-a5f4-462c-a292-17f05454c9fd")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0157"
 			(at 148.59 144.78 0)
 			(effects
 				(font
@@ -2704,7 +2717,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "#PWR080")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -2720,7 +2733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2df251b-fd3d-4984-a03c-13543f149658")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0155"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -2770,7 +2783,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "#PWR078")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -2786,7 +2799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6745b3d-1d7a-4ed7-a08b-faf5baea8398")
-		(property "Reference" "R59"
+		(property "Reference" "R82"
 			(at 109.22 73.66 90)
 			(effects
 				(font
@@ -2838,7 +2851,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "R59")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f3e1af-dd3c-4424-8c26-d29b2d44ec80")
-		(property "Reference" "U18"
+		(property "Reference" "U22"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -2930,7 +2943,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/2b07758b-0d60-456c-9b9b-614b30378eb3"
-					(reference "U18")
+					(reference "U22")
 					(unit 1)
 				)
 			)

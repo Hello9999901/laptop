@@ -16,4 +16,5 @@
   (lib (name "TPA2016")(type "KiCad")(uri "${KIPRJMOD}/library/TPA2016D2RTJR-2/TPA2016.pretty")(options "")(descr ""))
   (lib (name "TPS564257")(type "KiCad")(uri "${KIPRJMOD}/library/TPS564257DRLR/TPS564257.pretty")(options "")(descr ""))
   (lib (name "RT9193-18GB")(type "KiCad")(uri "${KIPRJMOD}/library/RT9193-18GB/RT9193-18GB.pretty")(options "")(descr ""))
+  (lib (name "USB_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB_A/USB_A.pretty")(options "")(descr ""))
 )

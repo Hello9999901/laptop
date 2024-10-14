@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20240417)
+	(version 20241004)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "240e44be-bdee-42a2-b4bd-c91fa26e8b87")
@@ -326,7 +326,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -338,7 +338,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -485,6 +485,24 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -40.64 90)
 					(length 5.08)
 					(name "GND"
@@ -502,45 +520,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 -40.64 90)
-					(length 5.08) hide
+					(length 5.08)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -556,17 +539,18 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
+				(pin passive line
+					(at 0 -40.64 90)
 					(length 5.08)
-					(name "TX1+"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -574,17 +558,18 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
+				(pin passive line
+					(at 0 -40.64 90)
 					(length 5.08)
-					(name "TX1-"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A3"
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -603,6 +588,63 @@
 						)
 					)
 					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -629,16 +671,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 17.78 180)
 					(length 5.08)
-					(name "D+"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A6"
+					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -665,34 +707,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -30.48 180)
+					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "SBU1"
+					(name "D-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -700,17 +724,35 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 5.08) hide
-					(name "GND"
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "D+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B1"
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -754,17 +796,89 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 5.08) hide
-					(name "GND"
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "TX1-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B12"
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "TX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "RX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -17.78 180)
+					(length 5.08)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -22.86 180)
+					(length 5.08)
+					(name "TX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -791,88 +905,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -22.86 180)
+					(at 15.24 -30.48 180)
 					(length 5.08)
-					(name "TX2-"
+					(name "SBU1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 17.78 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -898,48 +940,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -40.64 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1070,11 +1081,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1192,6 +1208,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Interface_USB:FUSB302BMPX"
 			(exclude_from_sim no)
@@ -1275,124 +1292,16 @@
 			)
 			(symbol "FUSB302BMPX_1_1"
 				(pin bidirectional line
-					(at 12.7 -2.54 180)
+					(at -12.7 2.54 0)
 					(length 2.54)
-					(name "CC2"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54) hide
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "VCONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54) hide
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1401,16 +1310,34 @@
 					)
 				)
 				(pin input line
-					(at 12.7 2.54 180)
+					(at -12.7 0 0)
 					(length 2.54)
-					(name "VBUS"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "INT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1438,7 +1365,8 @@
 				)
 				(pin passive line
 					(at -2.54 10.16 270)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "VDD"
 						(effects
 							(font
@@ -1454,17 +1382,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at -12.7 -2.54 0)
+				(pin power_in line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "INT_N"
+					(name "VCONN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1472,35 +1400,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 0 0)
+				(pin passive line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "SCL"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1528,7 +1439,8 @@
 				)
 				(pin passive line
 					(at 0 -10.16 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1544,7 +1456,118 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCONN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Protection:TPD4EUSB30"
 			(pin_names
@@ -1887,7 +1910,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
+						(xy 0.635 0.889) (xy 1.016 1.143)
 					)
 					(stroke
 						(width 0)
@@ -1899,7 +1922,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
+						(xy 0.635 0.889) (xy -0.635 0.889)
 					)
 					(stroke
 						(width 0)
@@ -2087,24 +2110,6 @@
 				)
 			)
 			(symbol "TPD4EUSB30_1_1"
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin free line
 					(at -12.7 7.62 0)
 					(length 5.08)
@@ -2116,6 +2121,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2141,6 +2164,24 @@
 						)
 					)
 				)
+				(pin free line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -12.7 90)
 					(length 5.08)
@@ -2152,6 +2193,43 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2213,65 +2291,14 @@
 						)
 					)
 				)
-				(pin free line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Protection:TVS2200DRV"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2524,60 +2551,6 @@
 				)
 			)
 			(symbol "TVS2200DRV_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -2598,7 +2571,8 @@
 				)
 				(pin passive line
 					(at 0 7.62 270)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "IN"
 						(effects
 							(font
@@ -2616,7 +2590,8 @@
 				)
 				(pin passive line
 					(at 0 7.62 270)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "IN"
 						(effects
 							(font
@@ -2632,9 +2607,66 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -7.62 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2651,6 +2683,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "library:ACM2012_Common_Mode_Choke"
 			(exclude_from_sim no)
@@ -2800,24 +2833,6 @@
 			)
 			(symbol "ACM2012_Common_Mode_Choke_1_1"
 				(pin passive line
-					(at -2.54 -1.27 0)
-					(length 0.9525)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 1.27 0)
 					(length 0.9525)
 					(name ""
@@ -2828,6 +2843,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 0.9525)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -2872,6 +2905,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "library:SY6280AAC"
 			(exclude_from_sim no)
@@ -2934,53 +2968,17 @@
 				)
 			)
 			(symbol "SY6280AAC_1_1"
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3007,16 +3005,52 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "IN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3025,12 +3059,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3145,12 +3184,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3265,12 +3309,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3361,6 +3410,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(text "Load switch for protection when \nUSB-C port is acting as host"
@@ -5531,7 +5581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06fae6e4-c9df-469f-bcd9-5c2f937bfa91")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR064"
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -5581,7 +5631,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR025")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09ec7834-7108-4726-bd24-84ae9ac6b789")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR071"
 			(at 111.76 115.57 0)
 			(effects
 				(font
@@ -5647,7 +5697,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR032")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5664,7 +5714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4d062f-8fb3-49af-98d1-a44efea6df7b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR065"
 			(at 184.15 83.82 0)
 			(effects
 				(font
@@ -5714,7 +5764,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR026")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10161709-6e74-498c-b349-8b57e9becdc4")
-		(property "Reference" "U6"
+		(property "Reference" "U12"
 			(at 166.37 73.66 0)
 			(effects
 				(font
@@ -5791,7 +5841,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "U6")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5807,7 +5857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1491639d-615e-4caa-9274-d19cbc8f2a67")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR076"
 			(at 142.24 181.61 0)
 			(effects
 				(font
@@ -5857,7 +5907,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR037")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5873,7 +5923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "156a32b9-e166-473f-b35d-bee2980235ec")
-		(property "Reference" "C15"
+		(property "Reference" "C34"
 			(at 123.19 39.3762 0)
 			(effects
 				(font
@@ -5927,7 +5977,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C15")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -5943,7 +5993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164d8bf4-894d-44fd-bda3-fc9ad49b5167")
-		(property "Reference" "R89"
+		(property "Reference" "R29"
 			(at 179.07 88.8999 0)
 			(effects
 				(font
@@ -5997,7 +6047,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R89")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6088,7 +6138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "186932c2-8270-45a0-b202-955897d4f399")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR068"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -6138,7 +6188,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR029")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff8eb82-cd57-4d1d-ac43-a8f1f11d3f3c")
-		(property "Reference" "R20"
+		(property "Reference" "R31"
 			(at 62.23 106.68 90)
 			(effects
 				(font
@@ -6206,7 +6256,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R20")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e29c23-c1d5-47eb-821d-df3ea3dea0c9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR063"
 			(at 156.21 71.12 0)
 			(effects
 				(font
@@ -6272,7 +6322,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR024")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6288,7 +6338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e3b153-6b5c-4f58-8947-e5923e90c99c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR074"
 			(at 48.26 181.61 0)
 			(effects
 				(font
@@ -6338,7 +6388,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR035")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ad42c2-ee99-4ce4-a963-c124e1cfaf2f")
-		(property "Reference" "U8"
+		(property "Reference" "U14"
 			(at 48.26 149.86 0)
 			(effects
 				(font
@@ -6430,7 +6480,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "U8")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57cae80d-ac85-4f6e-8531-ab26c0c1955a")
-		(property "Reference" "C23"
+		(property "Reference" "C38"
 			(at 116.8336 102.87 90)
 			(effects
 				(font
@@ -6498,7 +6548,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C23")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -6514,7 +6564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a70073e-76cf-48fc-9064-5ddc86d4899c")
-		(property "Reference" "U7"
+		(property "Reference" "U13"
 			(at 126.6541 134.62 0)
 			(effects
 				(font
@@ -6607,7 +6657,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "U7")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -6623,7 +6673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c0c3737-7109-426e-8c27-138b9a0c5235")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR069"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -6673,7 +6723,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR030")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ddc9077-1391-462f-92e2-dee2b789c378")
-		(property "Reference" "U9"
+		(property "Reference" "U15"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -6765,7 +6815,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "U9")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -6781,7 +6831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1bad15-f4f9-40c3-9249-88833a10beaa")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR066"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -6831,7 +6881,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR027")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6713cf50-fca0-4720-b8f5-bdee95a8b5d4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR061"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6898,7 +6948,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR022")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6914,7 +6964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67cb00ef-6386-4bed-ab0d-618dceaf1ebb")
-		(property "Reference" "C14"
+		(property "Reference" "C33"
 			(at 104.14 39.3762 0)
 			(effects
 				(font
@@ -6968,7 +7018,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C14")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6984,7 +7034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cfad6f6-0414-4b3f-a53d-01e3630c1e2f")
-		(property "Reference" "R22"
+		(property "Reference" "R33"
 			(at 105.41 114.2999 0)
 			(effects
 				(font
@@ -7038,7 +7088,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R22")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7054,7 +7104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e9df9a-d352-497c-bef7-adb6d894337b")
-		(property "Reference" "C20"
+		(property "Reference" "C37"
 			(at 180.3464 81.28 90)
 			(effects
 				(font
@@ -7106,7 +7156,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C20")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7122,7 +7172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8e9243-2c0a-4b49-b6d5-eb4067299802")
-		(property "Reference" "C26"
+		(property "Reference" "C41"
 			(at 156.21 129.5462 0)
 			(effects
 				(font
@@ -7176,7 +7226,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C26")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -7193,7 +7243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9296a218-f07a-4863-bfc9-7b8b7154cf32")
-		(property "Reference" "C19"
+		(property "Reference" "C36"
 			(at 152.3936 81.28 90)
 			(effects
 				(font
@@ -7245,7 +7295,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C19")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95fa5782-c571-4751-9adf-f5afcff42e60")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR072"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -7312,7 +7362,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR033")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7328,7 +7378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99771b5a-95fe-4b9f-9f0b-b6271e628db3")
-		(property "Reference" "U10"
+		(property "Reference" "U16"
 			(at 142.24 149.6338 0)
 			(effects
 				(font
@@ -7404,7 +7454,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "U10")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a469cf03-50db-49bc-afbf-6ab360687605")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR062"
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -7471,7 +7521,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR0168")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7487,7 +7537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff49d2e-b91e-4e23-9ffb-c409445d9568")
-		(property "Reference" "J1"
+		(property "Reference" "J10"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -7608,7 +7658,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "J1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b593d403-f46a-499c-8add-e6caec6cc801")
-		(property "Reference" "C16"
+		(property "Reference" "C35"
 			(at 147.32 39.3762 0)
 			(effects
 				(font
@@ -7677,7 +7727,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C16")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -7693,7 +7743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0d064d0-761a-4be4-8559-384ee320232f")
-		(property "Reference" "C25"
+		(property "Reference" "C40"
 			(at 147.32 129.5462 0)
 			(effects
 				(font
@@ -7747,7 +7797,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C25")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -7763,7 +7813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca44783a-42d4-40a1-b128-8d16ebc7ec9e")
-		(property "Reference" "R90"
+		(property "Reference" "R30"
 			(at 187.96 88.8999 0)
 			(effects
 				(font
@@ -7817,7 +7867,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R90")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7833,7 +7883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5b5f25-fb29-4f4e-9b4a-bc29d0e1cee3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR070"
 			(at 66.04 115.57 0)
 			(effects
 				(font
@@ -7884,7 +7934,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR031")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7900,7 +7950,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cd05411c-5b1d-47e9-9e79-c290d22f5d1f")
-		(property "Reference" "R18"
+		(property "Reference" "R27"
 			(at 166.37 64.77 90)
 			(effects
 				(font
@@ -7952,7 +8002,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R18")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7968,7 +8018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd51cfdc-0ebd-4956-94cc-aec03d73c9a7")
-		(property "Reference" "R55"
+		(property "Reference" "R34"
 			(at 82.55 115.5699 0)
 			(effects
 				(font
@@ -8022,7 +8072,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R55")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8038,7 +8088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2f28229-fa9d-465c-af3e-4355ce6adddc")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR073"
 			(at 124.46 144.78 0)
 			(effects
 				(font
@@ -8088,7 +8138,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR034")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9c2c69-b056-4c75-8c4e-7da1181f6696")
-		(property "Reference" "C24"
+		(property "Reference" "C39"
 			(at 132.0863 102.87 90)
 			(effects
 				(font
@@ -8156,7 +8206,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "C24")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e10b3a0f-1ae8-4a67-9a9b-ed8d58d1eab8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR075"
 			(at 95.25 181.61 0)
 			(effects
 				(font
@@ -8222,7 +8272,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR036")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8238,7 +8288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e526d822-5a9e-4aca-bbb6-82e139f9d95c")
-		(property "Reference" "R19"
+		(property "Reference" "R28"
 			(at 153.67 88.8999 0)
 			(effects
 				(font
@@ -8292,7 +8342,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R19")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8308,7 +8358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e776660e-8b84-4ff6-9af1-b0dea959bd23")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR067"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -8358,7 +8408,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "#PWR028")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8374,7 +8424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7af94f2-fcf3-4fed-94fa-fed885d0c578")
-		(property "Reference" "R21"
+		(property "Reference" "R32"
 			(at 97.79 114.2999 0)
 			(effects
 				(font
@@ -8428,7 +8478,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "R21")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8444,7 +8494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc26142b-e63d-442b-a90e-d70807cb2495")
-		(property "Reference" "U29"
+		(property "Reference" "U11"
 			(at 182.88 45.7201 0)
 			(effects
 				(font
@@ -8513,7 +8563,7 @@
 		(instances
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/5a05a5d5-9903-4299-8afc-3adba5a323ad"
-					(reference "U29")
+					(reference "U11")
 					(unit 1)
 				)
 			)

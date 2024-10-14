@@ -11,4 +11,5 @@
   (lib (name "TPS564257")(type "KiCad")(uri "${KIPRJMOD}/library/TPS564257DRLR/TPS564257DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "RT9193-18GB")(type "KiCad")(uri "${KIPRJMOD}/library/RT9193-18GB/RT9193-18GB.kicad_sym")(options "")(descr ""))
   (lib (name "TPS92360")(type "KiCad")(uri "${KIPRJMOD}/library/LIB_TPS92360DCKR/TPS92360DCKR/KiCad/TPS92360DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB_A/USB_A.kicad_sym")(options "")(descr ""))
 )
