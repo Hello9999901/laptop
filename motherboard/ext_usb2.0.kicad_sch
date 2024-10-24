@@ -1561,7 +1561,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
+						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1573,7 +1573,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
+						(xy 0 -2.54) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -2355,12 +2355,6 @@
 		(uuid "0e827049-4fce-49f2-92a1-f5986f361777")
 	)
 	(junction
-		(at 171.45 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1920f7b2-6318-4123-a13e-1e856d5e9a38")
-	)
-	(junction
 		(at 107.95 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2872,16 +2866,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 180.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1953474-785e-4080-bd8a-7ae608fede7c")
-	)
-	(wire
-		(pts
 			(xy 123.19 105.41) (xy 123.19 104.14)
 		)
 		(stroke
@@ -3053,6 +3037,17 @@
 		)
 		(uuid "2c712ee1-549c-496a-aee9-bbe3f320781c")
 	)
+	(label "USB_P"
+		(at 90.17 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c0541f1-967b-4fbd-913c-3673ed9e6a96")
+	)
 	(label "VBUS"
 		(at 135.89 124.46 0)
 		(fields_autoplaced yes)
@@ -3063,6 +3058,17 @@
 			(justify left bottom)
 		)
 		(uuid "3c839750-6159-424d-b9b1-d3e5aab42056")
+	)
+	(label "USB_N"
+		(at 87.63 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d1ebc19-83b6-4139-89e9-b4921ced62e9")
 	)
 	(label "EXTUSB20_D3_P"
 		(at 179.07 129.54 180)
@@ -3131,18 +3137,6 @@
 			(justify left)
 		)
 		(uuid "86781054-ec6e-4a88-805b-51f321ae34a9")
-	)
-	(hierarchical_label "VBUS"
-		(shape bidirectional)
-		(at 180.34 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9872bdcd-acc8-4abd-90d8-ad6050ca9396")
 	)
 	(hierarchical_label "EXTUSB20_D3_P"
 		(shape input)

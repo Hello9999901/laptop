@@ -494,7 +494,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.121666,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -512,7 +511,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.121666,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -530,7 +528,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.121666,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -548,7 +545,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.121666,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -566,7 +562,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.175768,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -584,7 +579,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.155448,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -602,7 +596,6 @@
         "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.121666,
         "line_style": 0,
         "microvia_diameter": 0.0,
@@ -718,6 +711,14 @@
       {
         "netclass": "90Ω",
         "pattern": "/USBC1/SBU*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/Ext_USB2.0/EXT*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/Ext_USB2.0/USB*"
       }
     ]
   },
@@ -1018,12 +1019,12 @@
       "Root"
     ],
     [
-      "4296e3bb-d60d-4db1-b6b7-692bdef698b7",
-      "PCIE2.0-EKEY"
-    ],
-    [
       "b4c36dcb-2f42-4340-9e43-bb38c102df4f",
       "Ext_USB2.0"
+    ],
+    [
+      "4296e3bb-d60d-4db1-b6b7-692bdef698b7",
+      "PCIE2.0-EKEY"
     ],
     [
       "732379c4-9163-4848-a88d-bc8edf569b02",

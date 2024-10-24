@@ -30293,6 +30293,18 @@
 		)
 		(uuid "0a1e9520-6c8e-4ce5-9a98-6f4467edf93f")
 	)
+	(hierarchical_label "EXTUSB20_D3_N"
+		(shape input)
+		(at 60.96 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0aab9068-d14a-4ab0-bb5c-fbd95d42c054")
+	)
 	(hierarchical_label "PCIE30_PORT0_TX1N"
 		(shape output)
 		(at 312.42 256.54 180)
@@ -31301,6 +31313,18 @@
 		)
 		(uuid "35e58c33-9e0a-46d3-aaf2-24701e98f06b")
 	)
+	(hierarchical_label "EXTUSB20_D3_P"
+		(shape input)
+		(at 60.96 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "396832ec-b1d6-4a60-abad-76e219ee0115")
+	)
 	(hierarchical_label "GPIO2_B7"
 		(shape output)
 		(at 68.58 165.1 180)
@@ -32021,6 +32045,18 @@
 		)
 		(uuid "5c5b7951-fc2f-4e35-8c0f-793485f857b9")
 	)
+	(hierarchical_label "GPIO1_B0"
+		(shape output)
+		(at 60.96 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c6a4b3b-1d0b-468a-b9b6-f239462ab318")
+	)
 	(hierarchical_label "HDMI_RX_D0P"
 		(shape bidirectional)
 		(at 407.67 88.9 0)
@@ -32224,6 +32260,17 @@
 			(justify right)
 		)
 		(uuid "659c241a-abd9-46b1-9792-80dc6b3c7420")
+	)
+	(hierarchical_label "EXTUSB20_D3_N"
+		(shape input)
+		(at 304.8 309.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66306ab4-257e-4264-b881-0887947e98fe")
 	)
 	(hierarchical_label "PCIE20_1_TXP"
 		(shape output)
@@ -34696,6 +34743,17 @@
 			(justify left)
 		)
 		(uuid "e93835ad-8b99-468c-9690-93e378d444f1")
+	)
+	(hierarchical_label "EXTUSB20_D3_P"
+		(shape input)
+		(at 304.8 312.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9861a0c-e294-4ff9-b497-0c25bd49e21b")
 	)
 	(hierarchical_label "HDMI_RX_CLKN"
 		(shape bidirectional)
@@ -48022,7 +48080,7 @@
 	)
 	(sheet
 		(at 304.8 290.83)
-		(size 20.32 20.32)
+		(size 20.32 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -48046,7 +48104,7 @@
 			)
 		)
 		(property "Sheetfile" "usb20.kicad_sch"
-			(at 304.8 311.7346 0)
+			(at 304.8 323.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48113,6 +48171,26 @@
 				(justify left)
 			)
 			(uuid "2ae58ecb-0641-4b21-9b66-da9dab5d2a9e")
+		)
+		(pin "EXTUSB20_D3_N" input
+			(at 304.8 309.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d348a62b-927d-4693-9fbe-7a7a2a3809d7")
+		)
+		(pin "EXTUSB20_D3_P" input
+			(at 304.8 312.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a629586-9c46-47dd-93f2-1ab04e334ed6")
 		)
 		(instances
 			(project "motherboard"
@@ -49434,8 +49512,8 @@
 		)
 	)
 	(sheet
-		(at 62.23 196.85)
-		(size 33.02 53.34)
+		(at 60.96 238.125)
+		(size 33.02 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -49450,7 +49528,7 @@
 		)
 		(uuid "b4c36dcb-2f42-4340-9e43-bb38c102df4f")
 		(property "Sheetname" "Ext_USB2.0"
-			(at 62.23 196.1384 0)
+			(at 60.96 237.4134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49459,13 +49537,43 @@
 			)
 		)
 		(property "Sheetfile" "ext_usb2.0.kicad_sch"
-			(at 62.23 250.7746 0)
+			(at 60.96 250.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "EXTUSB20_D3_N" input
+			(at 60.96 241.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0e24819-a092-4d65-90f7-192a8409e5f8")
+		)
+		(pin "EXTUSB20_D3_P" input
+			(at 60.96 243.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86da3dc2-3f4a-445e-ac0d-f1dd7253bcf3")
+		)
+		(pin "GPIO1_B0" output
+			(at 60.96 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8bb303a6-6d97-4656-8980-431b211253b2")
 		)
 		(instances
 			(project "motherboard"

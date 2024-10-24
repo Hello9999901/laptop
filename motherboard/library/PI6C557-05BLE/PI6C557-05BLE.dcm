@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PI6C557-05BLE
-D Clock Generators & Support Products PCI express Gen 2 4 output clock gen
-K
-F https://www.diodes.com//assets/Datasheets/PI6C557-05B.pdf
-$ENDCMP
-#
-#End Doc Library
