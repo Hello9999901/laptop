@@ -32264,6 +32264,7 @@
 	(hierarchical_label "EXTUSB20_D3_N"
 		(shape input)
 		(at 304.8 309.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34747,6 +34748,7 @@
 	(hierarchical_label "EXTUSB20_D3_P"
 		(shape input)
 		(at 304.8 312.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

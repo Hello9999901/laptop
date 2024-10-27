@@ -326,7 +326,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -338,7 +338,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -374,7 +374,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -386,7 +386,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -1210,47 +1210,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:FUSB302BMPX"
+		(symbol "FUSB302BUCX:FUSB302BUCX"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 8.89 0)
+				(at 22.86 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "FUSB302BMPX"
-				(at 3.81 8.89 0)
+			(property "Value" "FUSB302BUCX"
+				(at 22.86 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm"
-				(at 0 -12.7 0)
+			(property "Footprint" "WLCSP9_1P2X1P2_ONS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Programmable USB Type-C Controller w/PD, I2C address 0x22, WQFN-14"
+			(property "Datasheet" "FUSB302BUCX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1259,7 +1262,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "USB USB-C PD Power Delivery PHY"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "FUSB302BUCX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1268,7 +1279,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WQFN*1EP*2.5x2.5mm*P0.5mm*"
+			(property "ki_fp_filters" "WLCSP9_1P2X1P2_ONS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1277,7 +1288,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FUSB302BMPX_0_1"
+			(symbol "FUSB302BUCX_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -1289,9 +1300,7 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "FUSB302BMPX_1_1"
-				(pin bidirectional line
+				(pin unspecified line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "SDA"
@@ -1301,7 +1310,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1309,7 +1318,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "SCL"
@@ -1319,7 +1328,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1327,7 +1336,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin input line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "INT_N"
@@ -1337,7 +1346,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1355,7 +1364,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,63 +1372,7 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(hide yes)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -1429,7 +1382,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1437,26 +1390,7 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin unspecified line
 					(at 2.54 10.16 270)
 					(length 2.54)
 					(name "VCONN"
@@ -1466,7 +1400,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1474,7 +1408,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "VBUS"
@@ -1484,7 +1418,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1502,26 +1436,7 @@
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1539,26 +1454,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1885,6 +1781,17 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -6.604) (xy 0 -7.62)
@@ -1895,17 +1802,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -3487,12 +3383,6 @@
 		(uuid "41133f7c-bd39-4ed6-83dd-bba8e8189653")
 	)
 	(junction
-		(at 115.57 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4393e4d7-2850-40ac-86b8-5e23bea733e2")
-	)
-	(junction
 		(at 142.24 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3749,16 +3639,6 @@
 			(type default)
 		)
 		(uuid "1ea3c88b-47f6-4349-87d4-d643f3cb4e74")
-	)
-	(wire
-		(pts
-			(xy 115.57 125.73) (xy 113.03 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed55581-cd73-4773-a63c-8ecaf7c416f7")
 	)
 	(wire
 		(pts
@@ -4302,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 115.57 127)
+			(xy 115.57 123.19) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -4399,16 +4279,6 @@
 			(type default)
 		)
 		(uuid "9c63f9d5-6611-4c33-b580-ce9a40eec216")
-	)
-	(wire
-		(pts
-			(xy 115.57 123.19) (xy 115.57 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec5852b-a4a9-427b-a79f-0a3e5d1529dc")
 	)
 	(wire
 		(pts
@@ -4599,16 +4469,6 @@
 			(type default)
 		)
 		(uuid "c5f060dd-2e7b-4713-8d7f-ec097eba1d3d")
-	)
-	(wire
-		(pts
-			(xy 113.03 125.73) (xy 113.03 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7981a95-40c1-43ef-92a0-771a2f2622d6")
 	)
 	(wire
 		(pts
@@ -6193,115 +6053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_USB:FUSB302BMPX")
-		(at 113.03 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "490f49b2-e13e-4f8b-bcc2-18b505941da8")
-		(property "Reference" "U7"
-			(at 115.2241 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FUSB302BMPX"
-			(at 115.2241 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm"
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF"
-			(at 115.57 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Programmable USB Type-C Controller w/PD, I2C address 0x22, WQFN-14"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "0f4a2450-2183-47b3-9aeb-3dfb5e4aee90")
-		)
-		(pin "14"
-			(uuid "a9eb85f5-e070-4ea8-a57d-027bdae92c49")
-		)
-		(pin "15"
-			(uuid "dfd3b998-0ea5-42cb-a320-31dac7ed32ff")
-		)
-		(pin "2"
-			(uuid "d2dafd34-5265-40d4-9f4a-8c197d20970c")
-		)
-		(pin "9"
-			(uuid "bdffb3ce-0193-434d-a793-b6339e03f678")
-		)
-		(pin "1"
-			(uuid "e830a06b-8cd5-47cf-8fe7-372d53ff9223")
-		)
-		(pin "10"
-			(uuid "af49645a-7b0e-4684-99a3-6194b86b4b33")
-		)
-		(pin "11"
-			(uuid "3ba7a8ad-c3ed-4fee-8703-4bb70f3f0a41")
-		)
-		(pin "12"
-			(uuid "a1187229-fd5a-4a93-a3a1-a200a1ef4727")
-		)
-		(pin "3"
-			(uuid "aebac90b-9d7f-4ea2-a43c-f14fd508bd91")
-		)
-		(pin "4"
-			(uuid "3265a1cb-5738-4bd3-9867-af4441feba38")
-		)
-		(pin "5"
-			(uuid "aad64f5a-dedc-4417-8d6b-9253ede3ea96")
-		)
-		(pin "6"
-			(uuid "ce5d69ca-857e-4074-adb6-daef8956f866")
-		)
-		(pin "7"
-			(uuid "8321dcd8-fa7d-4c64-895d-dde975ee4d9e")
-		)
-		(pin "8"
-			(uuid "f600ddfa-b0df-438b-a70a-38044b105079")
-		)
-		(instances
-			(project "motherboard"
-				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 139.7 104.14 0)
 		(unit 1)
@@ -7295,6 +7046,99 @@
 			(project "motherboard"
 				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FUSB302BUCX:FUSB302BUCX")
+		(at 113.03 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1f4f315-190e-429f-83fd-4d5aba06988b")
+		(property "Reference" "U13"
+			(at 115.2241 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FUSB302BUCX"
+			(at 115.2241 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WLCSP9_1P2X1P2_ONS"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "FUSB302BUCX"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "99b406c3-21f7-44ae-bf8c-6997e8162f6c")
+		)
+		(pin "C1"
+			(uuid "67f3951e-d877-403f-a97d-ee4c1d40f362")
+		)
+		(pin "A1"
+			(uuid "e698bb9d-2de6-45e3-b701-333a7f38fe5b")
+		)
+		(pin "A2"
+			(uuid "a0e55903-a34e-409b-a6ae-2f00230a01b2")
+		)
+		(pin "B2"
+			(uuid "bbdfcd9c-e719-4f32-b0a3-97678ee8e99f")
+		)
+		(pin "A3"
+			(uuid "9940f13f-18c1-4a3d-8c07-1af80931d7cc")
+		)
+		(pin "C2"
+			(uuid "2006e421-1ef9-496f-bf08-32449be64474")
+		)
+		(pin "C3"
+			(uuid "734d2814-cf6b-4064-8c5b-a7d90524c13d")
+		)
+		(pin "B1"
+			(uuid "a8c48200-628e-4593-8be7-d5764ba545d1")
+		)
+		(instances
+			(project "motherboard"
+				(path "/025fe4d1-0305-4b34-be04-f8d9818125a4/732379c4-9163-4848-a88d-bc8edf569b02"
+					(reference "U13")
 					(unit 1)
 				)
 			)

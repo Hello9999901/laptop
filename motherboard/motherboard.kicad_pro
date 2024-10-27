@@ -727,7 +727,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "jlcpcb/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "motherboard.step",
