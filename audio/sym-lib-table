@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CM108")(type "KiCad")(uri "${KIPRJMOD}/library/CM108.kicad_sym")(options "")(descr ""))
+  (lib (name "TPA2028")(type "KiCad")(uri "${KIPRJMOD}/library/TPA2028/TPA2028.kicad_sym")(options "")(descr ""))
+)
