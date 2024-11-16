@@ -16,6 +16,9 @@
 void setup() {
   WIRE.begin(2, 1);
 
+  pinMode(16, OUTPUT);
+  digitalWrite(16, HIGH);
+
   Serial.begin(115200);
   while (!Serial)
      delay(10);
