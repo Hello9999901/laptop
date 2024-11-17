@@ -68,7 +68,7 @@ void writeRegister16(uint8_t lsbReg, uint16_t data)
 
 void chargingInit() {
     // 0x020E to register 0x00
-    writeRegister16(CHARGEOPTION0_LSB, 0x020E);
+    writeRegister16(CHARGEOPTION0_LSB, 0x820E);
 
     // ADC configurations
     writeRegister16(ADCOPTION_LSB, 0xa0ff);
@@ -78,6 +78,8 @@ void chargingInit() {
 
     // set input current to
     writeRegister16(IIN_HOST_LSB, 0x4000);
+
+    writeRegister16(CHARGEOPTION1_LSB, 0x218);
 }
 
 void setup()

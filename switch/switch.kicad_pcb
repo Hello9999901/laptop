@@ -879,7 +879,7 @@
 			(uuid "9e271ef3-781d-41f8-bb4a-cc7fb3aa417a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
