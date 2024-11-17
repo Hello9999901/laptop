@@ -1723,6 +1723,16 @@
 		)
 		(uuid "814fbd7d-4944-42ef-8b4f-0b0b57d92e29")
 	)
+	(text "BT_REG_ON_H"
+		(exclude_from_sim no)
+		(at 220.218 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "910b9c72-90e5-4a2e-bb7f-875abaf3e706")
+	)
 	(text "ac coupling caps built into cm3588"
 		(exclude_from_sim no)
 		(at 76.454 72.898 0)
@@ -1733,6 +1743,36 @@
 			(justify left)
 		)
 		(uuid "cdb65170-2e6a-4202-b4b3-993fb100cc33")
+	)
+	(text "W_DISABLE"
+		(exclude_from_sim no)
+		(at 222.758 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d39e5179-a2c1-46bb-8606-8f64879fdf03")
+	)
+	(text "BT_WAKE_L"
+		(exclude_from_sim no)
+		(at 61.468 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f02f8169-4cde-4394-b441-4ede9b8730e8")
+	)
+	(text "BT_WAKE_L"
+		(exclude_from_sim no)
+		(at 223.012 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2adc9c7-461a-4ba8-b99c-cccc502ccc34")
 	)
 	(junction
 		(at 123.19 46.99)

@@ -1767,17 +1767,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1788,6 +1777,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -4173,6 +4173,18 @@
 					)
 				)
 				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
 					(start -2.794 2.54)
 					(mid -2.9736 2.6144)
 					(end -3.048 2.794)
@@ -4188,18 +4200,6 @@
 					(start -3.048 2.794)
 					(mid -2.9736 2.9736)
 					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -5511,7 +5511,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
+						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -5523,7 +5523,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
+						(xy 0 -2.54) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -8747,7 +8747,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
 					)
 					(stroke
 						(width 0.2032)
@@ -8759,7 +8759,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
 					)
 					(stroke
 						(width 0.2032)
