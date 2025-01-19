@@ -159,3 +159,11 @@ article img {
 #meteors .shower.ul {
   @apply rotate-315;
 }
+
+html[data-theme="light"] .dark {
+  display: none;
+}
+
+html[data-theme="dark"] .light {
+  display: none;
+}
