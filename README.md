@@ -8,33 +8,22 @@ Mission: to disprove the idea that technology is either repairable and open or i
 
 #
 
-#### Planned Features:
+![Anyon_e Laptop](./website/public/img/photo.jpg)
+
+#### Features:
 
 - RK3588 SoC Motherboard
-  - CM3588-based, up to 32GB of DDR5 2400MHz RAM
-  - USB-C USB3.1 Gen 1 with DisplayPort
-  - Separate USB-C PD controller and port
-  - HDMI Input (maybe)
-  - RP2040 embedded controller
-- World's thinnest wireless mechanical keyboard
-  - nRF52840 SoC
-  - Cherry ULP switches
+  - CM3588-based
+  - USB-C USB3.1 Gen 1
+  - ESP32-S3 embedded controller
+- Powertrain
+  - ESP32-S3 embedded controller
+  - ~60Wh Li-ion battery pack
+- Peripherals
+  - Wireless mechanical keyboard
+  - Glass-topped multi-touch trackpad
 - 4K AMOLED 13.3" display
-  - 330 pixels per inch
-- Field-Oriented-Control BLDC input
-- High accuracy trackpad
-  - Azoteq Win 11 certified
-- High performance battery
-  - High discharge/charge ~60Wh Li-Po battery pack
 - Anodized aluminum CNC chassis
-
-#### Unplanned Features:
-
-- 3.5mm headphone port
-  - hardware support complexity
-- webcam/microphone
-  - privacy and system complexity
-  - minimize screen bezel size
 
 #
 
