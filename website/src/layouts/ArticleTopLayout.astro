@@ -11,6 +11,7 @@ const { collection, data, body } = entry
 const { title, summary, date } = data
 
 const demoUrl = collection === "posts" ? data.demoUrl : null
+const demoUrlDesc = collection === "posts" ? data.demoUrlDesc : null
 const repoUrl = collection === "posts" ? data.repoUrl : null
 ---
 
@@ -52,7 +53,7 @@ const repoUrl = collection === "posts" ? data.repoUrl : null
           <use href="/ui.svg#globe" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
         </svg>
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          See Demo
+          {demoUrlDesc}
         </span>
       </a>
     }
@@ -62,7 +63,7 @@ const repoUrl = collection === "posts" ? data.repoUrl : null
           <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
         </svg>
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          See Repository
+          GitHub Repository
         </span>
       </a>
     }

@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import solidJs from "@astrojs/solid-js";
 import markdownIntegration from "@astropub/md";
 import vercel from "@astrojs/vercel/static";
+import { targetBlank } from './src/plugins/targetBlank';
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,7 +21,7 @@ export default defineConfig({
 	],
 	markdown: {
 		remarkPlugins: [],
-		rehypePlugins: [],
+		rehypePlugins: [[targetBlank, { domain: 'byran.ee' }]],
 		// syntaxHighlight: 'shiki'
 		// syntaxHighlight: 'prism'
 	},
