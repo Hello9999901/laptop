@@ -1,6 +1,6 @@
 ---
 title: "Audio Board Debugging"
-hash: "Hello9999901/laptop/"
+hash: "Hello9999901/laptop/commit/none"
 dateStart: "11/7/2024"
 ---
 

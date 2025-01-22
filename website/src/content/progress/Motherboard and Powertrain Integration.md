@@ -1,6 +1,6 @@
 ---
 title: "Motherboard and Powertrain Integration"
-hash: "Hello9999901/laptop/"
+hash: "Hello9999901/laptop/none"
 dateStart: "11/2/2024"
 ---
 

@@ -15,11 +15,13 @@ repoUrl: https://github.com/Hello9999901/laptop
 > I do not think there is any thrill that can go through the human heart like that felt by the inventor as he sees some creation of the brain unfolding to success
 – [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)
 
+**It's got a 4K AMOLED display, a Cherry MX mechanical keyboard, plays Minecraft at 4K, runs +7B LLMs, surfs the web, and has ~7h battery life. All open-source.**
+
 ## Video
 
 <div class="hover:cursor-pointer">
   <a href="https://youtube.com" target="_blank">
-    <img src="/img/thumbnail.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+    <img src="/img/thumbnail.jpg"/>
   </a>
 </div>
 
@@ -27,19 +29,24 @@ repoUrl: https://github.com/Hello9999901/laptop
 
 **The writeup below pretty much abridges the video above.**
 
+*[See the progression updates from the development journey here.](/progress)*
+
 Imagine a skill-chart of qualities of technology: screen, audio, performance, build, tactility, touch-interaction, efficiency, size, and so many more. At the balancing point of all these qualities is the laptop. To that end, let's build a laptop that hits as many qualities of a modern commercial thin & light laptop—while trying to do as much from scratch as possible.
 
-**It's got a 4K AMOLED display, a Cherry MX mechanical keyboard, plays Minecraft at 4K, runs +7B LLMs, surfs the web, and has ~7h battery life. All open-source.**
 
-<img src="/img/photo.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/photo.jpg"/>
 
 *Booting and inserting magnetically attached keyboard*
+
+<img src="/img/minecraft.jpg"/>
+
+*Epic Hypixel Bedwars gaming*
 
 ## Finding an electron in a cloud
 
 I first made a mental map and transferred it into Obsidian:
 <div class="invert dark:invert-0">
-  <img src="/img/map.png" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+  <img src="/img/map.png"/>
 </div>
 Boiling it down, it landed me with a lofty list of goals:
 
@@ -57,7 +64,7 @@ Boiling it down, it landed me with a lofty list of goals:
 - Anodized aluminum CNC chassis
 
 <div class="invert dark:invert-0">
-  <img src="/img/general.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+  <img src="/img/general.jpg"/>
 </div>
 
 *General system overview*
@@ -78,7 +85,9 @@ Some quick specs:
 
 With only a few months to work on this project, an SoM (system on module) like the Raspberry Pi CM5 presented the best option for its hardware compatibility and a high likelihood of a snug integration. Choosing an SoM also alleviates memory and other high-speed signaling concerns. Looking around for a RK3588 SoM, I came across the CM3588 by FriendlyElec. Cheap, well-documented, and easily procurable. Sounds good!
 
-<img src="/img/cm3588.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/cm3588.jpg"/>
+
+*FriendlyElec CM3588 SoM*
 
 ### Display
 
@@ -86,7 +95,9 @@ I hopped on [panelook.com](https://www.panelook.com) and filtered by size and re
 
 A highlight: during display evaluation, switching out a connector and shortening the board by 2mm improved signal integrity *just enough* for the 1.5GHz x 4 signals go pass through. Getting the display running on Linux meant finding system logs from Asus laptops that have this display, reverse-engineering the values, and tuning the power-on timings amongst other things *just right*. TLDR; getting a 4K AMOLED eDP display running on non-mainline Linux was a heck of a journey, so read [this if you're interested]() (coming soon).
 
-<img src="/img/screen.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/screen.jpg"/>
+
+*ATNA33TP11 working with display evaluation board V2 short*
 
 ### Powertrain
 
@@ -98,7 +109,9 @@ After writing drivers and sitting on the undecipherable datasheets for days, I h
 
 The USB of the ESP32 connects to the internal USB on the motherboard to feed the power telemetry over UART. A Python script and kernel module in the OS forwards it to the battery service in the kernel to display it natively.
 
-<img src="/img/powertrain.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/powertrain.jpg"/>
+
+*Powertrain V0.2 inside laptop*
 
 <iframe
   src="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FHello9999901%2Flaptop%2Ftree%2Fmain%2Fpower"
@@ -107,7 +120,7 @@ The USB of the ESP32 connects to the internal USB on the motherboard to feed the
 />
 In settings, tick "Align controls with KiCad" for mouse pan/zoom/scroll
 
-[Powertrain V0.3 KiCanvas Full Link](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FHello9999901%2Flaptop%2Ftree%2Fmain%2Fpower)
+[Powertrain V0.2 KiCanvas Full Link](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FHello9999901%2Flaptop%2Ftree%2Fmain%2Fpower)
 
 ### Mainboard
 
@@ -126,10 +139,12 @@ In settings, tick "Align controls with KiCad" for mouse pan/zoom/scroll
 
 [Motherboard V1.0 KiCanvas Full Link](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FHello9999901%2Flaptop%2Ftree%2Fmain%2Fmotherboard)
 
-<img src="/img/mainboard.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/mainboard.jpg"/>
+
+*Mainboard B-roll shot*
 
 <div class="invert dark:invert-0">
-  <img src="/img/hardware.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+  <img src="/img/hardware.jpg"/>
 </div>
 
 *Detailed hardware overview*
@@ -152,10 +167,12 @@ Pointing U-Boot to a custom compiled DTB (devicetree binary), I `scp`'ed the com
 
 That's how I did the hardware bringup—display configurations, PCIe, USB, and other low-level system tweaks. The rest is just a standard install of Ubuntu 24.04 LTS with Linux Kernel 6.1.
 
-<img src="/img/working.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/working.jpg"/>
+
+*Testing batteries and writing DTS*
 
 <div class="invert dark:invert-0">
-  <img src="/img/software.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+  <img src="/img/software.jpg"/>
 </div>
 
 *In-depth software overview*
@@ -181,10 +198,12 @@ In settings, tick "Align controls with KiCad" for mouse pan/zoom/scroll
 
 [Keyboard V1.0 KiCanvas Full Link](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FHello9999901%2Flaptop%2Ftree%2Fmain%2Fkeyboard)
 
-<img src="/img/peripherals.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/peripherals.jpg"/>
+
+*Counterclockwise from top left: keyboard side profile, typing on keyboard, trackpad, 1mm battery on back, nRF52840 SoC area
 
 <div class="invert dark:invert-0">
-  <img src="/img/wireframe_exploded.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+  <img src="/img/wireframe_exploded.jpg"/>
 </div>
 
 *OnShape wireframe exploded view*
@@ -198,7 +217,9 @@ The hardest part about the chassis was the hinge. I used [Framework’s 13.3" hi
 
 The chassis layout is fairly simple: batteries on the bottom, the power board on the right, motherboard on the left, and the hinge mechanism on top. Oh, and a transparent PETG FDM printed power button that lights up on a custom PCB. To balance out the asymmetric hinge (caused by the mainboard being too wide), a little [carbon fiber rod](https://www.mcmaster.com/2153T11/) lines up on the left side too.
 
-<img src="/img/chassis_empty.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/chassis_empty.jpg"/>
+
+*Chassis test fitting*
 
 It was a battle to get the screen assembly to not hit anything while also covering
 Although I started considering thermals way in advance, hence the gap here for the heatpipe to go through, I still had difficulty fitting everything in. The distance between the bottom of the keyboard and the top of the heatsink is less than a half a millimeter. The cooling system is really constrained because I don’t have the resources to make a custom heatpipe and fin solution. So, I made a full copper CNC heatsink (from JLCCNC) and a heatpipe connected to a fan. It's all connected with [PTM7950](https://www.lttstore.com/products/ptm7950-phase-change-thermal-pad).
@@ -207,7 +228,9 @@ I also added [these](https://puiaudio.com/product/speakers-and-receivers/as04004
 
 As I reached final assembly, I used a mix of JLC’s selective laser sintering (SLS) of nylon powder and FDM printed PA6-CF for smaller structural parts. Putting it all together with the matte black CNC aluminum chassis, I finally had my laptop.
 
-<img src="/img/inside.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/inside.jpg"/>
+
+*Inside full laptop assembly*
 
 ## Reflection
 
@@ -218,4 +241,7 @@ Making this laptop was hard. Mentally pressured with a deadline, and a constant 
 
 Inspired by open-source projects like [ZMK](https://zmk.dev), [KiCAD](https://www.kicad.org), [Blender](https://www.blender.org), and countless [OSHW](https://certification.oshwa.org/basics.html) projects, I want to do my own little part. To put power in people's hands in creation, innovation, imagination, or whatever else. To attempt the impossible.
 
-<img src="/img/conclusion.jpg" alt="JLCCNC Laptop Specs - Thermal and Hardware"/>
+<img src="/img/conclusion.jpg"/>
+
+Sincerely,\
+*Byran*
