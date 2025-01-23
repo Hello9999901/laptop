@@ -265,7 +265,7 @@ void loop()
         batteryPercent = (LTC2943_code_to_mAh(charge, 0.01, 4096) * 100 / (float)4250);
         Serial.println(batteryPercent);
 
-        if ((LTC2943_code_to_celcius_temperature(temperature), 4) >= 60)
+        if (LTC2943_code_to_celcius_temperature(temperature) >= 60)
         {
             // thermal shutdown
             writeRegister16(CHARGECURRENT_LSB, 0x0000);
