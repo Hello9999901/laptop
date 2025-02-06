@@ -30,7 +30,7 @@ Mission: to disprove the idea that technology is either repairable and open or i
 #### YouTube Video:
 
 <a href="https://www.youtube.com/watch?v=fks3PBodyiE" target="_blank">
- <img src="http://img.youtube.com/vi/fks3PBodyiE/mqdefault.jpg" alt="Watch the anyon_e laptop video" width="240" height="180" border="10" />
+ <img src="http://img.youtube.com/vi/fks3PBodyiE/hqdefault.jpg" alt="Watch the anyon_e laptop video" width="240" height="180" border="10" />
 </a>
 
 #
